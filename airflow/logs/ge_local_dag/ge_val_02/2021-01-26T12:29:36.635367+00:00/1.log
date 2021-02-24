@@ -1,0 +1,28 @@
+[2021-01-28 13:36:58,391] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_local_dag.ge_val_02 2021-01-26T12:29:36.635367+00:00 [queued]>
+[2021-01-28 13:36:58,399] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_local_dag.ge_val_02 2021-01-26T12:29:36.635367+00:00 [queued]>
+[2021-01-28 13:36:58,399] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-28 13:36:58,399] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-01-28 13:36:58,399] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-28 13:36:58,407] {taskinstance.py:1038} INFO - Executing <Task(GreatExpectationsOperator): ge_val_02> on 2021-01-26T12:29:36.635367+00:00
+[2021-01-28 13:36:58,411] {standard_task_runner.py:51} INFO - Started process 3062 to run task
+[2021-01-28 13:36:58,422] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'ge_local_dag', 'ge_val_02', '2021-01-26T12:29:36.635367+00:00', '--job-id', '131', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ge_local_dag.py', '--cfg-path', '/var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T/tmplg4_rge9']
+[2021-01-28 13:36:58,424] {standard_task_runner.py:76} INFO - Job 131: Subtask ge_val_02
+[2021-01-28 13:36:58,460] {logging_mixin.py:103} INFO - Running <TaskInstance: ge_local_dag.ge_val_02 2021-01-26T12:29:36.635367+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-01-28 13:36:58,491] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sara@acloudfrontier.com
+AIRFLOW_CTX_DAG_OWNER=sara
+AIRFLOW_CTX_DAG_ID=ge_local_dag
+AIRFLOW_CTX_TASK_ID=ge_val_02
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-26T12:29:36.635367+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-01-26T12:29:36.635367+00:00
+[2021-01-28 13:36:58,492] {great_expectations.py:94} INFO - Running validation with Great Expectations...
+[2021-01-28 13:36:58,606] {data_context.py:1215} INFO - Setting run_name to: 20210128T123658.606341Z
+[2021-01-28 13:36:58,609] {data_asset.py:636} INFO - 	4 expectation(s) included in expectation_suite.
+[2021-01-28 13:36:58,617] {warnings.py:109} WARNING - /Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_asset/data_asset.py:879: UserWarning: WARNING: This configuration object was built using version 0.13.3 of great_expectations, but is currently being validated by version 0.13.5.
+  warnings.warn(
+
+[2021-01-28 13:36:59,957] {great_expectations.py:135} INFO - Validation with Great Expectations successful.
+[2021-01-28 13:36:59,961] {taskinstance.py:1135} INFO - Marking task as SUCCESS. dag_id=ge_local_dag, task_id=ge_val_02, execution_date=20210126T122936, start_date=20210128T123658, end_date=20210128T123659
+[2021-01-28 13:37:00,012] {local_task_job.py:118} INFO - Task exited with return code 1

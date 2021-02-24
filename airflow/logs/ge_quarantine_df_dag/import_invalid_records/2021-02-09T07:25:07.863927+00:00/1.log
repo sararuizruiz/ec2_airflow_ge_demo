@@ -1,0 +1,54 @@
+[2021-02-09 08:30:44,413] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_quarantine_df_dag.import_invalid_records 2021-02-09T07:25:07.863927+00:00 [queued]>
+[2021-02-09 08:30:44,420] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_quarantine_df_dag.import_invalid_records 2021-02-09T07:25:07.863927+00:00 [queued]>
+[2021-02-09 08:30:44,420] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-09 08:30:44,420] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-02-09 08:30:44,420] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-09 08:30:44,426] {taskinstance.py:1038} INFO - Executing <Task(SnowflakeOperator): import_invalid_records> on 2021-02-09T07:25:07.863927+00:00
+[2021-02-09 08:30:44,429] {standard_task_runner.py:51} INFO - Started process 22313 to run task
+[2021-02-09 08:30:44,437] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'ge_quarantine_df_dag', 'import_invalid_records', '2021-02-09T07:25:07.863927+00:00', '--job-id', '378', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ge_quarantine_df_dag.py', '--cfg-path', '/var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T/tmpnxoqtcak']
+[2021-02-09 08:30:44,439] {standard_task_runner.py:76} INFO - Job 378: Subtask import_invalid_records
+[2021-02-09 08:30:44,479] {logging_mixin.py:103} INFO - Running <TaskInstance: ge_quarantine_df_dag.import_invalid_records 2021-02-09T07:25:07.863927+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-02-09 08:30:44,509] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sara@acloudfrontier.com
+AIRFLOW_CTX_DAG_OWNER=sara
+AIRFLOW_CTX_DAG_ID=ge_quarantine_df_dag
+AIRFLOW_CTX_TASK_ID=import_invalid_records
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-09T07:25:07.863927+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-09T07:25:07.863927+00:00
+[2021-02-09 08:30:44,510] {snowflake.py:119} INFO - Executing: ['insert into  QUARANTINE_DATA select * from RAW_MONTHLY_TAXI where GE_validation_result=1;']
+[2021-02-09 08:30:44,517] {base.py:65} INFO - Using connection to: id: SNOWFLAKE_QUARANTINE_DEMO. Host: dp13486.eu-west-1.snowflakecomputing.com, Port: None, Schema: PUBLIC, Login: SARA, Password: XXXXXXXX, extra: XXXXXXXX
+[2021-02-09 08:30:44,520] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.9, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-02-09 08:30:44,521] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-02-09 08:30:44,522] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-02-09 08:30:45,837] {cursor.py:537} INFO - query: [ALTER SESSION SET autocommit=True]
+[2021-02-09 08:30:46,025] {cursor.py:560} INFO - query execution done
+[2021-02-09 08:30:46,026] {dbapi.py:180} INFO - Running statement: insert into  QUARANTINE_DATA select * from RAW_MONTHLY_TAXI where GE_validation_result=1;, parameters: None
+[2021-02-09 08:30:46,027] {cursor.py:537} INFO - query: [insert into  QUARANTINE_DATA select * from RAW_MONTHLY_TAXI where GE_validation_...]
+[2021-02-09 08:30:46,270] {cursor.py:560} INFO - query execution done
+[2021-02-09 08:30:46,277] {connection.py:438} INFO - closed
+[2021-02-09 08:30:46,405] {connection.py:441} INFO - No async queries seem to be running, deleting session
+[2021-02-09 08:30:46,584] {taskinstance.py:1396} ERROR - 000904 (42000): 019a2ba2-3296-b9f4-0000-a01100068326: SQL compilation error: error line 1 at position 66
+invalid identifier 'GE_VALIDATION_RESULT'
+Traceback (most recent call last):
+  File "/Users/sara/p38_demo_env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1086, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/sara/p38_demo_env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1260, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/sara/p38_demo_env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1300, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/sara/p38_demo_env/lib/python3.8/site-packages/airflow/providers/snowflake/operators/snowflake.py", line 121, in execute
+    hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/Users/sara/p38_demo_env/lib/python3.8/site-packages/airflow/hooks/dbapi.py", line 184, in run
+    cur.execute(sql_statement)
+  File "/Users/sara/p38_demo_env/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38_demo_env/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38_demo_env/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 000904 (42000): 019a2ba2-3296-b9f4-0000-a01100068326: SQL compilation error: error line 1 at position 66
+invalid identifier 'GE_VALIDATION_RESULT'
+[2021-02-09 08:30:46,588] {taskinstance.py:1433} INFO - Marking task as FAILED. dag_id=ge_quarantine_df_dag, task_id=import_invalid_records, execution_date=20210209T072507, start_date=20210209T073044, end_date=20210209T073046
+[2021-02-09 08:30:46,650] {local_task_job.py:118} INFO - Task exited with return code 1

@@ -1,0 +1,13 @@
+name: monthlychk
+config_version:
+module_name: great_expectations.checkpoint
+class_name: LegacyCheckpoint
+validation_operator_name: action_list_operator
+batches:
+  - batch_kwargs:
+      table: raw_monthly_taxi
+      schema: public
+      data_asset_name: raw_monthly_taxi
+      datasource: my_snowflake_db
+    expectation_suite_names:
+      - taxisuite

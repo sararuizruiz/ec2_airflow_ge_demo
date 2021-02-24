@@ -1,0 +1,185 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "taxisuite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_column_count_to_equal",
+      "kwargs": {
+        "value": 18
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "vendor_id",
+          "pickup_date",
+          "dropoff_date",
+          "passenger_count",
+          "trip_distance",
+          "rate_code_id",
+          "flag",
+          "pickup_loc",
+          "dropff_loc",
+          "payment_type",
+          "fare_amount",
+          "extra",
+          "mta_tax",
+          "tip",
+          "tolls",
+          "improvement_surcharge",
+          "total_amount",
+          "congestion_surcharge"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pickup_date"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "passenger_count"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "passenger_count",
+        "value_set": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "passenger_count",
+        "partition_object": {
+          "values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "weights": [
+            0.7299,
+            0.1458,
+            0.039,
+            0.0186,
+            0.0415,
+            0.0252
+          ]
+        },
+        "threshold": 0.6
+      },
+      "meta": {}
+    }
+  ],
+  "meta": {
+    "BasicSuiteBuilderProfiler": {
+      "batch_kwargs": {
+        "data_asset_name": "nyc_taxi_01",
+        "datasource": "my_snowflake_db",
+        "schema": "public",
+        "table": "nyc_taxi_01"
+      },
+      "created_at": 1613384124.77422,
+      "created_by": "BasicSuiteBuilderProfiler"
+    },
+    "citations": [
+      {
+        "batch_kwargs": {
+          "data_asset_name": "nyc_taxi_01",
+          "datasource": "my_snowflake_db",
+          "schema": "public",
+          "table": "nyc_taxi_01"
+        },
+        "batch_markers": {
+          "ge_load_time": "20210215T101516.627493Z"
+        },
+        "batch_parameters": null,
+        "citation_date": "20210215T101525.550070Z",
+        "comment": "BasicSuiteBuilderProfiler added a citation based on the current batch."
+      }
+    ],
+    "columns": {
+      "congestion_surcharge": {
+        "description": ""
+      },
+      "dropff_loc": {
+        "description": ""
+      },
+      "dropoff_date": {
+        "description": ""
+      },
+      "extra": {
+        "description": ""
+      },
+      "fare_amount": {
+        "description": ""
+      },
+      "flag": {
+        "description": ""
+      },
+      "improvement_surcharge": {
+        "description": ""
+      },
+      "mta_tax": {
+        "description": ""
+      },
+      "passenger_count": {
+        "description": ""
+      },
+      "payment_type": {
+        "description": ""
+      },
+      "pickup_date": {
+        "description": ""
+      },
+      "pickup_loc": {
+        "description": ""
+      },
+      "rate_code_id": {
+        "description": ""
+      },
+      "tip": {
+        "description": ""
+      },
+      "tolls": {
+        "description": ""
+      },
+      "total_amount": {
+        "description": ""
+      },
+      "trip_distance": {
+        "description": ""
+      },
+      "vendor_id": {
+        "description": ""
+      }
+    },
+    "great_expectations_version": "0.13.7",
+    "notes": {
+      "content": [
+        "_To add additional notes, edit the <code>meta.notes.content</code> field in the appropriate Expectation json file._"
+      ],
+      "format": "markdown"
+    }
+  }
+}

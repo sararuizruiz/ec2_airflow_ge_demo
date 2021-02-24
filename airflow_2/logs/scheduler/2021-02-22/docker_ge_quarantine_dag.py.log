@@ -1,0 +1,760 @@
+[2021-02-22 01:00:04,212] {scheduler_job.py:181} INFO - Started process (PID=46137) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:00:04,215] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 01:00:04,216] {logging_mixin.py:103} INFO - [2021-02-22 01:00:04,216] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:00:13,126] {logging_mixin.py:103} INFO - [2021-02-22 01:00:13,126] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:00:13,253] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:00:13,256] {logging_mixin.py:103} INFO - [2021-02-22 01:00:13,255] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:00:13,574] {logging_mixin.py:103} INFO - [2021-02-22 01:00:13,574] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 01:00:13,699] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.490 seconds
+[2021-02-22 01:09:48,921] {scheduler_job.py:181} INFO - Started process (PID=46188) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:09:48,924] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 01:09:48,926] {logging_mixin.py:103} INFO - [2021-02-22 01:09:48,925] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:10:11,703] {logging_mixin.py:103} INFO - [2021-02-22 01:10:11,702] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:10:12,280] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:10:12,290] {logging_mixin.py:103} INFO - [2021-02-22 01:10:12,287] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:10:13,417] {logging_mixin.py:103} INFO - [2021-02-22 01:10:13,417] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 01:10:13,709] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 24.791 seconds
+[2021-02-22 01:38:38,677] {scheduler_job.py:181} INFO - Started process (PID=46260) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:38:38,681] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 01:38:38,683] {logging_mixin.py:103} INFO - [2021-02-22 01:38:38,682] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:38:47,830] {logging_mixin.py:103} INFO - [2021-02-22 01:38:47,829] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:38:47,935] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:38:47,937] {logging_mixin.py:103} INFO - [2021-02-22 01:38:47,937] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:38:48,315] {logging_mixin.py:103} INFO - [2021-02-22 01:38:48,315] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 01:38:48,498] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.825 seconds
+[2021-02-22 01:40:51,258] {scheduler_job.py:181} INFO - Started process (PID=46286) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:40:51,262] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 01:40:51,265] {logging_mixin.py:103} INFO - [2021-02-22 01:40:51,264] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:40:59,948] {logging_mixin.py:103} INFO - [2021-02-22 01:40:59,948] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:41:00,053] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:41:00,061] {logging_mixin.py:103} INFO - [2021-02-22 01:41:00,060] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:41:00,367] {logging_mixin.py:103} INFO - [2021-02-22 01:41:00,367] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 01:41:00,497] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.243 seconds
+[2021-02-22 01:43:10,773] {scheduler_job.py:181} INFO - Started process (PID=46315) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:43:10,777] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 01:43:10,779] {logging_mixin.py:103} INFO - [2021-02-22 01:43:10,779] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:43:19,517] {logging_mixin.py:103} INFO - [2021-02-22 01:43:19,517] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:43:19,633] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 01:43:19,637] {logging_mixin.py:103} INFO - [2021-02-22 01:43:19,636] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:43:19,959] {logging_mixin.py:103} INFO - [2021-02-22 01:43:19,958] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 01:43:20,058] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.289 seconds
+[2021-02-22 02:18:42,673] {scheduler_job.py:181} INFO - Started process (PID=46388) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:18:42,676] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:18:42,678] {logging_mixin.py:103} INFO - [2021-02-22 02:18:42,678] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:19:24,927] {logging_mixin.py:103} INFO - [2021-02-22 02:19:24,926] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:19:25,025] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:19:25,026] {logging_mixin.py:103} INFO - [2021-02-22 02:19:25,026] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:19:25,236] {logging_mixin.py:103} INFO - [2021-02-22 02:19:25,236] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:19:25,356] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 20.661 seconds
+[2021-02-22 02:21:02,983] {scheduler_job.py:181} INFO - Started process (PID=46420) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:21:02,987] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:21:02,989] {logging_mixin.py:103} INFO - [2021-02-22 02:21:02,988] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:21:11,691] {logging_mixin.py:103} INFO - [2021-02-22 02:21:11,690] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:21:11,817] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:21:11,820] {logging_mixin.py:103} INFO - [2021-02-22 02:21:11,819] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:21:12,067] {logging_mixin.py:103} INFO - [2021-02-22 02:21:12,067] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:21:12,278] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.299 seconds
+[2021-02-22 02:22:49,146] {scheduler_job.py:181} INFO - Started process (PID=46445) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:22:49,150] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:22:49,153] {logging_mixin.py:103} INFO - [2021-02-22 02:22:49,152] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:22:56,820] {logging_mixin.py:103} INFO - [2021-02-22 02:22:56,819] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:22:56,920] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:22:56,923] {logging_mixin.py:103} INFO - [2021-02-22 02:22:56,922] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:22:57,166] {logging_mixin.py:103} INFO - [2021-02-22 02:22:57,166] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:22:57,238] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.096 seconds
+[2021-02-22 02:24:58,431] {scheduler_job.py:181} INFO - Started process (PID=46470) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:24:58,436] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:24:58,440] {logging_mixin.py:103} INFO - [2021-02-22 02:24:58,439] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:25:06,764] {logging_mixin.py:103} INFO - [2021-02-22 02:25:06,764] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:25:06,893] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:25:06,897] {logging_mixin.py:103} INFO - [2021-02-22 02:25:06,895] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:25:07,124] {logging_mixin.py:103} INFO - [2021-02-22 02:25:07,123] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:25:07,231] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.802 seconds
+[2021-02-22 02:27:05,824] {scheduler_job.py:181} INFO - Started process (PID=46495) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:27:05,832] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:27:05,835] {logging_mixin.py:103} INFO - [2021-02-22 02:27:05,835] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:27:22,872] {logging_mixin.py:103} INFO - [2021-02-22 02:27:22,871] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:27:23,050] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:27:23,054] {logging_mixin.py:103} INFO - [2021-02-22 02:27:23,053] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:27:23,359] {logging_mixin.py:103} INFO - [2021-02-22 02:27:23,359] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:27:23,455] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 17.647 seconds
+[2021-02-22 02:29:04,026] {scheduler_job.py:181} INFO - Started process (PID=46520) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:29:04,030] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:29:04,033] {logging_mixin.py:103} INFO - [2021-02-22 02:29:04,032] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:29:13,325] {logging_mixin.py:103} INFO - [2021-02-22 02:29:13,324] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:29:13,552] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:29:13,561] {logging_mixin.py:103} INFO - [2021-02-22 02:29:13,559] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:29:14,198] {logging_mixin.py:103} INFO - [2021-02-22 02:29:14,197] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:29:14,403] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 10.380 seconds
+[2021-02-22 02:31:26,301] {scheduler_job.py:181} INFO - Started process (PID=46552) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:31:26,305] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:31:26,309] {logging_mixin.py:103} INFO - [2021-02-22 02:31:26,308] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:31:36,147] {logging_mixin.py:103} INFO - [2021-02-22 02:31:36,146] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:31:36,279] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:31:36,282] {logging_mixin.py:103} INFO - [2021-02-22 02:31:36,281] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:31:36,606] {logging_mixin.py:103} INFO - [2021-02-22 02:31:36,606] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:31:36,691] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 10.393 seconds
+[2021-02-22 02:33:40,911] {scheduler_job.py:181} INFO - Started process (PID=46601) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:33:40,916] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:33:40,918] {logging_mixin.py:103} INFO - [2021-02-22 02:33:40,918] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:33:49,116] {logging_mixin.py:103} INFO - [2021-02-22 02:33:49,115] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:33:49,253] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:33:49,257] {logging_mixin.py:103} INFO - [2021-02-22 02:33:49,256] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:33:49,640] {logging_mixin.py:103} INFO - [2021-02-22 02:33:49,639] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:33:49,762] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.854 seconds
+[2021-02-22 02:35:43,139] {scheduler_job.py:181} INFO - Started process (PID=46626) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:35:43,145] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:35:43,148] {logging_mixin.py:103} INFO - [2021-02-22 02:35:43,148] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:36:01,234] {logging_mixin.py:103} INFO - [2021-02-22 02:36:01,232] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:36:01,451] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:36:01,456] {logging_mixin.py:103} INFO - [2021-02-22 02:36:01,455] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:36:02,248] {logging_mixin.py:103} INFO - [2021-02-22 02:36:02,248] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:36:02,461] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 19.330 seconds
+[2021-02-22 02:37:41,584] {scheduler_job.py:181} INFO - Started process (PID=46653) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:37:41,591] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:37:41,597] {logging_mixin.py:103} INFO - [2021-02-22 02:37:41,596] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:37:58,629] {logging_mixin.py:103} INFO - [2021-02-22 02:37:58,628] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:37:58,835] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:37:58,841] {logging_mixin.py:103} INFO - [2021-02-22 02:37:58,839] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:37:59,453] {logging_mixin.py:103} INFO - [2021-02-22 02:37:59,452] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:37:59,709] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 18.141 seconds
+[2021-02-22 02:40:02,924] {scheduler_job.py:181} INFO - Started process (PID=46678) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:40:02,930] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:40:02,933] {logging_mixin.py:103} INFO - [2021-02-22 02:40:02,933] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:40:11,540] {logging_mixin.py:103} INFO - [2021-02-22 02:40:11,539] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:40:11,656] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:40:11,659] {logging_mixin.py:103} INFO - [2021-02-22 02:40:11,658] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:40:11,878] {logging_mixin.py:103} INFO - [2021-02-22 02:40:11,877] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:40:11,984] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.065 seconds
+[2021-02-22 02:42:05,849] {scheduler_job.py:181} INFO - Started process (PID=46703) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:42:05,853] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:42:05,855] {logging_mixin.py:103} INFO - [2021-02-22 02:42:05,854] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:42:14,543] {logging_mixin.py:103} INFO - [2021-02-22 02:42:14,543] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:42:14,643] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:42:14,646] {logging_mixin.py:103} INFO - [2021-02-22 02:42:14,645] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:42:14,961] {logging_mixin.py:103} INFO - [2021-02-22 02:42:14,951] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:42:15,054] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.208 seconds
+[2021-02-22 02:44:22,415] {scheduler_job.py:181} INFO - Started process (PID=46729) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:44:22,423] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:44:22,431] {logging_mixin.py:103} INFO - [2021-02-22 02:44:22,427] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:44:31,975] {logging_mixin.py:103} INFO - [2021-02-22 02:44:31,974] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:44:32,075] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:44:32,079] {logging_mixin.py:103} INFO - [2021-02-22 02:44:32,078] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:44:32,374] {logging_mixin.py:103} INFO - [2021-02-22 02:44:32,373] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:44:32,462] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 10.053 seconds
+[2021-02-22 02:46:11,522] {scheduler_job.py:181} INFO - Started process (PID=46757) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:46:11,525] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:46:11,527] {logging_mixin.py:103} INFO - [2021-02-22 02:46:11,527] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:46:19,388] {logging_mixin.py:103} INFO - [2021-02-22 02:46:19,387] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:46:19,489] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:46:19,492] {logging_mixin.py:103} INFO - [2021-02-22 02:46:19,491] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:46:19,763] {logging_mixin.py:103} INFO - [2021-02-22 02:46:19,763] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:46:19,894] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.376 seconds
+[2021-02-22 02:48:13,985] {scheduler_job.py:181} INFO - Started process (PID=46782) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:48:13,989] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:48:13,991] {logging_mixin.py:103} INFO - [2021-02-22 02:48:13,991] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:48:22,149] {logging_mixin.py:103} INFO - [2021-02-22 02:48:22,148] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:48:22,244] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:48:22,246] {logging_mixin.py:103} INFO - [2021-02-22 02:48:22,246] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:48:22,493] {logging_mixin.py:103} INFO - [2021-02-22 02:48:22,492] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:48:22,596] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.616 seconds
+[2021-02-22 02:50:32,990] {scheduler_job.py:181} INFO - Started process (PID=46807) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:50:32,998] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:50:33,004] {logging_mixin.py:103} INFO - [2021-02-22 02:50:33,003] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:50:41,811] {logging_mixin.py:103} INFO - [2021-02-22 02:50:41,810] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:50:41,915] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:50:41,919] {logging_mixin.py:103} INFO - [2021-02-22 02:50:41,918] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:50:42,178] {logging_mixin.py:103} INFO - [2021-02-22 02:50:42,178] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:50:42,290] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.307 seconds
+[2021-02-22 02:52:13,981] {scheduler_job.py:181} INFO - Started process (PID=46832) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:52:13,986] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:52:13,988] {logging_mixin.py:103} INFO - [2021-02-22 02:52:13,988] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:52:27,600] {logging_mixin.py:103} INFO - [2021-02-22 02:52:27,600] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:52:27,824] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:52:27,830] {logging_mixin.py:103} INFO - [2021-02-22 02:52:27,828] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:52:28,469] {logging_mixin.py:103} INFO - [2021-02-22 02:52:28,468] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:52:28,672] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 14.695 seconds
+[2021-02-22 02:54:24,383] {scheduler_job.py:181} INFO - Started process (PID=46857) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:54:24,386] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:54:24,389] {logging_mixin.py:103} INFO - [2021-02-22 02:54:24,388] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:54:32,422] {logging_mixin.py:103} INFO - [2021-02-22 02:54:32,421] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:54:32,572] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:54:32,576] {logging_mixin.py:103} INFO - [2021-02-22 02:54:32,575] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:54:32,885] {logging_mixin.py:103} INFO - [2021-02-22 02:54:32,885] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:54:32,976] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.595 seconds
+[2021-02-22 02:56:37,155] {scheduler_job.py:181} INFO - Started process (PID=46883) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:56:37,160] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:56:37,163] {logging_mixin.py:103} INFO - [2021-02-22 02:56:37,162] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:56:46,023] {logging_mixin.py:103} INFO - [2021-02-22 02:56:46,022] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:56:46,150] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:56:46,154] {logging_mixin.py:103} INFO - [2021-02-22 02:56:46,153] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:56:46,444] {logging_mixin.py:103} INFO - [2021-02-22 02:56:46,443] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:56:46,526] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.375 seconds
+[2021-02-22 02:58:33,815] {scheduler_job.py:181} INFO - Started process (PID=46908) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:58:33,822] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 02:58:33,826] {logging_mixin.py:103} INFO - [2021-02-22 02:58:33,826] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:58:54,809] {logging_mixin.py:103} INFO - [2021-02-22 02:58:54,808] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:58:55,037] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 02:58:55,042] {logging_mixin.py:103} INFO - [2021-02-22 02:58:55,041] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:58:55,853] {logging_mixin.py:103} INFO - [2021-02-22 02:58:55,852] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 02:58:56,163] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 22.372 seconds
+[2021-02-22 03:00:41,940] {scheduler_job.py:181} INFO - Started process (PID=46939) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:00:41,946] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:00:41,949] {logging_mixin.py:103} INFO - [2021-02-22 03:00:41,948] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:00:50,091] {logging_mixin.py:103} INFO - [2021-02-22 03:00:50,090] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:00:50,209] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:00:50,213] {logging_mixin.py:103} INFO - [2021-02-22 03:00:50,212] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:00:50,528] {logging_mixin.py:103} INFO - [2021-02-22 03:00:50,527] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:00:50,647] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.711 seconds
+[2021-02-22 03:02:41,468] {scheduler_job.py:181} INFO - Started process (PID=46963) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:02:41,477] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:02:41,479] {logging_mixin.py:103} INFO - [2021-02-22 03:02:41,478] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:02:49,943] {logging_mixin.py:103} INFO - [2021-02-22 03:02:49,942] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:02:50,051] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:02:50,053] {logging_mixin.py:103} INFO - [2021-02-22 03:02:50,053] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:02:50,330] {logging_mixin.py:103} INFO - [2021-02-22 03:02:50,330] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:02:50,453] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.001 seconds
+[2021-02-22 03:04:57,845] {scheduler_job.py:181} INFO - Started process (PID=47004) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:04:57,849] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:04:57,851] {logging_mixin.py:103} INFO - [2021-02-22 03:04:57,851] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:05:06,624] {logging_mixin.py:103} INFO - [2021-02-22 03:05:06,623] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:05:06,751] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:05:06,754] {logging_mixin.py:103} INFO - [2021-02-22 03:05:06,753] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:05:07,086] {logging_mixin.py:103} INFO - [2021-02-22 03:05:07,086] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:05:07,180] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.339 seconds
+[2021-02-22 03:06:46,836] {scheduler_job.py:181} INFO - Started process (PID=47037) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:06:46,841] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:06:46,843] {logging_mixin.py:103} INFO - [2021-02-22 03:06:46,843] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:07:02,604] {logging_mixin.py:103} INFO - [2021-02-22 03:07:02,602] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:07:02,851] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:07:02,858] {logging_mixin.py:103} INFO - [2021-02-22 03:07:02,856] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:07:03,587] {logging_mixin.py:103} INFO - [2021-02-22 03:07:03,587] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:07:03,896] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 17.063 seconds
+[2021-02-22 03:09:01,705] {scheduler_job.py:181} INFO - Started process (PID=47062) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:09:01,709] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:09:01,711] {logging_mixin.py:103} INFO - [2021-02-22 03:09:01,711] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:09:10,269] {logging_mixin.py:103} INFO - [2021-02-22 03:09:10,269] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:09:10,379] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:09:10,382] {logging_mixin.py:103} INFO - [2021-02-22 03:09:10,381] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:09:10,692] {logging_mixin.py:103} INFO - [2021-02-22 03:09:10,691] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:09:10,810] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.108 seconds
+[2021-02-22 03:11:08,165] {scheduler_job.py:181} INFO - Started process (PID=47087) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:11:08,169] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:11:08,171] {logging_mixin.py:103} INFO - [2021-02-22 03:11:08,171] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:11:16,463] {logging_mixin.py:103} INFO - [2021-02-22 03:11:16,462] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:11:16,593] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:11:16,595] {logging_mixin.py:103} INFO - [2021-02-22 03:11:16,594] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:11:16,834] {logging_mixin.py:103} INFO - [2021-02-22 03:11:16,834] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:11:16,932] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.770 seconds
+[2021-02-22 03:12:44,209] {scheduler_job.py:181} INFO - Started process (PID=47112) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:12:44,215] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:12:44,217] {logging_mixin.py:103} INFO - [2021-02-22 03:12:44,216] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:12:56,282] {logging_mixin.py:103} INFO - [2021-02-22 03:12:56,280] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:12:56,503] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:12:56,511] {logging_mixin.py:103} INFO - [2021-02-22 03:12:56,509] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:12:57,139] {logging_mixin.py:103} INFO - [2021-02-22 03:12:57,138] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:12:57,310] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 13.104 seconds
+[2021-02-22 03:14:52,850] {scheduler_job.py:181} INFO - Started process (PID=47137) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:14:52,855] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:14:52,858] {logging_mixin.py:103} INFO - [2021-02-22 03:14:52,857] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:15:00,503] {logging_mixin.py:103} INFO - [2021-02-22 03:15:00,502] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:15:00,647] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:15:00,651] {logging_mixin.py:103} INFO - [2021-02-22 03:15:00,650] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:15:00,974] {logging_mixin.py:103} INFO - [2021-02-22 03:15:00,974] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:15:01,102] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.255 seconds
+[2021-02-22 03:17:10,214] {scheduler_job.py:181} INFO - Started process (PID=47165) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:17:10,220] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:17:10,223] {logging_mixin.py:103} INFO - [2021-02-22 03:17:10,223] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:17:18,297] {logging_mixin.py:103} INFO - [2021-02-22 03:17:18,296] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:17:18,399] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:17:18,403] {logging_mixin.py:103} INFO - [2021-02-22 03:17:18,402] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:17:18,752] {logging_mixin.py:103} INFO - [2021-02-22 03:17:18,751] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:17:18,835] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.624 seconds
+[2021-02-22 03:18:53,890] {scheduler_job.py:181} INFO - Started process (PID=47191) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:18:53,897] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:18:53,900] {logging_mixin.py:103} INFO - [2021-02-22 03:18:53,900] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:19:09,480] {logging_mixin.py:103} INFO - [2021-02-22 03:19:09,479] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:19:09,703] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:19:09,715] {logging_mixin.py:103} INFO - [2021-02-22 03:19:09,714] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:19:10,285] {logging_mixin.py:103} INFO - [2021-02-22 03:19:10,284] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:19:10,501] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 16.618 seconds
+[2021-02-22 03:21:05,427] {scheduler_job.py:181} INFO - Started process (PID=47217) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:21:05,432] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:21:05,434] {logging_mixin.py:103} INFO - [2021-02-22 03:21:05,434] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:21:13,918] {logging_mixin.py:103} INFO - [2021-02-22 03:21:13,917] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:21:14,031] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:21:14,035] {logging_mixin.py:103} INFO - [2021-02-22 03:21:14,034] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:21:14,318] {logging_mixin.py:103} INFO - [2021-02-22 03:21:14,318] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:21:14,425] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.003 seconds
+[2021-02-22 03:23:18,397] {scheduler_job.py:181} INFO - Started process (PID=47243) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:23:18,400] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:23:18,402] {logging_mixin.py:103} INFO - [2021-02-22 03:23:18,402] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:23:26,886] {logging_mixin.py:103} INFO - [2021-02-22 03:23:26,886] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:23:26,995] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:23:26,998] {logging_mixin.py:103} INFO - [2021-02-22 03:23:26,997] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:23:27,288] {logging_mixin.py:103} INFO - [2021-02-22 03:23:27,287] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:23:27,371] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.978 seconds
+[2021-02-22 03:25:12,793] {scheduler_job.py:181} INFO - Started process (PID=47267) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:25:12,801] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:25:12,806] {logging_mixin.py:103} INFO - [2021-02-22 03:25:12,805] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:25:29,911] {logging_mixin.py:103} INFO - [2021-02-22 03:25:29,910] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:25:30,128] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:25:30,133] {logging_mixin.py:103} INFO - [2021-02-22 03:25:30,131] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:25:30,948] {logging_mixin.py:103} INFO - [2021-02-22 03:25:30,947] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:25:31,299] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 18.515 seconds
+[2021-02-22 03:27:17,032] {scheduler_job.py:181} INFO - Started process (PID=47293) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:27:17,037] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:27:17,039] {logging_mixin.py:103} INFO - [2021-02-22 03:27:17,039] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:27:24,312] {logging_mixin.py:103} INFO - [2021-02-22 03:27:24,311] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:27:24,421] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:27:24,425] {logging_mixin.py:103} INFO - [2021-02-22 03:27:24,424] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:27:24,648] {logging_mixin.py:103} INFO - [2021-02-22 03:27:24,647] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:27:24,730] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 7.703 seconds
+[2021-02-22 03:29:19,007] {scheduler_job.py:181} INFO - Started process (PID=47337) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:29:19,011] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:29:19,013] {logging_mixin.py:103} INFO - [2021-02-22 03:29:19,013] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:29:27,586] {logging_mixin.py:103} INFO - [2021-02-22 03:29:27,585] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:29:27,697] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:29:27,700] {logging_mixin.py:103} INFO - [2021-02-22 03:29:27,700] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:29:27,995] {logging_mixin.py:103} INFO - [2021-02-22 03:29:27,994] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:29:28,126] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.122 seconds
+[2021-02-22 03:31:41,880] {scheduler_job.py:181} INFO - Started process (PID=47372) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:31:41,884] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:31:41,886] {logging_mixin.py:103} INFO - [2021-02-22 03:31:41,886] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:31:49,681] {logging_mixin.py:103} INFO - [2021-02-22 03:31:49,679] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:31:49,795] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:31:49,797] {logging_mixin.py:103} INFO - [2021-02-22 03:31:49,797] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:31:50,016] {logging_mixin.py:103} INFO - [2021-02-22 03:31:50,016] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:31:50,098] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 8.221 seconds
+[2021-02-22 03:33:31,171] {scheduler_job.py:181} INFO - Started process (PID=47397) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:33:31,179] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 03:33:31,184] {logging_mixin.py:103} INFO - [2021-02-22 03:33:31,183] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:33:48,205] {logging_mixin.py:103} INFO - [2021-02-22 03:33:48,203] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:33:48,448] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 03:33:48,456] {logging_mixin.py:103} INFO - [2021-02-22 03:33:48,454] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:33:49,045] {logging_mixin.py:103} INFO - [2021-02-22 03:33:49,043] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 03:33:49,282] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 18.119 seconds
+[2021-02-22 05:24:37,930] {scheduler_job.py:181} INFO - Started process (PID=47483) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 05:24:37,933] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 05:24:37,934] {logging_mixin.py:103} INFO - [2021-02-22 05:24:37,934] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 05:24:47,426] {logging_mixin.py:103} INFO - [2021-02-22 05:24:47,426] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 05:24:47,535] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 05:24:47,538] {logging_mixin.py:103} INFO - [2021-02-22 05:24:47,537] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 05:24:47,873] {logging_mixin.py:103} INFO - [2021-02-22 05:24:47,872] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 05:24:47,966] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 10.043 seconds
+[2021-02-22 07:26:44,631] {scheduler_job.py:181} INFO - Started process (PID=47533) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:26:44,636] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:26:44,638] {logging_mixin.py:103} INFO - [2021-02-22 07:26:44,638] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:26:54,376] {logging_mixin.py:103} INFO - [2021-02-22 07:26:54,376] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:26:54,580] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:26:54,584] {logging_mixin.py:103} INFO - [2021-02-22 07:26:54,582] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:26:54,948] {logging_mixin.py:103} INFO - [2021-02-22 07:26:54,948] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:26:55,101] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 10.473 seconds
+[2021-02-22 07:29:07,122] {scheduler_job.py:181} INFO - Started process (PID=47559) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:29:07,125] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:29:07,127] {logging_mixin.py:103} INFO - [2021-02-22 07:29:07,126] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:29:16,143] {logging_mixin.py:103} INFO - [2021-02-22 07:29:16,143] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:29:16,269] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:29:16,274] {logging_mixin.py:103} INFO - [2021-02-22 07:29:16,273] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:29:16,583] {logging_mixin.py:103} INFO - [2021-02-22 07:29:16,583] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:29:16,686] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.567 seconds
+[2021-02-22 07:31:09,426] {scheduler_job.py:181} INFO - Started process (PID=47592) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:31:09,433] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:31:09,438] {logging_mixin.py:103} INFO - [2021-02-22 07:31:09,437] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:31:26,945] {logging_mixin.py:103} INFO - [2021-02-22 07:31:26,944] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:31:27,171] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:31:27,177] {logging_mixin.py:103} INFO - [2021-02-22 07:31:27,176] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:31:27,847] {logging_mixin.py:103} INFO - [2021-02-22 07:31:27,846] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:31:28,099] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 18.680 seconds
+[2021-02-22 07:45:27,016] {scheduler_job.py:181} INFO - Started process (PID=47640) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:45:27,018] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:45:27,019] {logging_mixin.py:103} INFO - [2021-02-22 07:45:27,019] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:45:35,915] {logging_mixin.py:103} INFO - [2021-02-22 07:45:35,914] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:45:36,009] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:45:36,010] {logging_mixin.py:103} INFO - [2021-02-22 07:45:36,010] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:45:36,241] {logging_mixin.py:103} INFO - [2021-02-22 07:45:36,241] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:45:36,268] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 9.256 seconds
+[2021-02-22 07:46:24,680] {scheduler_job.py:181} INFO - Started process (PID=47689) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:46:24,682] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:46:24,683] {logging_mixin.py:103} INFO - [2021-02-22 07:46:24,683] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:46:26,749] {logging_mixin.py:103} INFO - [2021-02-22 07:46:26,749] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:46:26,782] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:46:26,784] {logging_mixin.py:103} INFO - [2021-02-22 07:46:26,783] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:46:26,846] {logging_mixin.py:103} INFO - [2021-02-22 07:46:26,846] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:46:26,873] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.194 seconds
+[2021-02-22 07:46:53,262] {scheduler_job.py:181} INFO - Started process (PID=47711) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:46:53,264] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:46:53,265] {logging_mixin.py:103} INFO - [2021-02-22 07:46:53,264] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:46:55,932] {logging_mixin.py:103} INFO - [2021-02-22 07:46:55,932] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:46:55,971] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:46:55,974] {logging_mixin.py:103} INFO - [2021-02-22 07:46:55,974] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:46:56,058] {logging_mixin.py:103} INFO - [2021-02-22 07:46:56,058] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:46:56,071] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.810 seconds
+[2021-02-22 07:47:20,663] {scheduler_job.py:181} INFO - Started process (PID=47731) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:47:20,664] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:47:20,665] {logging_mixin.py:103} INFO - [2021-02-22 07:47:20,664] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:47:22,217] {logging_mixin.py:103} INFO - [2021-02-22 07:47:22,217] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:47:22,240] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:47:22,242] {logging_mixin.py:103} INFO - [2021-02-22 07:47:22,241] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:47:22,283] {logging_mixin.py:103} INFO - [2021-02-22 07:47:22,283] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:47:22,306] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.644 seconds
+[2021-02-22 07:55:00,078] {scheduler_job.py:181} INFO - Started process (PID=47799) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:55:00,079] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:55:00,080] {logging_mixin.py:103} INFO - [2021-02-22 07:55:00,080] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:55:05,492] {logging_mixin.py:103} INFO - [2021-02-22 07:55:05,491] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:55:05,521] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:55:05,522] {logging_mixin.py:103} INFO - [2021-02-22 07:55:05,522] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:55:05,723] {logging_mixin.py:103} INFO - [2021-02-22 07:55:05,723] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:55:05,810] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 5.734 seconds
+[2021-02-22 07:56:00,787] {scheduler_job.py:181} INFO - Started process (PID=47839) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:56:00,788] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:56:00,789] {logging_mixin.py:103} INFO - [2021-02-22 07:56:00,789] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:56:05,001] {logging_mixin.py:103} INFO - [2021-02-22 07:56:05,001] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:56:05,053] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:56:05,054] {logging_mixin.py:103} INFO - [2021-02-22 07:56:05,054] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:56:05,389] {logging_mixin.py:103} INFO - [2021-02-22 07:56:05,389] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:56:05,482] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 4.696 seconds
+[2021-02-22 07:56:44,444] {scheduler_job.py:181} INFO - Started process (PID=47861) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:56:44,445] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:56:44,446] {logging_mixin.py:103} INFO - [2021-02-22 07:56:44,446] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:56:47,523] {logging_mixin.py:103} INFO - [2021-02-22 07:56:47,523] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:56:47,635] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:56:47,636] {logging_mixin.py:103} INFO - [2021-02-22 07:56:47,635] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:56:47,759] {logging_mixin.py:103} INFO - [2021-02-22 07:56:47,759] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:56:47,886] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 3.444 seconds
+[2021-02-22 07:57:22,023] {scheduler_job.py:181} INFO - Started process (PID=47882) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:57:22,027] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:57:22,028] {logging_mixin.py:103} INFO - [2021-02-22 07:57:22,028] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:57:25,192] {logging_mixin.py:103} INFO - [2021-02-22 07:57:25,192] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:57:25,240] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:57:25,242] {logging_mixin.py:103} INFO - [2021-02-22 07:57:25,241] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:57:25,383] {logging_mixin.py:103} INFO - [2021-02-22 07:57:25,381] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:57:25,434] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 3.415 seconds
+[2021-02-22 07:58:01,552] {scheduler_job.py:181} INFO - Started process (PID=47928) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:58:01,553] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:58:01,553] {logging_mixin.py:103} INFO - [2021-02-22 07:58:01,553] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:58:03,943] {logging_mixin.py:103} INFO - [2021-02-22 07:58:03,942] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:58:03,977] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:58:03,979] {logging_mixin.py:103} INFO - [2021-02-22 07:58:03,979] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:58:04,062] {logging_mixin.py:103} INFO - [2021-02-22 07:58:04,062] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:58:04,088] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.538 seconds
+[2021-02-22 07:58:35,234] {scheduler_job.py:181} INFO - Started process (PID=47951) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:58:35,235] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:58:35,236] {logging_mixin.py:103} INFO - [2021-02-22 07:58:35,235] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:58:37,199] {logging_mixin.py:103} INFO - [2021-02-22 07:58:37,199] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:58:37,218] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:58:37,219] {logging_mixin.py:103} INFO - [2021-02-22 07:58:37,219] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:58:37,268] {logging_mixin.py:103} INFO - [2021-02-22 07:58:37,268] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:58:37,291] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.059 seconds
+[2021-02-22 07:59:03,109] {scheduler_job.py:181} INFO - Started process (PID=48035) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:59:03,109] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:59:03,110] {logging_mixin.py:103} INFO - [2021-02-22 07:59:03,110] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:59:04,726] {logging_mixin.py:103} INFO - [2021-02-22 07:59:04,726] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:59:04,747] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:59:04,748] {logging_mixin.py:103} INFO - [2021-02-22 07:59:04,747] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:59:04,797] {logging_mixin.py:103} INFO - [2021-02-22 07:59:04,797] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:59:04,821] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.713 seconds
+[2021-02-22 07:59:33,523] {scheduler_job.py:181} INFO - Started process (PID=48071) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:59:33,525] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 07:59:33,525] {logging_mixin.py:103} INFO - [2021-02-22 07:59:33,525] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:59:34,946] {logging_mixin.py:103} INFO - [2021-02-22 07:59:34,946] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:59:34,964] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 07:59:34,964] {logging_mixin.py:103} INFO - [2021-02-22 07:59:34,964] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:59:35,012] {logging_mixin.py:103} INFO - [2021-02-22 07:59:35,012] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 07:59:35,031] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.509 seconds
+[2021-02-22 08:00:01,798] {scheduler_job.py:181} INFO - Started process (PID=48091) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:00:01,799] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:00:01,799] {logging_mixin.py:103} INFO - [2021-02-22 08:00:01,799] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:00:04,129] {logging_mixin.py:103} INFO - [2021-02-22 08:00:04,129] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:00:04,161] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:00:04,161] {logging_mixin.py:103} INFO - [2021-02-22 08:00:04,161] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:00:04,248] {logging_mixin.py:103} INFO - [2021-02-22 08:00:04,248] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:00:04,295] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.500 seconds
+[2021-02-22 08:00:32,402] {scheduler_job.py:181} INFO - Started process (PID=48112) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:00:32,403] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:00:32,403] {logging_mixin.py:103} INFO - [2021-02-22 08:00:32,403] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:00:34,522] {logging_mixin.py:103} INFO - [2021-02-22 08:00:34,522] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:00:34,549] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:00:34,550] {logging_mixin.py:103} INFO - [2021-02-22 08:00:34,550] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:00:34,605] {logging_mixin.py:103} INFO - [2021-02-22 08:00:34,605] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:00:34,621] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.220 seconds
+[2021-02-22 08:00:59,177] {scheduler_job.py:181} INFO - Started process (PID=48152) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:00:59,178] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:00:59,178] {logging_mixin.py:103} INFO - [2021-02-22 08:00:59,178] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:01:00,870] {logging_mixin.py:103} INFO - [2021-02-22 08:01:00,869] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:01:00,900] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:01:00,901] {logging_mixin.py:103} INFO - [2021-02-22 08:01:00,901] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:01:00,976] {logging_mixin.py:103} INFO - [2021-02-22 08:01:00,975] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:01:00,996] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.820 seconds
+[2021-02-22 08:01:30,956] {scheduler_job.py:181} INFO - Started process (PID=48173) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:01:30,957] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:01:30,957] {logging_mixin.py:103} INFO - [2021-02-22 08:01:30,957] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:01:32,616] {logging_mixin.py:103} INFO - [2021-02-22 08:01:32,616] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:01:32,640] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:01:32,640] {logging_mixin.py:103} INFO - [2021-02-22 08:01:32,640] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:01:32,699] {logging_mixin.py:103} INFO - [2021-02-22 08:01:32,698] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:01:32,714] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.759 seconds
+[2021-02-22 08:01:57,395] {scheduler_job.py:181} INFO - Started process (PID=48193) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:01:57,396] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:01:57,397] {logging_mixin.py:103} INFO - [2021-02-22 08:01:57,397] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:01:59,967] {logging_mixin.py:103} INFO - [2021-02-22 08:01:59,967] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:02:00,006] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:02:00,007] {logging_mixin.py:103} INFO - [2021-02-22 08:02:00,006] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:02:00,085] {logging_mixin.py:103} INFO - [2021-02-22 08:02:00,085] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:02:00,123] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.730 seconds
+[2021-02-22 08:02:26,587] {scheduler_job.py:181} INFO - Started process (PID=48213) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:02:26,588] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:02:26,589] {logging_mixin.py:103} INFO - [2021-02-22 08:02:26,589] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:02:28,373] {logging_mixin.py:103} INFO - [2021-02-22 08:02:28,372] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:02:28,396] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:02:28,397] {logging_mixin.py:103} INFO - [2021-02-22 08:02:28,397] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:02:28,457] {logging_mixin.py:103} INFO - [2021-02-22 08:02:28,457] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:02:28,473] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.886 seconds
+[2021-02-22 08:02:51,911] {scheduler_job.py:181} INFO - Started process (PID=48236) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:02:51,913] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:02:51,915] {logging_mixin.py:103} INFO - [2021-02-22 08:02:51,915] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:02:54,376] {logging_mixin.py:103} INFO - [2021-02-22 08:02:54,376] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:02:54,409] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:02:54,411] {logging_mixin.py:103} INFO - [2021-02-22 08:02:54,411] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:02:54,507] {logging_mixin.py:103} INFO - [2021-02-22 08:02:54,507] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:02:54,545] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.635 seconds
+[2021-02-22 08:03:16,728] {scheduler_job.py:181} INFO - Started process (PID=48262) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:03:16,729] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:03:16,730] {logging_mixin.py:103} INFO - [2021-02-22 08:03:16,730] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:03:18,002] {logging_mixin.py:103} INFO - [2021-02-22 08:03:18,002] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:03:18,018] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:03:18,019] {logging_mixin.py:103} INFO - [2021-02-22 08:03:18,019] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:03:18,060] {logging_mixin.py:103} INFO - [2021-02-22 08:03:18,060] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:03:18,072] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.345 seconds
+[2021-02-22 08:03:42,742] {scheduler_job.py:181} INFO - Started process (PID=48284) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:03:42,742] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:03:42,743] {logging_mixin.py:103} INFO - [2021-02-22 08:03:42,743] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:03:44,678] {logging_mixin.py:103} INFO - [2021-02-22 08:03:44,678] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:03:44,704] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:03:44,705] {logging_mixin.py:103} INFO - [2021-02-22 08:03:44,705] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:03:44,767] {logging_mixin.py:103} INFO - [2021-02-22 08:03:44,767] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:03:44,786] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.045 seconds
+[2021-02-22 08:04:06,105] {scheduler_job.py:181} INFO - Started process (PID=48304) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:04:06,106] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:04:06,106] {logging_mixin.py:103} INFO - [2021-02-22 08:04:06,106] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:04:07,398] {logging_mixin.py:103} INFO - [2021-02-22 08:04:07,397] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:04:07,413] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:04:07,414] {logging_mixin.py:103} INFO - [2021-02-22 08:04:07,414] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:04:07,456] {logging_mixin.py:103} INFO - [2021-02-22 08:04:07,456] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:04:07,470] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.367 seconds
+[2021-02-22 08:04:29,554] {scheduler_job.py:181} INFO - Started process (PID=48325) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:04:29,555] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:04:29,556] {logging_mixin.py:103} INFO - [2021-02-22 08:04:29,556] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:04:32,121] {logging_mixin.py:103} INFO - [2021-02-22 08:04:32,121] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:04:32,155] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:04:32,156] {logging_mixin.py:103} INFO - [2021-02-22 08:04:32,156] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:04:32,244] {logging_mixin.py:103} INFO - [2021-02-22 08:04:32,244] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:04:32,273] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.721 seconds
+[2021-02-22 08:04:58,556] {scheduler_job.py:181} INFO - Started process (PID=48345) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:04:58,557] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:04:58,558] {logging_mixin.py:103} INFO - [2021-02-22 08:04:58,558] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:05:00,577] {logging_mixin.py:103} INFO - [2021-02-22 08:05:00,576] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:05:00,600] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:05:00,601] {logging_mixin.py:103} INFO - [2021-02-22 08:05:00,601] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:05:00,663] {logging_mixin.py:103} INFO - [2021-02-22 08:05:00,662] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:05:00,690] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.135 seconds
+[2021-02-22 08:05:27,416] {scheduler_job.py:181} INFO - Started process (PID=48373) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:05:27,417] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:05:27,418] {logging_mixin.py:103} INFO - [2021-02-22 08:05:27,418] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:05:29,738] {logging_mixin.py:103} INFO - [2021-02-22 08:05:29,738] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:05:29,772] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:05:29,773] {logging_mixin.py:103} INFO - [2021-02-22 08:05:29,773] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:05:29,857] {logging_mixin.py:103} INFO - [2021-02-22 08:05:29,857] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:05:29,883] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.468 seconds
+[2021-02-22 08:05:51,641] {scheduler_job.py:181} INFO - Started process (PID=48401) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:05:51,643] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:05:51,643] {logging_mixin.py:103} INFO - [2021-02-22 08:05:51,643] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:05:52,992] {logging_mixin.py:103} INFO - [2021-02-22 08:05:52,992] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:05:53,008] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:05:53,009] {logging_mixin.py:103} INFO - [2021-02-22 08:05:53,009] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:05:53,054] {logging_mixin.py:103} INFO - [2021-02-22 08:05:53,053] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:05:53,072] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.432 seconds
+[2021-02-22 08:06:17,629] {scheduler_job.py:181} INFO - Started process (PID=48425) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:06:17,630] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:06:17,631] {logging_mixin.py:103} INFO - [2021-02-22 08:06:17,630] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:06:19,417] {logging_mixin.py:103} INFO - [2021-02-22 08:06:19,417] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:06:19,439] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:06:19,440] {logging_mixin.py:103} INFO - [2021-02-22 08:06:19,440] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:06:19,515] {logging_mixin.py:103} INFO - [2021-02-22 08:06:19,514] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:06:19,541] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.914 seconds
+[2021-02-22 08:06:41,436] {scheduler_job.py:181} INFO - Started process (PID=48447) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:06:41,436] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:06:41,436] {logging_mixin.py:103} INFO - [2021-02-22 08:06:41,436] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:06:42,641] {logging_mixin.py:103} INFO - [2021-02-22 08:06:42,641] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:06:42,657] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:06:42,657] {logging_mixin.py:103} INFO - [2021-02-22 08:06:42,657] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:06:42,698] {logging_mixin.py:103} INFO - [2021-02-22 08:06:42,698] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:06:42,708] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.273 seconds
+[2021-02-22 08:07:04,519] {scheduler_job.py:181} INFO - Started process (PID=48471) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:07:04,521] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:07:04,522] {logging_mixin.py:103} INFO - [2021-02-22 08:07:04,522] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:07:06,879] {logging_mixin.py:103} INFO - [2021-02-22 08:07:06,878] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:07:06,913] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:07:06,914] {logging_mixin.py:103} INFO - [2021-02-22 08:07:06,914] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:07:06,990] {logging_mixin.py:103} INFO - [2021-02-22 08:07:06,990] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:07:07,022] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.504 seconds
+[2021-02-22 08:07:28,744] {scheduler_job.py:181} INFO - Started process (PID=48496) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:07:28,745] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:07:28,746] {logging_mixin.py:103} INFO - [2021-02-22 08:07:28,746] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:07:30,505] {logging_mixin.py:103} INFO - [2021-02-22 08:07:30,505] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:07:30,526] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:07:30,527] {logging_mixin.py:103} INFO - [2021-02-22 08:07:30,527] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:07:30,591] {logging_mixin.py:103} INFO - [2021-02-22 08:07:30,591] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:07:30,604] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.862 seconds
+[2021-02-22 08:07:53,568] {scheduler_job.py:181} INFO - Started process (PID=48516) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:07:53,569] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:07:53,570] {logging_mixin.py:103} INFO - [2021-02-22 08:07:53,570] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:07:55,434] {logging_mixin.py:103} INFO - [2021-02-22 08:07:55,434] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:07:55,459] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:07:55,460] {logging_mixin.py:103} INFO - [2021-02-22 08:07:55,460] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:07:55,533] {logging_mixin.py:103} INFO - [2021-02-22 08:07:55,533] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:07:55,561] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.994 seconds
+[2021-02-22 08:08:19,742] {scheduler_job.py:181} INFO - Started process (PID=48536) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:08:19,743] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:08:19,743] {logging_mixin.py:103} INFO - [2021-02-22 08:08:19,743] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:08:20,942] {logging_mixin.py:103} INFO - [2021-02-22 08:08:20,942] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:08:20,957] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:08:20,957] {logging_mixin.py:103} INFO - [2021-02-22 08:08:20,957] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:08:20,999] {logging_mixin.py:103} INFO - [2021-02-22 08:08:20,999] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:08:21,009] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.268 seconds
+[2021-02-22 08:08:42,934] {scheduler_job.py:181} INFO - Started process (PID=48557) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:08:42,936] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:08:42,936] {logging_mixin.py:103} INFO - [2021-02-22 08:08:42,936] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:08:46,127] {logging_mixin.py:103} INFO - [2021-02-22 08:08:46,126] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:08:46,196] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:08:46,197] {logging_mixin.py:103} INFO - [2021-02-22 08:08:46,197] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:08:46,273] {logging_mixin.py:103} INFO - [2021-02-22 08:08:46,273] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:08:46,403] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 3.470 seconds
+[2021-02-22 08:09:10,109] {scheduler_job.py:181} INFO - Started process (PID=48577) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:09:10,110] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:09:10,111] {logging_mixin.py:103} INFO - [2021-02-22 08:09:10,111] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:09:11,387] {logging_mixin.py:103} INFO - [2021-02-22 08:09:11,387] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:09:11,402] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:09:11,403] {logging_mixin.py:103} INFO - [2021-02-22 08:09:11,402] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:09:11,444] {logging_mixin.py:103} INFO - [2021-02-22 08:09:11,444] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:09:11,454] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.346 seconds
+[2021-02-22 08:09:44,330] {scheduler_job.py:181} INFO - Started process (PID=48618) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:09:44,332] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:09:44,332] {logging_mixin.py:103} INFO - [2021-02-22 08:09:44,332] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:09:47,652] {logging_mixin.py:103} INFO - [2021-02-22 08:09:47,652] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:09:47,683] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:09:47,684] {logging_mixin.py:103} INFO - [2021-02-22 08:09:47,684] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:09:47,753] {logging_mixin.py:103} INFO - [2021-02-22 08:09:47,753] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:09:47,783] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 3.454 seconds
+[2021-02-22 08:10:31,726] {scheduler_job.py:181} INFO - Started process (PID=48667) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:10:31,728] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:10:31,730] {logging_mixin.py:103} INFO - [2021-02-22 08:10:31,729] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:10:35,763] {logging_mixin.py:103} INFO - [2021-02-22 08:10:35,762] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:10:35,860] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:10:35,861] {logging_mixin.py:103} INFO - [2021-02-22 08:10:35,861] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:10:36,023] {logging_mixin.py:103} INFO - [2021-02-22 08:10:36,023] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:10:36,130] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 4.406 seconds
+[2021-02-22 08:11:21,408] {scheduler_job.py:181} INFO - Started process (PID=48696) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:11:21,409] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:11:21,409] {logging_mixin.py:103} INFO - [2021-02-22 08:11:21,409] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:11:24,275] {logging_mixin.py:103} INFO - [2021-02-22 08:11:24,274] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:11:24,310] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:11:24,312] {logging_mixin.py:103} INFO - [2021-02-22 08:11:24,311] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:11:24,394] {logging_mixin.py:103} INFO - [2021-02-22 08:11:24,394] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:11:24,414] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 3.007 seconds
+[2021-02-22 08:11:51,190] {scheduler_job.py:181} INFO - Started process (PID=48727) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:11:51,192] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:11:51,192] {logging_mixin.py:103} INFO - [2021-02-22 08:11:51,192] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:11:53,225] {logging_mixin.py:103} INFO - [2021-02-22 08:11:53,225] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:11:53,257] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:11:53,258] {logging_mixin.py:103} INFO - [2021-02-22 08:11:53,258] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:11:53,322] {logging_mixin.py:103} INFO - [2021-02-22 08:11:53,322] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:11:53,347] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.158 seconds
+[2021-02-22 08:12:25,082] {scheduler_job.py:181} INFO - Started process (PID=48750) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:12:25,092] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:12:25,093] {logging_mixin.py:103} INFO - [2021-02-22 08:12:25,092] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:12:29,039] {logging_mixin.py:103} INFO - [2021-02-22 08:12:29,039] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:12:29,073] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:12:29,075] {logging_mixin.py:103} INFO - [2021-02-22 08:12:29,074] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:12:29,140] {logging_mixin.py:103} INFO - [2021-02-22 08:12:29,140] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:12:29,170] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 4.088 seconds
+[2021-02-22 08:13:08,544] {scheduler_job.py:181} INFO - Started process (PID=48777) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:13:08,546] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:13:08,548] {logging_mixin.py:103} INFO - [2021-02-22 08:13:08,548] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:13:11,772] {logging_mixin.py:103} INFO - [2021-02-22 08:13:11,771] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:13:11,805] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:13:11,806] {logging_mixin.py:103} INFO - [2021-02-22 08:13:11,806] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:13:11,893] {logging_mixin.py:103} INFO - [2021-02-22 08:13:11,892] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:13:11,919] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 3.376 seconds
+[2021-02-22 08:13:40,712] {scheduler_job.py:181} INFO - Started process (PID=48807) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:13:40,713] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:13:40,714] {logging_mixin.py:103} INFO - [2021-02-22 08:13:40,714] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:13:42,712] {logging_mixin.py:103} INFO - [2021-02-22 08:13:42,711] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:13:42,739] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:13:42,740] {logging_mixin.py:103} INFO - [2021-02-22 08:13:42,740] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:13:42,818] {logging_mixin.py:103} INFO - [2021-02-22 08:13:42,817] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:13:42,842] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.131 seconds
+[2021-02-22 08:14:14,956] {scheduler_job.py:181} INFO - Started process (PID=48828) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:14:14,957] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:14:14,958] {logging_mixin.py:103} INFO - [2021-02-22 08:14:14,958] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:14:17,306] {logging_mixin.py:103} INFO - [2021-02-22 08:14:17,306] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:14:17,347] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:14:17,348] {logging_mixin.py:103} INFO - [2021-02-22 08:14:17,348] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:14:17,450] {logging_mixin.py:103} INFO - [2021-02-22 08:14:17,450] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:14:17,475] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.520 seconds
+[2021-02-22 08:14:42,415] {scheduler_job.py:181} INFO - Started process (PID=48850) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:14:42,420] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:14:42,421] {logging_mixin.py:103} INFO - [2021-02-22 08:14:42,421] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:14:47,853] {logging_mixin.py:103} INFO - [2021-02-22 08:14:47,853] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:14:47,895] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:14:47,896] {logging_mixin.py:103} INFO - [2021-02-22 08:14:47,896] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:14:48,059] {logging_mixin.py:103} INFO - [2021-02-22 08:14:48,059] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:14:48,102] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 5.690 seconds
+[2021-02-22 08:15:28,619] {scheduler_job.py:181} INFO - Started process (PID=48876) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:15:28,621] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:15:28,622] {logging_mixin.py:103} INFO - [2021-02-22 08:15:28,622] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:15:30,125] {logging_mixin.py:103} INFO - [2021-02-22 08:15:30,125] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:15:30,144] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:15:30,144] {logging_mixin.py:103} INFO - [2021-02-22 08:15:30,144] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:15:30,196] {logging_mixin.py:103} INFO - [2021-02-22 08:15:30,196] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:15:30,221] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.603 seconds
+[2021-02-22 08:15:58,171] {scheduler_job.py:181} INFO - Started process (PID=48897) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:15:58,173] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:15:58,173] {logging_mixin.py:103} INFO - [2021-02-22 08:15:58,173] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:16:00,754] {logging_mixin.py:103} INFO - [2021-02-22 08:16:00,753] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:16:00,855] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:16:00,857] {logging_mixin.py:103} INFO - [2021-02-22 08:16:00,856] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:16:01,044] {logging_mixin.py:103} INFO - [2021-02-22 08:16:01,044] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:16:01,072] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.903 seconds
+[2021-02-22 08:16:35,332] {scheduler_job.py:181} INFO - Started process (PID=48923) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:16:35,333] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:16:35,334] {logging_mixin.py:103} INFO - [2021-02-22 08:16:35,334] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:16:37,339] {logging_mixin.py:103} INFO - [2021-02-22 08:16:37,339] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:16:37,372] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:16:37,374] {logging_mixin.py:103} INFO - [2021-02-22 08:16:37,373] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:16:37,450] {logging_mixin.py:103} INFO - [2021-02-22 08:16:37,450] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:16:37,497] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 2.166 seconds
+[2021-02-22 08:17:12,628] {scheduler_job.py:181} INFO - Started process (PID=48947) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:17:12,630] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:17:12,631] {logging_mixin.py:103} INFO - [2021-02-22 08:17:12,630] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:17:14,454] {logging_mixin.py:103} INFO - [2021-02-22 08:17:14,454] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:17:14,480] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:17:14,481] {logging_mixin.py:103} INFO - [2021-02-22 08:17:14,480] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:17:14,555] {logging_mixin.py:103} INFO - [2021-02-22 08:17:14,555] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:17:14,582] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.955 seconds
+[2021-02-22 08:17:40,906] {scheduler_job.py:181} INFO - Started process (PID=48973) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:17:40,908] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:17:40,908] {logging_mixin.py:103} INFO - [2021-02-22 08:17:40,908] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:17:42,450] {logging_mixin.py:103} INFO - [2021-02-22 08:17:42,449] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:17:42,467] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:17:42,468] {logging_mixin.py:103} INFO - [2021-02-22 08:17:42,467] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:17:42,516] {logging_mixin.py:103} INFO - [2021-02-22 08:17:42,516] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:17:42,527] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.622 seconds
+[2021-02-22 08:18:14,800] {scheduler_job.py:181} INFO - Started process (PID=49003) to work on /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:18:14,801] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/docker_ge_quarantine_dag.py for tasks to queue
+[2021-02-22 08:18:14,801] {logging_mixin.py:103} INFO - [2021-02-22 08:18:14,801] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:18:16,462] {logging_mixin.py:103} INFO - [2021-02-22 08:18:16,462] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:18:16,483] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_ge_quarantine_dag']) retrieved from /Users/sara/airflow/dags/docker_ge_quarantine_dag.py
+[2021-02-22 08:18:16,484] {logging_mixin.py:103} INFO - [2021-02-22 08:18:16,483] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:18:16,532] {logging_mixin.py:103} INFO - [2021-02-22 08:18:16,532] {dag.py:2266} INFO - Setting next_dagrun for docker_ge_quarantine_dag to None
+[2021-02-22 08:18:16,561] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/docker_ge_quarantine_dag.py took 1.762 seconds

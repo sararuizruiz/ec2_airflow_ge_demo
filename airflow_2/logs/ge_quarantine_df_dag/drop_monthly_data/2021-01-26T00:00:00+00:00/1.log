@@ -1,0 +1,35 @@
+[2021-01-28 14:02:09,280] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_quarantine_df_dag.drop_monthly_data 2021-01-26T00:00:00+00:00 [queued]>
+[2021-01-28 14:02:09,285] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_quarantine_df_dag.drop_monthly_data 2021-01-26T00:00:00+00:00 [queued]>
+[2021-01-28 14:02:09,285] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-28 14:02:09,285] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-01-28 14:02:09,285] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-28 14:02:09,292] {taskinstance.py:1038} INFO - Executing <Task(SnowflakeOperator): drop_monthly_data> on 2021-01-26T00:00:00+00:00
+[2021-01-28 14:02:09,296] {standard_task_runner.py:51} INFO - Started process 4477 to run task
+[2021-01-28 14:02:09,304] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'ge_quarantine_df_dag', 'drop_monthly_data', '2021-01-26T00:00:00+00:00', '--job-id', '158', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ge_quarantine_df_dag.py', '--cfg-path', '/var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T/tmp9acf5pxt']
+[2021-01-28 14:02:09,306] {standard_task_runner.py:76} INFO - Job 158: Subtask drop_monthly_data
+[2021-01-28 14:02:09,340] {logging_mixin.py:103} INFO - Running <TaskInstance: ge_quarantine_df_dag.drop_monthly_data 2021-01-26T00:00:00+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-01-28 14:02:09,366] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sara@acloudfrontier.com
+AIRFLOW_CTX_DAG_OWNER=sara
+AIRFLOW_CTX_DAG_ID=ge_quarantine_df_dag
+AIRFLOW_CTX_TASK_ID=drop_monthly_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-26T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-01-26T00:00:00+00:00
+[2021-01-28 14:02:09,367] {snowflake.py:119} INFO - Executing: ['delete from MONTHLY_DATA;']
+[2021-01-28 14:02:09,373] {base.py:65} INFO - Using connection to: id: SNOWFLAKE_QUARANTINE_DEMO. Host: dp13486.eu-west-1.snowflakecomputing.com, Port: None, Schema: PUBLIC, Login: SARA, Password: XXXXXXXX, extra: XXXXXXXX
+[2021-01-28 14:02:09,375] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-28 14:02:09,376] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-28 14:02:09,376] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-28 14:02:10,693] {cursor.py:537} INFO - query: [ALTER SESSION SET autocommit=True]
+[2021-01-28 14:02:10,841] {cursor.py:560} INFO - query execution done
+[2021-01-28 14:02:10,843] {dbapi.py:180} INFO - Running statement: delete from MONTHLY_DATA;, parameters: None
+[2021-01-28 14:02:10,844] {cursor.py:537} INFO - query: [delete from MONTHLY_DATA;]
+[2021-01-28 14:02:11,512] {cursor.py:560} INFO - query execution done
+[2021-01-28 14:02:11,513] {dbapi.py:186} INFO - Rows affected: 30000
+[2021-01-28 14:02:11,514] {connection.py:438} INFO - closed
+[2021-01-28 14:02:11,614] {connection.py:441} INFO - No async queries seem to be running, deleting session
+[2021-01-28 14:02:11,757] {taskinstance.py:1135} INFO - Marking task as SUCCESS. dag_id=ge_quarantine_df_dag, task_id=drop_monthly_data, execution_date=20210126T000000, start_date=20210128T130209, end_date=20210128T130211
+[2021-01-28 14:02:11,771] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-01-28 14:02:11,825] {local_task_job.py:118} INFO - Task exited with return code 0

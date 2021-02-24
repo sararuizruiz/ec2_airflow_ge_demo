@@ -1,0 +1,43 @@
+[2021-02-03 09:42:19,401] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_quarantine_df_dag.import_valid_records 2021-02-03T08:41:21.554638+00:00 [queued]>
+[2021-02-03 09:42:19,408] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_quarantine_df_dag.import_valid_records 2021-02-03T08:41:21.554638+00:00 [queued]>
+[2021-02-03 09:42:19,408] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-03 09:42:19,408] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-02-03 09:42:19,408] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-03 09:42:19,416] {taskinstance.py:1038} INFO - Executing <Task(SnowflakeOperator): import_valid_records> on 2021-02-03T08:41:21.554638+00:00
+[2021-02-03 09:42:19,420] {standard_task_runner.py:51} INFO - Started process 15333 to run task
+[2021-02-03 09:42:19,428] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'ge_quarantine_df_dag', 'import_valid_records', '2021-02-03T08:41:21.554638+00:00', '--job-id', '338', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ge_quarantine_df_dag.py', '--cfg-path', '/var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T/tmpy_kux7th']
+[2021-02-03 09:42:19,431] {standard_task_runner.py:76} INFO - Job 338: Subtask import_valid_records
+[2021-02-03 09:42:19,471] {logging_mixin.py:103} INFO - Running <TaskInstance: ge_quarantine_df_dag.import_valid_records 2021-02-03T08:41:21.554638+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2021-02-03 09:42:19,503] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sara@acloudfrontier.com
+AIRFLOW_CTX_DAG_OWNER=sara
+AIRFLOW_CTX_DAG_ID=ge_quarantine_df_dag
+AIRFLOW_CTX_TASK_ID=import_valid_records
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-03T08:41:21.554638+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-03T08:41:21.554638+00:00
+[2021-02-03 09:42:19,504] {snowflake.py:119} INFO - Executing: ['alter table ABT_NYC_TAXI add column error integer;', 'insert into  ABT_NYC_TAXI select * from RAW_MONTHLY_TAXI where error is NULL;', 'alter table ABT_NYC_TAXI drop column error;']
+[2021-02-03 09:42:19,513] {base.py:65} INFO - Using connection to: id: SNOWFLAKE_QUARANTINE_DEMO. Host: dp13486.eu-west-1.snowflakecomputing.com, Port: None, Schema: PUBLIC, Login: SARA, Password: XXXXXXXX, extra: XXXXXXXX
+[2021-02-03 09:42:19,516] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.9, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-02-03 09:42:19,517] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-02-03 09:42:19,518] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-02-03 09:42:20,985] {cursor.py:537} INFO - query: [ALTER SESSION SET autocommit=True]
+[2021-02-03 09:42:21,194] {cursor.py:560} INFO - query execution done
+[2021-02-03 09:42:21,196] {dbapi.py:180} INFO - Running statement: alter table ABT_NYC_TAXI add column error integer;, parameters: None
+[2021-02-03 09:42:21,197] {cursor.py:537} INFO - query: [alter table ABT_NYC_TAXI add column error integer;]
+[2021-02-03 09:42:21,906] {cursor.py:560} INFO - query execution done
+[2021-02-03 09:42:21,907] {dbapi.py:186} INFO - Rows affected: 1
+[2021-02-03 09:42:21,908] {dbapi.py:180} INFO - Running statement: insert into  ABT_NYC_TAXI select * from RAW_MONTHLY_TAXI where error is NULL;, parameters: None
+[2021-02-03 09:42:21,909] {cursor.py:537} INFO - query: [insert into  ABT_NYC_TAXI select * from RAW_MONTHLY_TAXI where error is NULL;]
+[2021-02-03 09:42:24,364] {cursor.py:560} INFO - query execution done
+[2021-02-03 09:42:24,365] {dbapi.py:186} INFO - Rows affected: 8421
+[2021-02-03 09:42:24,366] {dbapi.py:180} INFO - Running statement: alter table ABT_NYC_TAXI drop column error;, parameters: None
+[2021-02-03 09:42:24,367] {cursor.py:537} INFO - query: [alter table ABT_NYC_TAXI drop column error;]
+[2021-02-03 09:42:24,519] {cursor.py:560} INFO - query execution done
+[2021-02-03 09:42:24,520] {dbapi.py:186} INFO - Rows affected: 1
+[2021-02-03 09:42:24,522] {connection.py:438} INFO - closed
+[2021-02-03 09:42:24,608] {connection.py:441} INFO - No async queries seem to be running, deleting session
+[2021-02-03 09:42:24,731] {taskinstance.py:1135} INFO - Marking task as SUCCESS. dag_id=ge_quarantine_df_dag, task_id=import_valid_records, execution_date=20210203T084121, start_date=20210203T084219, end_date=20210203T084224
+[2021-02-03 09:42:24,752] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-02-03 09:42:24,809] {local_task_job.py:118} INFO - Task exited with return code 0

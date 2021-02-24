@@ -1,0 +1,32 @@
+[2021-01-28 13:46:50,994] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_bash_op_dag.Val_monthlychk 2021-01-28T12:46:26.336092+00:00 [queued]>
+[2021-01-28 13:46:51,000] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_bash_op_dag.Val_monthlychk 2021-01-28T12:46:26.336092+00:00 [queued]>
+[2021-01-28 13:46:51,001] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-28 13:46:51,001] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-01-28 13:46:51,001] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-28 13:46:51,010] {taskinstance.py:1038} INFO - Executing <Task(BashOperator): Val_monthlychk> on 2021-01-28T12:46:26.336092+00:00
+[2021-01-28 13:46:51,013] {standard_task_runner.py:51} INFO - Started process 3578 to run task
+[2021-01-28 13:46:51,023] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'ge_bash_op_dag', 'Val_monthlychk', '2021-01-28T12:46:26.336092+00:00', '--job-id', '146', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ge_bash_op_dag.py', '--cfg-path', '/var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T/tmpmbogtfgs']
+[2021-01-28 13:46:51,026] {standard_task_runner.py:76} INFO - Job 146: Subtask Val_monthlychk
+[2021-01-28 13:46:51,070] {logging_mixin.py:103} INFO - Running <TaskInstance: ge_bash_op_dag.Val_monthlychk 2021-01-28T12:46:26.336092+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-01-28 13:46:51,103] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sara@acloudfrontier.com
+AIRFLOW_CTX_DAG_OWNER=sara
+AIRFLOW_CTX_DAG_ID=ge_bash_op_dag
+AIRFLOW_CTX_TASK_ID=Val_monthlychk
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-28T12:46:26.336092+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-01-28T12:46:26.336092+00:00
+[2021-01-28 13:46:51,104] {bash.py:135} INFO - Tmp dir root location: 
+ /var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T
+[2021-01-28 13:46:51,105] {bash.py:158} INFO - Running command: cd /Users/sara/airflow/dags/snowflake && great_expectations checkpoint run monthlychk
+[2021-01-28 13:46:51,119] {bash.py:169} INFO - Output:
+[2021-01-28 13:46:54,690] {bash.py:173} INFO - Heads up! This feature is Experimental. It may change. Please give us your feedback!
+[2021-01-28 13:47:01,244] {bash.py:173} INFO - Validation succeeded!
+[2021-01-28 13:47:01,260] {bash.py:173} INFO - 
+[2021-01-28 13:47:01,261] {bash.py:173} INFO - Suite Name                                   Status     Expectations met
+[2021-01-28 13:47:01,262] {bash.py:173} INFO - - taxisuite                                  ✔ Passed   5 of 5 (100.0 %)
+[2021-01-28 13:47:02,671] {bash.py:177} INFO - Command exited with return code 0
+[2021-01-28 13:47:02,697] {taskinstance.py:1135} INFO - Marking task as SUCCESS. dag_id=ge_bash_op_dag, task_id=Val_monthlychk, execution_date=20210128T124626, start_date=20210128T124650, end_date=20210128T124702
+[2021-01-28 13:47:02,722] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-01-28 13:47:02,760] {local_task_job.py:118} INFO - Task exited with return code 0

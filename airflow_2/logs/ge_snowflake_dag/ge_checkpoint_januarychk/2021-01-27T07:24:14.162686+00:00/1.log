@@ -1,0 +1,24 @@
+[2021-01-27 08:24:22,964] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_snowflake_dag.ge_checkpoint_januarychk 2021-01-27T07:24:14.162686+00:00 [queued]>
+[2021-01-27 08:24:22,972] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_snowflake_dag.ge_checkpoint_januarychk 2021-01-27T07:24:14.162686+00:00 [queued]>
+[2021-01-27 08:24:22,972] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-27 08:24:22,972] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-01-27 08:24:22,972] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-27 08:24:22,981] {taskinstance.py:1038} INFO - Executing <Task(GreatExpectationsOperator): ge_checkpoint_januarychk> on 2021-01-27T07:24:14.162686+00:00
+[2021-01-27 08:24:22,985] {standard_task_runner.py:51} INFO - Started process 1317 to run task
+[2021-01-27 08:24:22,996] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'ge_snowflake_dag', 'ge_checkpoint_januarychk', '2021-01-27T07:24:14.162686+00:00', '--job-id', '123', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ge_snowflake_dag.py', '--cfg-path', '/var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T/tmpabre297x']
+[2021-01-27 08:24:22,997] {standard_task_runner.py:76} INFO - Job 123: Subtask ge_checkpoint_januarychk
+[2021-01-27 08:24:23,048] {logging_mixin.py:103} INFO - Running <TaskInstance: ge_snowflake_dag.ge_checkpoint_januarychk 2021-01-27T07:24:14.162686+00:00 [running]> on host admins-air.home
+[2021-01-27 08:24:23,081] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sara@acloudfrontier.com
+AIRFLOW_CTX_DAG_OWNER=sara
+AIRFLOW_CTX_DAG_ID=ge_snowflake_dag
+AIRFLOW_CTX_TASK_ID=ge_checkpoint_januarychk
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-27T07:24:14.162686+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-01-27T07:24:14.162686+00:00
+[2021-01-27 08:24:23,082] {great_expectations.py:94} INFO - Running validation with Great Expectations...
+[2021-01-27 08:24:23,131] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-27 08:24:23,132] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-27 08:24:23,132] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-27 08:24:23,896] {local_task_job.py:118} INFO - Task exited with return code Negsignal.SIGSEGV

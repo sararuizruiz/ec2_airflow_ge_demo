@@ -1,0 +1,760 @@
+[2021-02-22 01:00:30,174] {scheduler_job.py:181} INFO - Started process (PID=46141) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:00:30,179] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 01:00:30,187] {logging_mixin.py:103} INFO - [2021-02-22 01:00:30,185] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:00:47,633] {logging_mixin.py:103} INFO - [2021-02-22 01:00:47,633] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:00:47,931] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:00:47,940] {logging_mixin.py:103} INFO - [2021-02-22 01:00:47,938] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:00:48,456] {logging_mixin.py:103} INFO - [2021-02-22 01:00:48,456] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 01:00:48,632] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 18.467 seconds
+[2021-02-22 01:20:56,293] {scheduler_job.py:181} INFO - Started process (PID=46207) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:20:56,297] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 01:20:56,299] {logging_mixin.py:103} INFO - [2021-02-22 01:20:56,299] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:21:17,658] {logging_mixin.py:103} INFO - [2021-02-22 01:21:17,651] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:21:17,826] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:21:17,829] {logging_mixin.py:103} INFO - [2021-02-22 01:21:17,828] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:21:19,071] {logging_mixin.py:103} INFO - [2021-02-22 01:21:19,071] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 01:21:19,281] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 22.991 seconds
+[2021-02-22 01:39:03,133] {scheduler_job.py:181} INFO - Started process (PID=46266) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:39:03,142] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 01:39:03,145] {logging_mixin.py:103} INFO - [2021-02-22 01:39:03,144] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:39:21,703] {logging_mixin.py:103} INFO - [2021-02-22 01:39:21,702] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:39:22,047] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:39:22,089] {logging_mixin.py:103} INFO - [2021-02-22 01:39:22,085] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:39:22,898] {logging_mixin.py:103} INFO - [2021-02-22 01:39:22,897] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 01:39:23,022] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 19.897 seconds
+[2021-02-22 01:41:10,026] {scheduler_job.py:181} INFO - Started process (PID=46291) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:41:10,029] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 01:41:10,032] {logging_mixin.py:103} INFO - [2021-02-22 01:41:10,031] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:41:18,440] {logging_mixin.py:103} INFO - [2021-02-22 01:41:18,439] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:41:18,555] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:41:18,558] {logging_mixin.py:103} INFO - [2021-02-22 01:41:18,557] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:41:18,873] {logging_mixin.py:103} INFO - [2021-02-22 01:41:18,873] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 01:41:18,956] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.934 seconds
+[2021-02-22 01:43:29,762] {scheduler_job.py:181} INFO - Started process (PID=46320) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:43:29,765] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 01:43:29,769] {logging_mixin.py:103} INFO - [2021-02-22 01:43:29,767] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:43:38,052] {logging_mixin.py:103} INFO - [2021-02-22 01:43:38,051] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 01:43:38,168] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 01:43:38,172] {logging_mixin.py:103} INFO - [2021-02-22 01:43:38,171] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 01:43:38,504] {logging_mixin.py:103} INFO - [2021-02-22 01:43:38,503] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 01:43:38,575] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.817 seconds
+[2021-02-22 02:19:30,769] {scheduler_job.py:181} INFO - Started process (PID=46398) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:19:30,771] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:19:30,772] {logging_mixin.py:103} INFO - [2021-02-22 02:19:30,772] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:19:42,977] {logging_mixin.py:103} INFO - [2021-02-22 02:19:42,977] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:19:43,082] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:19:43,086] {logging_mixin.py:103} INFO - [2021-02-22 02:19:43,085] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:19:43,433] {logging_mixin.py:103} INFO - [2021-02-22 02:19:43,432] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:19:43,530] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 12.754 seconds
+[2021-02-22 02:21:20,877] {scheduler_job.py:181} INFO - Started process (PID=46424) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:21:20,882] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:21:20,884] {logging_mixin.py:103} INFO - [2021-02-22 02:21:20,884] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:21:30,623] {logging_mixin.py:103} INFO - [2021-02-22 02:21:30,617] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:21:30,711] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:21:30,716] {logging_mixin.py:103} INFO - [2021-02-22 02:21:30,716] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:21:30,971] {logging_mixin.py:103} INFO - [2021-02-22 02:21:30,970] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:21:31,064] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 10.189 seconds
+[2021-02-22 02:23:13,930] {scheduler_job.py:181} INFO - Started process (PID=46450) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:23:13,935] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:23:13,937] {logging_mixin.py:103} INFO - [2021-02-22 02:23:13,937] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:23:30,872] {logging_mixin.py:103} INFO - [2021-02-22 02:23:30,870] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:23:31,090] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:23:31,102] {logging_mixin.py:103} INFO - [2021-02-22 02:23:31,093] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:23:31,824] {logging_mixin.py:103} INFO - [2021-02-22 02:23:31,823] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:23:31,966] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 18.045 seconds
+[2021-02-22 02:25:16,472] {scheduler_job.py:181} INFO - Started process (PID=46474) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:25:16,476] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:25:16,478] {logging_mixin.py:103} INFO - [2021-02-22 02:25:16,477] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:25:24,869] {logging_mixin.py:103} INFO - [2021-02-22 02:25:24,869] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:25:25,026] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:25:25,029] {logging_mixin.py:103} INFO - [2021-02-22 02:25:25,028] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:25:25,338] {logging_mixin.py:103} INFO - [2021-02-22 02:25:25,337] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:25:25,422] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.953 seconds
+[2021-02-22 02:27:33,478] {scheduler_job.py:181} INFO - Started process (PID=46500) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:27:33,483] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:27:33,485] {logging_mixin.py:103} INFO - [2021-02-22 02:27:33,484] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:27:41,544] {logging_mixin.py:103} INFO - [2021-02-22 02:27:41,543] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:27:41,652] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:27:41,655] {logging_mixin.py:103} INFO - [2021-02-22 02:27:41,655] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:27:42,021] {logging_mixin.py:103} INFO - [2021-02-22 02:27:42,020] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:27:42,097] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.623 seconds
+[2021-02-22 02:29:33,011] {scheduler_job.py:181} INFO - Started process (PID=46525) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:29:33,017] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:29:33,020] {logging_mixin.py:103} INFO - [2021-02-22 02:29:33,020] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:29:50,155] {logging_mixin.py:103} INFO - [2021-02-22 02:29:50,149] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:29:50,437] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:29:50,446] {logging_mixin.py:103} INFO - [2021-02-22 02:29:50,444] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:29:51,106] {logging_mixin.py:103} INFO - [2021-02-22 02:29:51,105] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:29:51,232] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 18.233 seconds
+[2021-02-22 02:31:46,861] {scheduler_job.py:181} INFO - Started process (PID=46572) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:31:46,873] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:31:46,877] {logging_mixin.py:103} INFO - [2021-02-22 02:31:46,876] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:32:02,560] {logging_mixin.py:103} INFO - [2021-02-22 02:32:02,559] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:32:02,786] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:32:02,794] {logging_mixin.py:103} INFO - [2021-02-22 02:32:02,792] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:32:03,394] {logging_mixin.py:103} INFO - [2021-02-22 02:32:03,393] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:32:03,549] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 16.690 seconds
+[2021-02-22 02:33:58,908] {scheduler_job.py:181} INFO - Started process (PID=46605) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:33:58,911] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:33:58,913] {logging_mixin.py:103} INFO - [2021-02-22 02:33:58,913] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:34:06,950] {logging_mixin.py:103} INFO - [2021-02-22 02:34:06,949] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:34:07,106] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:34:07,113] {logging_mixin.py:103} INFO - [2021-02-22 02:34:07,111] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:34:07,496] {logging_mixin.py:103} INFO - [2021-02-22 02:34:07,496] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:34:07,568] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.663 seconds
+[2021-02-22 02:36:15,299] {scheduler_job.py:181} INFO - Started process (PID=46632) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:36:15,318] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:36:15,320] {logging_mixin.py:103} INFO - [2021-02-22 02:36:15,320] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:36:23,477] {logging_mixin.py:103} INFO - [2021-02-22 02:36:23,476] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:36:23,571] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:36:23,574] {logging_mixin.py:103} INFO - [2021-02-22 02:36:23,573] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:36:23,790] {logging_mixin.py:103} INFO - [2021-02-22 02:36:23,789] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:36:23,843] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.549 seconds
+[2021-02-22 02:38:18,244] {scheduler_job.py:181} INFO - Started process (PID=46657) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:38:18,257] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:38:18,263] {logging_mixin.py:103} INFO - [2021-02-22 02:38:18,262] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:38:34,089] {logging_mixin.py:103} INFO - [2021-02-22 02:38:34,085] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:38:34,303] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:38:34,310] {logging_mixin.py:103} INFO - [2021-02-22 02:38:34,308] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:38:35,111] {logging_mixin.py:103} INFO - [2021-02-22 02:38:35,110] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:38:35,269] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 17.032 seconds
+[2021-02-22 02:40:20,589] {scheduler_job.py:181} INFO - Started process (PID=46682) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:40:20,594] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:40:20,598] {logging_mixin.py:103} INFO - [2021-02-22 02:40:20,597] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:40:29,666] {logging_mixin.py:103} INFO - [2021-02-22 02:40:29,666] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:40:29,778] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:40:29,782] {logging_mixin.py:103} INFO - [2021-02-22 02:40:29,780] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:40:30,115] {logging_mixin.py:103} INFO - [2021-02-22 02:40:30,114] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:40:30,197] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 9.611 seconds
+[2021-02-22 02:42:23,243] {scheduler_job.py:181} INFO - Started process (PID=46707) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:42:23,247] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:42:23,249] {logging_mixin.py:103} INFO - [2021-02-22 02:42:23,248] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:42:31,062] {logging_mixin.py:103} INFO - [2021-02-22 02:42:31,061] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:42:31,177] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:42:31,180] {logging_mixin.py:103} INFO - [2021-02-22 02:42:31,179] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:42:31,463] {logging_mixin.py:103} INFO - [2021-02-22 02:42:31,463] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:42:31,544] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.305 seconds
+[2021-02-22 02:44:41,772] {scheduler_job.py:181} INFO - Started process (PID=46732) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:44:41,779] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:44:41,781] {logging_mixin.py:103} INFO - [2021-02-22 02:44:41,781] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:44:50,235] {logging_mixin.py:103} INFO - [2021-02-22 02:44:50,234] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:44:50,348] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:44:50,354] {logging_mixin.py:103} INFO - [2021-02-22 02:44:50,351] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:44:50,701] {logging_mixin.py:103} INFO - [2021-02-22 02:44:50,700] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:44:50,797] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 9.028 seconds
+[2021-02-22 02:46:29,920] {scheduler_job.py:181} INFO - Started process (PID=46761) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:46:29,925] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:46:29,927] {logging_mixin.py:103} INFO - [2021-02-22 02:46:29,926] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:46:42,896] {logging_mixin.py:103} INFO - [2021-02-22 02:46:42,895] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:46:43,112] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:46:43,120] {logging_mixin.py:103} INFO - [2021-02-22 02:46:43,118] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:46:43,724] {logging_mixin.py:103} INFO - [2021-02-22 02:46:43,724] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:46:43,871] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 13.956 seconds
+[2021-02-22 02:48:31,464] {scheduler_job.py:181} INFO - Started process (PID=46785) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:48:31,468] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:48:31,470] {logging_mixin.py:103} INFO - [2021-02-22 02:48:31,470] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:48:39,987] {logging_mixin.py:103} INFO - [2021-02-22 02:48:39,986] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:48:40,144] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:48:40,147] {logging_mixin.py:103} INFO - [2021-02-22 02:48:40,147] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:48:40,465] {logging_mixin.py:103} INFO - [2021-02-22 02:48:40,465] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:48:40,542] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 9.082 seconds
+[2021-02-22 02:50:51,924] {scheduler_job.py:181} INFO - Started process (PID=46811) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:50:51,928] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:50:51,931] {logging_mixin.py:103} INFO - [2021-02-22 02:50:51,930] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:50:59,855] {logging_mixin.py:103} INFO - [2021-02-22 02:50:59,854] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:50:59,957] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:50:59,961] {logging_mixin.py:103} INFO - [2021-02-22 02:50:59,959] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:51:00,442] {logging_mixin.py:103} INFO - [2021-02-22 02:51:00,441] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:51:00,619] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.698 seconds
+[2021-02-22 02:52:45,153] {scheduler_job.py:181} INFO - Started process (PID=46836) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:52:45,161] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:52:45,166] {logging_mixin.py:103} INFO - [2021-02-22 02:52:45,166] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:53:00,339] {logging_mixin.py:103} INFO - [2021-02-22 02:53:00,338] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:53:00,550] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:53:00,566] {logging_mixin.py:103} INFO - [2021-02-22 02:53:00,565] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:53:01,138] {logging_mixin.py:103} INFO - [2021-02-22 02:53:01,138] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:53:01,264] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 16.119 seconds
+[2021-02-22 02:54:49,457] {scheduler_job.py:181} INFO - Started process (PID=46863) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:54:49,461] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:54:49,463] {logging_mixin.py:103} INFO - [2021-02-22 02:54:49,462] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:54:57,679] {logging_mixin.py:103} INFO - [2021-02-22 02:54:57,679] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:54:57,791] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:54:57,795] {logging_mixin.py:103} INFO - [2021-02-22 02:54:57,794] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:54:58,125] {logging_mixin.py:103} INFO - [2021-02-22 02:54:58,125] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:54:58,191] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.739 seconds
+[2021-02-22 02:56:56,118] {scheduler_job.py:181} INFO - Started process (PID=46887) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:56:56,122] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:56:56,125] {logging_mixin.py:103} INFO - [2021-02-22 02:56:56,125] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:57:04,156] {logging_mixin.py:103} INFO - [2021-02-22 02:57:04,155] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:57:04,259] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:57:04,263] {logging_mixin.py:103} INFO - [2021-02-22 02:57:04,262] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:57:04,580] {logging_mixin.py:103} INFO - [2021-02-22 02:57:04,580] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:57:04,652] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.540 seconds
+[2021-02-22 02:59:10,557] {scheduler_job.py:181} INFO - Started process (PID=46915) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:59:10,560] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 02:59:10,562] {logging_mixin.py:103} INFO - [2021-02-22 02:59:10,562] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:59:19,897] {logging_mixin.py:103} INFO - [2021-02-22 02:59:19,895] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 02:59:20,008] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 02:59:20,011] {logging_mixin.py:103} INFO - [2021-02-22 02:59:20,010] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 02:59:20,347] {logging_mixin.py:103} INFO - [2021-02-22 02:59:20,347] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 02:59:20,426] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 9.873 seconds
+[2021-02-22 03:00:59,639] {scheduler_job.py:181} INFO - Started process (PID=46943) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:00:59,643] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:00:59,646] {logging_mixin.py:103} INFO - [2021-02-22 03:00:59,646] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:01:13,363] {logging_mixin.py:103} INFO - [2021-02-22 03:01:13,361] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:01:13,587] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:01:13,591] {logging_mixin.py:103} INFO - [2021-02-22 03:01:13,590] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:01:14,080] {logging_mixin.py:103} INFO - [2021-02-22 03:01:14,079] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:01:14,199] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 14.565 seconds
+[2021-02-22 03:02:59,576] {scheduler_job.py:181} INFO - Started process (PID=46967) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:02:59,580] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:02:59,583] {logging_mixin.py:103} INFO - [2021-02-22 03:02:59,582] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:03:09,332] {logging_mixin.py:103} INFO - [2021-02-22 03:03:09,332] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:03:09,455] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:03:09,459] {logging_mixin.py:103} INFO - [2021-02-22 03:03:09,458] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:03:09,833] {logging_mixin.py:103} INFO - [2021-02-22 03:03:09,804] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:03:09,929] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 10.357 seconds
+[2021-02-22 03:05:23,835] {scheduler_job.py:181} INFO - Started process (PID=47009) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:05:23,839] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:05:23,841] {logging_mixin.py:103} INFO - [2021-02-22 03:05:23,841] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:05:31,553] {logging_mixin.py:103} INFO - [2021-02-22 03:05:31,552] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:05:31,654] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:05:31,657] {logging_mixin.py:103} INFO - [2021-02-22 03:05:31,656] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:05:31,890] {logging_mixin.py:103} INFO - [2021-02-22 03:05:31,890] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:05:31,944] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.113 seconds
+[2021-02-22 03:07:21,836] {scheduler_job.py:181} INFO - Started process (PID=47041) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:07:21,846] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:07:21,852] {logging_mixin.py:103} INFO - [2021-02-22 03:07:21,850] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:07:38,179] {logging_mixin.py:103} INFO - [2021-02-22 03:07:38,178] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:07:38,431] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:07:38,437] {logging_mixin.py:103} INFO - [2021-02-22 03:07:38,435] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:07:39,251] {logging_mixin.py:103} INFO - [2021-02-22 03:07:39,251] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:07:39,391] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 17.565 seconds
+[2021-02-22 03:09:19,153] {scheduler_job.py:181} INFO - Started process (PID=47066) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:09:19,158] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:09:19,161] {logging_mixin.py:103} INFO - [2021-02-22 03:09:19,160] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:09:27,432] {logging_mixin.py:103} INFO - [2021-02-22 03:09:27,432] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:09:27,577] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:09:27,580] {logging_mixin.py:103} INFO - [2021-02-22 03:09:27,579] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:09:27,911] {logging_mixin.py:103} INFO - [2021-02-22 03:09:27,911] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:09:27,978] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.828 seconds
+[2021-02-22 03:11:25,133] {scheduler_job.py:181} INFO - Started process (PID=47091) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:11:25,137] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:11:25,143] {logging_mixin.py:103} INFO - [2021-02-22 03:11:25,142] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:11:33,443] {logging_mixin.py:103} INFO - [2021-02-22 03:11:33,443] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:11:33,558] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:11:33,562] {logging_mixin.py:103} INFO - [2021-02-22 03:11:33,561] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:11:33,855] {logging_mixin.py:103} INFO - [2021-02-22 03:11:33,854] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:11:33,945] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.819 seconds
+[2021-02-22 03:13:12,453] {scheduler_job.py:181} INFO - Started process (PID=47116) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:13:12,459] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:13:12,463] {logging_mixin.py:103} INFO - [2021-02-22 03:13:12,462] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:13:27,859] {logging_mixin.py:103} INFO - [2021-02-22 03:13:27,857] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:13:28,136] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:13:28,141] {logging_mixin.py:103} INFO - [2021-02-22 03:13:28,140] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:13:29,224] {logging_mixin.py:103} INFO - [2021-02-22 03:13:29,223] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:13:29,398] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 16.956 seconds
+[2021-02-22 03:15:10,064] {scheduler_job.py:181} INFO - Started process (PID=47141) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:15:10,069] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:15:10,072] {logging_mixin.py:103} INFO - [2021-02-22 03:15:10,072] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:15:17,925] {logging_mixin.py:103} INFO - [2021-02-22 03:15:17,925] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:15:18,064] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:15:18,069] {logging_mixin.py:103} INFO - [2021-02-22 03:15:18,067] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:15:18,442] {logging_mixin.py:103} INFO - [2021-02-22 03:15:18,441] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:15:18,545] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.485 seconds
+[2021-02-22 03:17:27,792] {scheduler_job.py:181} INFO - Started process (PID=47171) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:17:27,797] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:17:27,799] {logging_mixin.py:103} INFO - [2021-02-22 03:17:27,798] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:17:36,327] {logging_mixin.py:103} INFO - [2021-02-22 03:17:36,326] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:17:36,447] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:17:36,450] {logging_mixin.py:103} INFO - [2021-02-22 03:17:36,449] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:17:36,770] {logging_mixin.py:103} INFO - [2021-02-22 03:17:36,770] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:17:36,839] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 9.054 seconds
+[2021-02-22 03:19:26,027] {scheduler_job.py:181} INFO - Started process (PID=47196) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:19:26,033] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:19:26,037] {logging_mixin.py:103} INFO - [2021-02-22 03:19:26,036] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:19:42,311] {logging_mixin.py:103} INFO - [2021-02-22 03:19:42,310] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:19:42,527] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:19:42,537] {logging_mixin.py:103} INFO - [2021-02-22 03:19:42,534] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:19:43,117] {logging_mixin.py:103} INFO - [2021-02-22 03:19:43,116] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:19:43,287] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 17.270 seconds
+[2021-02-22 03:21:23,508] {scheduler_job.py:181} INFO - Started process (PID=47221) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:21:23,512] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:21:23,515] {logging_mixin.py:103} INFO - [2021-02-22 03:21:23,515] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:21:31,141] {logging_mixin.py:103} INFO - [2021-02-22 03:21:31,140] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:21:31,249] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:21:31,252] {logging_mixin.py:103} INFO - [2021-02-22 03:21:31,251] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:21:31,488] {logging_mixin.py:103} INFO - [2021-02-22 03:21:31,488] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:21:31,544] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.039 seconds
+[2021-02-22 03:23:35,818] {scheduler_job.py:181} INFO - Started process (PID=47247) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:23:35,821] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:23:35,823] {logging_mixin.py:103} INFO - [2021-02-22 03:23:35,822] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:23:43,344] {logging_mixin.py:103} INFO - [2021-02-22 03:23:43,343] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:23:43,484] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:23:43,487] {logging_mixin.py:103} INFO - [2021-02-22 03:23:43,486] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:23:43,816] {logging_mixin.py:103} INFO - [2021-02-22 03:23:43,815] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:23:43,890] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.076 seconds
+[2021-02-22 03:25:56,590] {scheduler_job.py:181} INFO - Started process (PID=47272) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:25:56,595] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:25:56,597] {logging_mixin.py:103} INFO - [2021-02-22 03:25:56,597] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:26:04,858] {logging_mixin.py:103} INFO - [2021-02-22 03:26:04,856] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:26:04,971] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:26:04,974] {logging_mixin.py:103} INFO - [2021-02-22 03:26:04,973] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:26:05,284] {logging_mixin.py:103} INFO - [2021-02-22 03:26:05,284] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:26:05,367] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.782 seconds
+[2021-02-22 03:27:35,634] {scheduler_job.py:181} INFO - Started process (PID=47296) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:27:35,637] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:27:35,639] {logging_mixin.py:103} INFO - [2021-02-22 03:27:35,639] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:27:44,688] {logging_mixin.py:103} INFO - [2021-02-22 03:27:44,687] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:27:44,911] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:27:44,916] {logging_mixin.py:103} INFO - [2021-02-22 03:27:44,915] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:27:46,248] {logging_mixin.py:103} INFO - [2021-02-22 03:27:46,246] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:27:46,419] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 10.792 seconds
+[2021-02-22 03:29:36,337] {scheduler_job.py:181} INFO - Started process (PID=47340) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:29:36,339] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:29:36,342] {logging_mixin.py:103} INFO - [2021-02-22 03:29:36,341] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:29:44,688] {logging_mixin.py:103} INFO - [2021-02-22 03:29:44,687] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:29:44,802] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:29:44,806] {logging_mixin.py:103} INFO - [2021-02-22 03:29:44,805] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:29:45,094] {logging_mixin.py:103} INFO - [2021-02-22 03:29:45,093] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:29:45,182] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.848 seconds
+[2021-02-22 03:31:59,789] {scheduler_job.py:181} INFO - Started process (PID=47376) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:31:59,794] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:31:59,797] {logging_mixin.py:103} INFO - [2021-02-22 03:31:59,796] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:32:07,942] {logging_mixin.py:103} INFO - [2021-02-22 03:32:07,941] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:32:08,061] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:32:08,064] {logging_mixin.py:103} INFO - [2021-02-22 03:32:08,063] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:32:08,410] {logging_mixin.py:103} INFO - [2021-02-22 03:32:08,410] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:32:08,497] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.712 seconds
+[2021-02-22 03:34:08,324] {scheduler_job.py:181} INFO - Started process (PID=47402) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:34:08,333] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 03:34:08,337] {logging_mixin.py:103} INFO - [2021-02-22 03:34:08,336] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:39:23,467] {logging_mixin.py:103} INFO - [2021-02-22 03:39:23,467] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 03:39:23,504] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 03:39:23,505] {logging_mixin.py:103} INFO - [2021-02-22 03:39:23,505] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 03:39:23,720] {logging_mixin.py:103} INFO - [2021-02-22 03:39:23,720] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 03:39:23,743] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 10.979 seconds
+[2021-02-22 05:24:58,445] {scheduler_job.py:181} INFO - Started process (PID=47488) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 05:24:58,450] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 05:24:58,452] {logging_mixin.py:103} INFO - [2021-02-22 05:24:58,451] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 05:25:07,114] {logging_mixin.py:103} INFO - [2021-02-22 05:25:07,113] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 05:25:07,259] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 05:25:07,263] {logging_mixin.py:103} INFO - [2021-02-22 05:25:07,262] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 05:25:07,611] {logging_mixin.py:103} INFO - [2021-02-22 05:25:07,610] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 05:25:07,691] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 9.251 seconds
+[2021-02-22 07:27:05,169] {scheduler_job.py:181} INFO - Started process (PID=47538) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:27:05,174] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:27:05,177] {logging_mixin.py:103} INFO - [2021-02-22 07:27:05,177] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:27:13,445] {logging_mixin.py:103} INFO - [2021-02-22 07:27:13,444] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:27:13,586] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:27:13,590] {logging_mixin.py:103} INFO - [2021-02-22 07:27:13,589] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:27:13,907] {logging_mixin.py:103} INFO - [2021-02-22 07:27:13,906] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:27:13,977] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.813 seconds
+[2021-02-22 07:29:26,359] {scheduler_job.py:181} INFO - Started process (PID=47563) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:29:26,363] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:29:26,365] {logging_mixin.py:103} INFO - [2021-02-22 07:29:26,364] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:29:34,833] {logging_mixin.py:103} INFO - [2021-02-22 07:29:34,833] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:29:34,956] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:29:34,959] {logging_mixin.py:103} INFO - [2021-02-22 07:29:34,958] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:29:35,275] {logging_mixin.py:103} INFO - [2021-02-22 07:29:35,274] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:29:35,346] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 8.991 seconds
+[2021-02-22 07:31:46,172] {scheduler_job.py:181} INFO - Started process (PID=47617) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:31:46,178] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:31:46,183] {logging_mixin.py:103} INFO - [2021-02-22 07:31:46,182] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:31:56,877] {logging_mixin.py:103} INFO - [2021-02-22 07:31:56,877] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:31:56,989] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:31:56,992] {logging_mixin.py:103} INFO - [2021-02-22 07:31:56,991] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:31:57,290] {logging_mixin.py:103} INFO - [2021-02-22 07:31:57,290] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:31:57,354] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 11.196 seconds
+[2021-02-22 07:45:48,509] {scheduler_job.py:181} INFO - Started process (PID=47671) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:45:48,511] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:45:48,511] {logging_mixin.py:103} INFO - [2021-02-22 07:45:48,511] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:45:54,166] {logging_mixin.py:103} INFO - [2021-02-22 07:45:54,166] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:45:54,263] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:45:54,265] {logging_mixin.py:103} INFO - [2021-02-22 07:45:54,265] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:45:54,476] {logging_mixin.py:103} INFO - [2021-02-22 07:45:54,476] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:45:54,530] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 6.022 seconds
+[2021-02-22 07:46:29,671] {scheduler_job.py:181} INFO - Started process (PID=47692) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:46:29,672] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:46:29,673] {logging_mixin.py:103} INFO - [2021-02-22 07:46:29,673] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:46:31,329] {logging_mixin.py:103} INFO - [2021-02-22 07:46:31,328] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:46:31,351] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:46:31,352] {logging_mixin.py:103} INFO - [2021-02-22 07:46:31,352] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:46:31,415] {logging_mixin.py:103} INFO - [2021-02-22 07:46:31,415] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:46:31,430] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.761 seconds
+[2021-02-22 07:46:59,204] {scheduler_job.py:181} INFO - Started process (PID=47714) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:46:59,205] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:46:59,205] {logging_mixin.py:103} INFO - [2021-02-22 07:46:59,205] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:47:01,038] {logging_mixin.py:103} INFO - [2021-02-22 07:47:01,038] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:47:01,063] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:47:01,064] {logging_mixin.py:103} INFO - [2021-02-22 07:47:01,063] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:47:01,127] {logging_mixin.py:103} INFO - [2021-02-22 07:47:01,127] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:47:01,143] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.941 seconds
+[2021-02-22 07:47:24,751] {scheduler_job.py:181} INFO - Started process (PID=47734) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:47:24,752] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:47:24,752] {logging_mixin.py:103} INFO - [2021-02-22 07:47:24,752] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:47:25,978] {logging_mixin.py:103} INFO - [2021-02-22 07:47:25,977] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:47:26,003] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:47:26,004] {logging_mixin.py:103} INFO - [2021-02-22 07:47:26,004] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:47:26,046] {logging_mixin.py:103} INFO - [2021-02-22 07:47:26,046] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:47:26,057] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.307 seconds
+[2021-02-22 07:55:10,156] {scheduler_job.py:181} INFO - Started process (PID=47802) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:55:10,158] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:55:10,159] {logging_mixin.py:103} INFO - [2021-02-22 07:55:10,159] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:55:14,558] {logging_mixin.py:103} INFO - [2021-02-22 07:55:14,558] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:55:14,591] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:55:14,592] {logging_mixin.py:103} INFO - [2021-02-22 07:55:14,591] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:55:14,690] {logging_mixin.py:103} INFO - [2021-02-22 07:55:14,690] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:55:14,713] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 4.558 seconds
+[2021-02-22 07:56:09,848] {scheduler_job.py:181} INFO - Started process (PID=47842) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:56:09,849] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:56:09,849] {logging_mixin.py:103} INFO - [2021-02-22 07:56:09,849] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:56:12,620] {logging_mixin.py:103} INFO - [2021-02-22 07:56:12,620] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:56:12,666] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:56:12,667] {logging_mixin.py:103} INFO - [2021-02-22 07:56:12,666] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:56:12,788] {logging_mixin.py:103} INFO - [2021-02-22 07:56:12,788] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:56:12,815] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.968 seconds
+[2021-02-22 07:56:51,796] {scheduler_job.py:181} INFO - Started process (PID=47865) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:56:51,797] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:56:51,800] {logging_mixin.py:103} INFO - [2021-02-22 07:56:51,799] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:56:54,598] {logging_mixin.py:103} INFO - [2021-02-22 07:56:54,598] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:56:54,631] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:56:54,633] {logging_mixin.py:103} INFO - [2021-02-22 07:56:54,632] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:56:54,805] {logging_mixin.py:103} INFO - [2021-02-22 07:56:54,805] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:56:54,840] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 3.046 seconds
+[2021-02-22 07:57:29,345] {scheduler_job.py:181} INFO - Started process (PID=47886) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:57:29,346] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:57:29,348] {logging_mixin.py:103} INFO - [2021-02-22 07:57:29,348] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:57:32,297] {logging_mixin.py:103} INFO - [2021-02-22 07:57:32,296] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:57:32,351] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:57:32,353] {logging_mixin.py:103} INFO - [2021-02-22 07:57:32,352] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:57:32,431] {logging_mixin.py:103} INFO - [2021-02-22 07:57:32,431] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:57:32,462] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 3.118 seconds
+[2021-02-22 07:58:07,131] {scheduler_job.py:181} INFO - Started process (PID=47931) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:58:07,132] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:58:07,132] {logging_mixin.py:103} INFO - [2021-02-22 07:58:07,132] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:58:09,072] {logging_mixin.py:103} INFO - [2021-02-22 07:58:09,072] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:58:09,101] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:58:09,102] {logging_mixin.py:103} INFO - [2021-02-22 07:58:09,101] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:58:09,177] {logging_mixin.py:103} INFO - [2021-02-22 07:58:09,177] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:58:09,196] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.067 seconds
+[2021-02-22 07:58:39,502] {scheduler_job.py:181} INFO - Started process (PID=47954) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:58:39,503] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:58:39,503] {logging_mixin.py:103} INFO - [2021-02-22 07:58:39,503] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:58:40,965] {logging_mixin.py:103} INFO - [2021-02-22 07:58:40,965] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:58:40,994] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:58:40,995] {logging_mixin.py:103} INFO - [2021-02-22 07:58:40,995] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:58:41,047] {logging_mixin.py:103} INFO - [2021-02-22 07:58:41,047] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:58:41,060] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.559 seconds
+[2021-02-22 07:59:07,194] {scheduler_job.py:181} INFO - Started process (PID=48043) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:59:07,195] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:59:07,196] {logging_mixin.py:103} INFO - [2021-02-22 07:59:07,196] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:59:09,184] {logging_mixin.py:103} INFO - [2021-02-22 07:59:09,184] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:59:09,215] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:59:09,216] {logging_mixin.py:103} INFO - [2021-02-22 07:59:09,216] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:59:09,296] {logging_mixin.py:103} INFO - [2021-02-22 07:59:09,296] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:59:09,318] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.125 seconds
+[2021-02-22 07:59:37,467] {scheduler_job.py:181} INFO - Started process (PID=48074) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:59:37,468] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 07:59:37,469] {logging_mixin.py:103} INFO - [2021-02-22 07:59:37,469] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:59:38,891] {logging_mixin.py:103} INFO - [2021-02-22 07:59:38,890] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 07:59:38,907] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 07:59:38,908] {logging_mixin.py:103} INFO - [2021-02-22 07:59:38,908] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 07:59:38,952] {logging_mixin.py:103} INFO - [2021-02-22 07:59:38,952] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 07:59:38,965] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.498 seconds
+[2021-02-22 08:00:07,312] {scheduler_job.py:181} INFO - Started process (PID=48094) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:00:07,313] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:00:07,314] {logging_mixin.py:103} INFO - [2021-02-22 08:00:07,314] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:00:09,062] {logging_mixin.py:103} INFO - [2021-02-22 08:00:09,062] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:00:09,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:00:09,088] {logging_mixin.py:103} INFO - [2021-02-22 08:00:09,088] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:00:09,161] {logging_mixin.py:103} INFO - [2021-02-22 08:00:09,161] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:00:09,178] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.867 seconds
+[2021-02-22 08:00:37,033] {scheduler_job.py:181} INFO - Started process (PID=48131) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:00:37,034] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:00:37,034] {logging_mixin.py:103} INFO - [2021-02-22 08:00:37,034] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:00:38,395] {logging_mixin.py:103} INFO - [2021-02-22 08:00:38,395] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:00:38,412] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:00:38,413] {logging_mixin.py:103} INFO - [2021-02-22 08:00:38,413] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:00:38,465] {logging_mixin.py:103} INFO - [2021-02-22 08:00:38,464] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:00:38,479] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.447 seconds
+[2021-02-22 08:01:04,057] {scheduler_job.py:181} INFO - Started process (PID=48155) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:01:04,058] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:01:04,059] {logging_mixin.py:103} INFO - [2021-02-22 08:01:04,059] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:01:05,979] {logging_mixin.py:103} INFO - [2021-02-22 08:01:05,978] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:01:06,007] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:01:06,009] {logging_mixin.py:103} INFO - [2021-02-22 08:01:06,008] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:01:06,088] {logging_mixin.py:103} INFO - [2021-02-22 08:01:06,087] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:01:06,108] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.053 seconds
+[2021-02-22 08:01:35,216] {scheduler_job.py:181} INFO - Started process (PID=48176) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:01:35,217] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:01:35,218] {logging_mixin.py:103} INFO - [2021-02-22 08:01:35,218] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:01:36,490] {logging_mixin.py:103} INFO - [2021-02-22 08:01:36,489] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:01:36,505] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:01:36,505] {logging_mixin.py:103} INFO - [2021-02-22 08:01:36,505] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:01:36,551] {logging_mixin.py:103} INFO - [2021-02-22 08:01:36,551] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:01:36,563] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.347 seconds
+[2021-02-22 08:02:03,362] {scheduler_job.py:181} INFO - Started process (PID=48196) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:02:03,364] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:02:03,364] {logging_mixin.py:103} INFO - [2021-02-22 08:02:03,364] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:02:05,593] {logging_mixin.py:103} INFO - [2021-02-22 08:02:05,593] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:02:05,620] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:02:05,621] {logging_mixin.py:103} INFO - [2021-02-22 08:02:05,621] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:02:05,711] {logging_mixin.py:103} INFO - [2021-02-22 08:02:05,711] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:02:05,733] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.372 seconds
+[2021-02-22 08:02:30,286] {scheduler_job.py:181} INFO - Started process (PID=48217) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:02:30,287] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:02:30,287] {logging_mixin.py:103} INFO - [2021-02-22 08:02:30,287] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:02:31,829] {logging_mixin.py:103} INFO - [2021-02-22 08:02:31,828] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:02:31,849] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:02:31,850] {logging_mixin.py:103} INFO - [2021-02-22 08:02:31,850] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:02:31,896] {logging_mixin.py:103} INFO - [2021-02-22 08:02:31,896] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:02:31,908] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.624 seconds
+[2021-02-22 08:02:57,976] {scheduler_job.py:181} INFO - Started process (PID=48243) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:02:57,978] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:02:57,979] {logging_mixin.py:103} INFO - [2021-02-22 08:02:57,978] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:03:00,173] {logging_mixin.py:103} INFO - [2021-02-22 08:03:00,173] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:03:00,206] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:03:00,207] {logging_mixin.py:103} INFO - [2021-02-22 08:03:00,207] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:03:00,288] {logging_mixin.py:103} INFO - [2021-02-22 08:03:00,288] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:03:00,307] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.332 seconds
+[2021-02-22 08:03:20,403] {scheduler_job.py:181} INFO - Started process (PID=48265) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:03:20,403] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:03:20,404] {logging_mixin.py:103} INFO - [2021-02-22 08:03:20,404] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:03:21,586] {logging_mixin.py:103} INFO - [2021-02-22 08:03:21,586] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:03:21,604] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:03:21,605] {logging_mixin.py:103} INFO - [2021-02-22 08:03:21,605] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:03:21,652] {logging_mixin.py:103} INFO - [2021-02-22 08:03:21,652] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:03:21,666] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.264 seconds
+[2021-02-22 08:03:46,750] {scheduler_job.py:181} INFO - Started process (PID=48287) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:03:46,751] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:03:46,752] {logging_mixin.py:103} INFO - [2021-02-22 08:03:46,751] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:03:48,394] {logging_mixin.py:103} INFO - [2021-02-22 08:03:48,394] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:03:48,413] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:03:48,414] {logging_mixin.py:103} INFO - [2021-02-22 08:03:48,413] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:03:48,470] {logging_mixin.py:103} INFO - [2021-02-22 08:03:48,470] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:03:48,489] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.741 seconds
+[2021-02-22 08:04:09,782] {scheduler_job.py:181} INFO - Started process (PID=48307) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:04:09,782] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:04:09,783] {logging_mixin.py:103} INFO - [2021-02-22 08:04:09,783] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:04:10,949] {logging_mixin.py:103} INFO - [2021-02-22 08:04:10,949] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:04:10,965] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:04:10,966] {logging_mixin.py:103} INFO - [2021-02-22 08:04:10,966] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:04:11,012] {logging_mixin.py:103} INFO - [2021-02-22 08:04:11,012] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:04:11,024] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.243 seconds
+[2021-02-22 08:04:35,759] {scheduler_job.py:181} INFO - Started process (PID=48328) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:04:35,761] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:04:35,762] {logging_mixin.py:103} INFO - [2021-02-22 08:04:35,762] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:04:37,681] {logging_mixin.py:103} INFO - [2021-02-22 08:04:37,681] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:04:37,711] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:04:37,712] {logging_mixin.py:103} INFO - [2021-02-22 08:04:37,712] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:04:37,795] {logging_mixin.py:103} INFO - [2021-02-22 08:04:37,795] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:04:37,814] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.057 seconds
+[2021-02-22 08:05:02,405] {scheduler_job.py:181} INFO - Started process (PID=48348) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:05:02,406] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:05:02,407] {logging_mixin.py:103} INFO - [2021-02-22 08:05:02,407] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:05:04,260] {logging_mixin.py:103} INFO - [2021-02-22 08:05:04,260] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:05:04,291] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:05:04,293] {logging_mixin.py:103} INFO - [2021-02-22 08:05:04,292] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:05:04,359] {logging_mixin.py:103} INFO - [2021-02-22 08:05:04,359] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:05:04,378] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.974 seconds
+[2021-02-22 08:05:32,782] {scheduler_job.py:181} INFO - Started process (PID=48380) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:05:32,784] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:05:32,788] {logging_mixin.py:103} INFO - [2021-02-22 08:05:32,788] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:05:34,970] {logging_mixin.py:103} INFO - [2021-02-22 08:05:34,970] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:05:35,006] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:05:35,007] {logging_mixin.py:103} INFO - [2021-02-22 08:05:35,006] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:05:35,080] {logging_mixin.py:103} INFO - [2021-02-22 08:05:35,080] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:05:35,135] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.355 seconds
+[2021-02-22 08:05:55,376] {scheduler_job.py:181} INFO - Started process (PID=48407) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:05:55,377] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:05:55,377] {logging_mixin.py:103} INFO - [2021-02-22 08:05:55,377] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:05:56,944] {logging_mixin.py:103} INFO - [2021-02-22 08:05:56,944] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:05:56,969] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:05:56,971] {logging_mixin.py:103} INFO - [2021-02-22 08:05:56,971] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:05:57,035] {logging_mixin.py:103} INFO - [2021-02-22 08:05:57,035] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:05:57,054] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.679 seconds
+[2021-02-22 08:06:21,681] {scheduler_job.py:181} INFO - Started process (PID=48428) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:06:21,682] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:06:21,684] {logging_mixin.py:103} INFO - [2021-02-22 08:06:21,684] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:06:23,429] {logging_mixin.py:103} INFO - [2021-02-22 08:06:23,429] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:06:23,451] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:06:23,452] {logging_mixin.py:103} INFO - [2021-02-22 08:06:23,452] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:06:23,525] {logging_mixin.py:103} INFO - [2021-02-22 08:06:23,525] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:06:23,541] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.861 seconds
+[2021-02-22 08:06:44,986] {scheduler_job.py:181} INFO - Started process (PID=48450) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:06:44,987] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:06:44,987] {logging_mixin.py:103} INFO - [2021-02-22 08:06:44,987] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:06:46,130] {logging_mixin.py:103} INFO - [2021-02-22 08:06:46,130] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:06:46,144] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:06:46,145] {logging_mixin.py:103} INFO - [2021-02-22 08:06:46,144] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:06:46,178] {logging_mixin.py:103} INFO - [2021-02-22 08:06:46,178] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:06:46,187] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.202 seconds
+[2021-02-22 08:07:10,101] {scheduler_job.py:181} INFO - Started process (PID=48475) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:07:10,102] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:07:10,103] {logging_mixin.py:103} INFO - [2021-02-22 08:07:10,102] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:07:11,852] {logging_mixin.py:103} INFO - [2021-02-22 08:07:11,852] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:07:11,876] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:07:11,877] {logging_mixin.py:103} INFO - [2021-02-22 08:07:11,877] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:07:11,948] {logging_mixin.py:103} INFO - [2021-02-22 08:07:11,948] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:07:11,966] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.866 seconds
+[2021-02-22 08:07:33,260] {scheduler_job.py:181} INFO - Started process (PID=48501) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:07:33,261] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:07:33,261] {logging_mixin.py:103} INFO - [2021-02-22 08:07:33,261] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:07:35,102] {logging_mixin.py:103} INFO - [2021-02-22 08:07:35,102] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:07:35,121] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:07:35,122] {logging_mixin.py:103} INFO - [2021-02-22 08:07:35,122] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:07:35,182] {logging_mixin.py:103} INFO - [2021-02-22 08:07:35,182] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:07:35,198] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.940 seconds
+[2021-02-22 08:07:57,667] {scheduler_job.py:181} INFO - Started process (PID=48519) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:07:57,669] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:07:57,670] {logging_mixin.py:103} INFO - [2021-02-22 08:07:57,670] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:07:59,814] {logging_mixin.py:103} INFO - [2021-02-22 08:07:59,814] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:07:59,842] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:07:59,844] {logging_mixin.py:103} INFO - [2021-02-22 08:07:59,843] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:07:59,928] {logging_mixin.py:103} INFO - [2021-02-22 08:07:59,928] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:07:59,953] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.288 seconds
+[2021-02-22 08:08:23,311] {scheduler_job.py:181} INFO - Started process (PID=48539) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:08:23,312] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:08:23,312] {logging_mixin.py:103} INFO - [2021-02-22 08:08:23,312] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:08:24,536] {logging_mixin.py:103} INFO - [2021-02-22 08:08:24,536] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:08:24,550] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:08:24,551] {logging_mixin.py:103} INFO - [2021-02-22 08:08:24,551] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:08:24,593] {logging_mixin.py:103} INFO - [2021-02-22 08:08:24,593] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:08:24,605] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.294 seconds
+[2021-02-22 08:08:49,442] {scheduler_job.py:181} INFO - Started process (PID=48560) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:08:49,443] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:08:49,444] {logging_mixin.py:103} INFO - [2021-02-22 08:08:49,444] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:08:51,257] {logging_mixin.py:103} INFO - [2021-02-22 08:08:51,257] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:08:51,283] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:08:51,284] {logging_mixin.py:103} INFO - [2021-02-22 08:08:51,284] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:08:51,349] {logging_mixin.py:103} INFO - [2021-02-22 08:08:51,348] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:08:51,363] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.922 seconds
+[2021-02-22 08:09:14,006] {scheduler_job.py:181} INFO - Started process (PID=48580) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:09:14,007] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:09:14,008] {logging_mixin.py:103} INFO - [2021-02-22 08:09:14,007] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:09:15,604] {logging_mixin.py:103} INFO - [2021-02-22 08:09:15,604] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:09:15,626] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:09:15,627] {logging_mixin.py:103} INFO - [2021-02-22 08:09:15,627] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:09:15,673] {logging_mixin.py:103} INFO - [2021-02-22 08:09:15,673] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:09:15,685] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.683 seconds
+[2021-02-22 08:09:51,134] {scheduler_job.py:181} INFO - Started process (PID=48633) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:09:51,137] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:09:51,138] {logging_mixin.py:103} INFO - [2021-02-22 08:09:51,138] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:09:53,145] {logging_mixin.py:103} INFO - [2021-02-22 08:09:53,145] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:09:53,178] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:09:53,179] {logging_mixin.py:103} INFO - [2021-02-22 08:09:53,179] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:09:53,273] {logging_mixin.py:103} INFO - [2021-02-22 08:09:53,272] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:09:53,291] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.159 seconds
+[2021-02-22 08:10:42,227] {scheduler_job.py:181} INFO - Started process (PID=48671) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:10:42,232] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:10:42,233] {logging_mixin.py:103} INFO - [2021-02-22 08:10:42,233] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:10:45,896] {logging_mixin.py:103} INFO - [2021-02-22 08:10:45,895] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:10:45,961] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:10:45,981] {logging_mixin.py:103} INFO - [2021-02-22 08:10:45,981] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:10:46,121] {logging_mixin.py:103} INFO - [2021-02-22 08:10:46,121] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:10:46,152] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 3.926 seconds
+[2021-02-22 08:11:28,047] {scheduler_job.py:181} INFO - Started process (PID=48705) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:11:28,049] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:11:28,050] {logging_mixin.py:103} INFO - [2021-02-22 08:11:28,050] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:11:29,785] {logging_mixin.py:103} INFO - [2021-02-22 08:11:29,784] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:11:29,806] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:11:29,807] {logging_mixin.py:103} INFO - [2021-02-22 08:11:29,807] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:11:29,859] {logging_mixin.py:103} INFO - [2021-02-22 08:11:29,859] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:11:29,873] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.827 seconds
+[2021-02-22 08:11:56,821] {scheduler_job.py:181} INFO - Started process (PID=48730) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:11:56,822] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:11:56,823] {logging_mixin.py:103} INFO - [2021-02-22 08:11:56,823] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:11:59,686] {logging_mixin.py:103} INFO - [2021-02-22 08:11:59,685] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:11:59,727] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:11:59,729] {logging_mixin.py:103} INFO - [2021-02-22 08:11:59,728] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:11:59,828] {logging_mixin.py:103} INFO - [2021-02-22 08:11:59,827] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:11:59,851] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 3.033 seconds
+[2021-02-22 08:12:33,073] {scheduler_job.py:181} INFO - Started process (PID=48755) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:12:33,074] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:12:33,075] {logging_mixin.py:103} INFO - [2021-02-22 08:12:33,075] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:12:35,388] {logging_mixin.py:103} INFO - [2021-02-22 08:12:35,388] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:12:35,423] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:12:35,426] {logging_mixin.py:103} INFO - [2021-02-22 08:12:35,425] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:12:35,497] {logging_mixin.py:103} INFO - [2021-02-22 08:12:35,496] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:12:35,519] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.446 seconds
+[2021-02-22 08:13:15,923] {scheduler_job.py:181} INFO - Started process (PID=48782) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:13:15,925] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:13:15,926] {logging_mixin.py:103} INFO - [2021-02-22 08:13:15,926] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:13:18,174] {logging_mixin.py:103} INFO - [2021-02-22 08:13:18,174] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:13:18,207] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:13:18,208] {logging_mixin.py:103} INFO - [2021-02-22 08:13:18,208] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:13:18,316] {logging_mixin.py:103} INFO - [2021-02-22 08:13:18,316] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:13:18,339] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.417 seconds
+[2021-02-22 08:13:46,533] {scheduler_job.py:181} INFO - Started process (PID=48811) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:13:46,536] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:13:46,537] {logging_mixin.py:103} INFO - [2021-02-22 08:13:46,537] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:13:49,024] {logging_mixin.py:103} INFO - [2021-02-22 08:13:49,024] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:13:49,064] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:13:49,065] {logging_mixin.py:103} INFO - [2021-02-22 08:13:49,065] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:13:49,163] {logging_mixin.py:103} INFO - [2021-02-22 08:13:49,162] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:13:49,182] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.651 seconds
+[2021-02-22 08:14:20,437] {scheduler_job.py:181} INFO - Started process (PID=48831) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:14:20,438] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:14:20,438] {logging_mixin.py:103} INFO - [2021-02-22 08:14:20,438] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:14:21,777] {logging_mixin.py:103} INFO - [2021-02-22 08:14:21,776] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:14:21,795] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:14:21,796] {logging_mixin.py:103} INFO - [2021-02-22 08:14:21,795] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:14:21,841] {logging_mixin.py:103} INFO - [2021-02-22 08:14:21,841] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:14:21,854] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.418 seconds
+[2021-02-22 08:14:52,365] {scheduler_job.py:181} INFO - Started process (PID=48858) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:14:52,367] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:14:52,368] {logging_mixin.py:103} INFO - [2021-02-22 08:14:52,368] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:14:56,119] {logging_mixin.py:103} INFO - [2021-02-22 08:14:56,118] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:14:56,155] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:14:56,155] {logging_mixin.py:103} INFO - [2021-02-22 08:14:56,155] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:14:56,269] {logging_mixin.py:103} INFO - [2021-02-22 08:14:56,268] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:14:56,304] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 3.941 seconds
+[2021-02-22 08:15:32,645] {scheduler_job.py:181} INFO - Started process (PID=48880) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:15:32,646] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:15:32,647] {logging_mixin.py:103} INFO - [2021-02-22 08:15:32,647] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:15:33,943] {logging_mixin.py:103} INFO - [2021-02-22 08:15:33,942] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:15:33,963] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:15:33,964] {logging_mixin.py:103} INFO - [2021-02-22 08:15:33,964] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:15:34,007] {logging_mixin.py:103} INFO - [2021-02-22 08:15:34,007] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:15:34,019] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.376 seconds
+[2021-02-22 08:16:04,951] {scheduler_job.py:181} INFO - Started process (PID=48900) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:16:04,953] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:16:04,954] {logging_mixin.py:103} INFO - [2021-02-22 08:16:04,954] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:16:07,549] {logging_mixin.py:103} INFO - [2021-02-22 08:16:07,549] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:16:07,575] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:16:07,576] {logging_mixin.py:103} INFO - [2021-02-22 08:16:07,576] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:16:07,656] {logging_mixin.py:103} INFO - [2021-02-22 08:16:07,656] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:16:07,693] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.745 seconds
+[2021-02-22 08:16:40,075] {scheduler_job.py:181} INFO - Started process (PID=48926) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:16:40,076] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:16:40,077] {logging_mixin.py:103} INFO - [2021-02-22 08:16:40,077] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:16:41,532] {logging_mixin.py:103} INFO - [2021-02-22 08:16:41,532] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:16:41,550] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:16:41,550] {logging_mixin.py:103} INFO - [2021-02-22 08:16:41,550] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:16:41,603] {logging_mixin.py:103} INFO - [2021-02-22 08:16:41,603] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:16:41,616] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 1.542 seconds
+[2021-02-22 08:17:18,363] {scheduler_job.py:181} INFO - Started process (PID=48951) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:17:18,364] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:17:18,365] {logging_mixin.py:103} INFO - [2021-02-22 08:17:18,365] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:17:20,479] {logging_mixin.py:103} INFO - [2021-02-22 08:17:20,479] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:17:20,502] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:17:20,503] {logging_mixin.py:103} INFO - [2021-02-22 08:17:20,503] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:17:20,579] {logging_mixin.py:103} INFO - [2021-02-22 08:17:20,579] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:17:20,595] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 2.233 seconds
+[2021-02-22 08:17:44,542] {scheduler_job.py:181} INFO - Started process (PID=48977) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:17:44,543] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:17:44,543] {logging_mixin.py:103} INFO - [2021-02-22 08:17:44,543] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:17:47,628] {logging_mixin.py:103} INFO - [2021-02-22 08:17:47,628] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:17:47,668] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:17:47,669] {logging_mixin.py:103} INFO - [2021-02-22 08:17:47,669] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:17:47,764] {logging_mixin.py:103} INFO - [2021-02-22 08:17:47,763] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:17:47,801] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 3.259 seconds
+[2021-02-22 08:18:20,031] {scheduler_job.py:181} INFO - Started process (PID=49014) to work on /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:18:20,033] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/test-to-connect-snowflake.py for tasks to queue
+[2021-02-22 08:18:20,034] {logging_mixin.py:103} INFO - [2021-02-22 08:18:20,033] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:18:24,133] {logging_mixin.py:103} INFO - [2021-02-22 08:18:24,133] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-22 08:18:24,192] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['connection_snowflake']) retrieved from /Users/sara/airflow/dags/test-to-connect-snowflake.py
+[2021-02-22 08:18:24,193] {logging_mixin.py:103} INFO - [2021-02-22 08:18:24,193] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-22 08:18:24,327] {logging_mixin.py:103} INFO - [2021-02-22 08:18:24,327] {dag.py:2266} INFO - Setting next_dagrun for connection_snowflake to None
+[2021-02-22 08:18:24,366] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/test-to-connect-snowflake.py took 4.335 seconds

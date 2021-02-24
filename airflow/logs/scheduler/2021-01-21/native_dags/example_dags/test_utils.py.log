@@ -1,0 +1,63 @@
+[2021-01-21 10:56:02,269] {scheduler_job.py:181} INFO - Started process (PID=8628) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:56:02,269] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 10:56:02,269] {logging_mixin.py:103} INFO - [2021-01-21 10:56:02,269] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:56:02,275] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:56:02,276] {logging_mixin.py:103} INFO - [2021-01-21 10:56:02,276] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:56:02,309] {logging_mixin.py:103} INFO - [2021-01-21 10:56:02,309] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 10:56:02,321] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.052 seconds
+[2021-01-21 10:56:54,767] {scheduler_job.py:181} INFO - Started process (PID=8787) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:56:54,768] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 10:56:54,769] {logging_mixin.py:103} INFO - [2021-01-21 10:56:54,768] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:56:54,774] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:56:54,774] {logging_mixin.py:103} INFO - [2021-01-21 10:56:54,774] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:56:54,808] {logging_mixin.py:103} INFO - [2021-01-21 10:56:54,807] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 10:56:54,821] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.055 seconds
+[2021-01-21 10:57:48,381] {scheduler_job.py:181} INFO - Started process (PID=8883) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:57:48,381] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 10:57:48,381] {logging_mixin.py:103} INFO - [2021-01-21 10:57:48,381] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:57:48,388] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:57:48,388] {logging_mixin.py:103} INFO - [2021-01-21 10:57:48,388] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:57:48,417] {logging_mixin.py:103} INFO - [2021-01-21 10:57:48,417] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 10:57:48,425] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.045 seconds
+[2021-01-21 10:58:45,798] {scheduler_job.py:181} INFO - Started process (PID=8945) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:58:45,799] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 10:58:45,800] {logging_mixin.py:103} INFO - [2021-01-21 10:58:45,800] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:58:45,807] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:58:45,808] {logging_mixin.py:103} INFO - [2021-01-21 10:58:45,808] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:58:45,848] {logging_mixin.py:103} INFO - [2021-01-21 10:58:45,848] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 10:58:45,860] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.063 seconds
+[2021-01-21 10:59:40,717] {scheduler_job.py:181} INFO - Started process (PID=9002) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:59:40,718] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 10:59:40,719] {logging_mixin.py:103} INFO - [2021-01-21 10:59:40,719] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:59:40,725] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 10:59:40,726] {logging_mixin.py:103} INFO - [2021-01-21 10:59:40,726] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:59:40,756] {logging_mixin.py:103} INFO - [2021-01-21 10:59:40,755] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 10:59:40,764] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.048 seconds
+[2021-01-21 11:00:33,408] {scheduler_job.py:181} INFO - Started process (PID=9064) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:00:33,409] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 11:00:33,409] {logging_mixin.py:103} INFO - [2021-01-21 11:00:33,409] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:00:33,416] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:00:33,417] {logging_mixin.py:103} INFO - [2021-01-21 11:00:33,417] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:00:33,460] {logging_mixin.py:103} INFO - [2021-01-21 11:00:33,460] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 11:00:33,472] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.065 seconds
+[2021-01-21 11:01:30,983] {scheduler_job.py:181} INFO - Started process (PID=9128) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:01:30,985] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 11:01:30,986] {logging_mixin.py:103} INFO - [2021-01-21 11:01:30,985] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:01:30,994] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:01:30,994] {logging_mixin.py:103} INFO - [2021-01-21 11:01:30,994] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:01:31,026] {logging_mixin.py:103} INFO - [2021-01-21 11:01:31,026] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 11:01:31,037] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.054 seconds
+[2021-01-21 11:02:27,197] {scheduler_job.py:181} INFO - Started process (PID=9201) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:02:27,197] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 11:02:27,198] {logging_mixin.py:103} INFO - [2021-01-21 11:02:27,198] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:02:27,204] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:02:27,205] {logging_mixin.py:103} INFO - [2021-01-21 11:02:27,205] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:02:27,235] {logging_mixin.py:103} INFO - [2021-01-21 11:02:27,235] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 11:02:27,244] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.048 seconds
+[2021-01-21 11:04:00,279] {scheduler_job.py:181} INFO - Started process (PID=9265) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:04:00,281] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 11:04:00,282] {logging_mixin.py:103} INFO - [2021-01-21 11:04:00,282] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:04:00,293] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 11:04:00,294] {logging_mixin.py:103} INFO - [2021-01-21 11:04:00,294] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:04:00,327] {logging_mixin.py:103} INFO - [2021-01-21 11:04:00,327] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 11:04:00,337] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.059 seconds

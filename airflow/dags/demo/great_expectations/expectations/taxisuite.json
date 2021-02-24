@@ -1,0 +1,276 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "taxisuite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_column_count_to_equal",
+      "kwargs": {
+        "value": 19
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "vendor_id",
+          "pickup_date",
+          "dropoff_date",
+          "passenger_count",
+          "trip_distance",
+          "rate_code_id",
+          "flag",
+          "pickup_loc",
+          "dropff_loc",
+          "payment_type",
+          "fare_amount",
+          "extra",
+          "mta_tax",
+          "tip",
+          "tolls",
+          "improvement_surcharge",
+          "total_amount",
+          "congestion_surcharge",
+          "ge_validation_result"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "vendor_id"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "vendor_id",
+        "value_set": [
+          1,
+          2,
+          4
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "vendor_id",
+        "partition_object": {
+          "values": [
+            1,
+            2,
+            4
+          ],
+          "weights": [
+            0.376,
+            0.618,
+            0.006
+          ]
+        },
+        "threshold": 0.6
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "trip_distance"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "trip_distance",
+        "max_value": 1.0,
+        "min_value": -1.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "trip_distance",
+        "max_value": 3.99714,
+        "min_value": 1.99714
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "trip_distance",
+        "max_value": 2.595,
+        "min_value": 0.5950000000000002
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "allow_relative_error": false,
+        "column": "trip_distance",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              -0.53,
+              1.47
+            ],
+            [
+              -0.050000000000000044,
+              1.95
+            ],
+            [
+              0.5900000000000001,
+              2.59
+            ],
+            [
+              1.9,
+              3.9
+            ],
+            [
+              10.21,
+              12.21
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pickup_date"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "pickup_date",
+        "max_value": "2020-03-27 00:00:00",
+        "min_value": "2018-03-01 00:00:00",
+        "parse_strings_as_datetimes": true
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "passenger_count",
+        "max_value": 6,
+        "min_value": 1,
+        "row_validation":true,
+        "result_update_column":"ge_validation_result"
+      },
+      "meta": {}
+    }
+  ],
+  "meta": {
+    "BasicSuiteBuilderProfiler": {
+      "batch_kwargs": {
+        "data_asset_name": "raw_monthly_taxi",
+        "datasource": "my_snowflake_db",
+        "limit": 1000,
+        "schema": "public",
+        "table": "raw_monthly_taxi"
+      },
+      "created_at": 1612096025.444866,
+      "created_by": "BasicSuiteBuilderProfiler"
+    },
+    "citations": [
+      {
+        "batch_kwargs": {
+          "data_asset_name": "raw_monthly_taxi",
+          "datasource": "my_snowflake_db",
+          "limit": 1000,
+          "schema": "public",
+          "table": "raw_monthly_taxi"
+        },
+        "batch_markers": {
+          "ge_load_time": "20210131T122644.461218Z"
+        },
+        "batch_parameters": null,
+        "citation_date": "20210131T122709.299922Z",
+        "comment": "BasicSuiteBuilderProfiler added a citation based on the current batch."
+      }
+    ],
+    "columns": {
+      "congestion_surcharge": {
+        "description": ""
+      },
+      "dropff_loc": {
+        "description": ""
+      },
+      "dropoff_date": {
+        "description": ""
+      },
+      "error": {
+        "description": ""
+      },
+      "extra": {
+        "description": ""
+      },
+      "fare_amount": {
+        "description": ""
+      },
+      "flag": {
+        "description": ""
+      },
+      "improvement_surcharge": {
+        "description": ""
+      },
+      "mta_tax": {
+        "description": ""
+      },
+      "passenger_count": {
+        "description": ""
+      },
+      "payment_type": {
+        "description": ""
+      },
+      "pickup_date": {
+        "description": ""
+      },
+      "pickup_loc": {
+        "description": ""
+      },
+      "rate_code_id": {
+        "description": ""
+      },
+      "tip": {
+        "description": ""
+      },
+      "tolls": {
+        "description": ""
+      },
+      "total_amount": {
+        "description": ""
+      },
+      "trip_distance": {
+        "description": ""
+      },
+      "vendor_id": {
+        "description": ""
+      }
+    },
+    "great_expectations_version": "0.13.8+3.g9a8cbaf4.dirty",
+    "notes": {
+      "content": [
+        "#### This is an _example_ suite\n\n- This suite was made by quickly glancing at 1000 rows of your data.\n- This is **not a production suite**. It is meant to show examples of expectations.\n- Because this suite was auto-generated using a very basic profiler that does not know your data like you do, many of the expectations may not be meaningful.\n"
+      ],
+      "format": "markdown"
+    }
+  }
+}

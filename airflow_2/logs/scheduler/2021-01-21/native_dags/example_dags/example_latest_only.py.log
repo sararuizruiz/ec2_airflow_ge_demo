@@ -1,0 +1,63 @@
+[2021-01-21 10:55:56,596] {scheduler_job.py:181} INFO - Started process (PID=8605) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:55:56,597] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-01-21 10:55:56,598] {logging_mixin.py:103} INFO - [2021-01-21 10:55:56,597] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:55:56,608] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:55:56,608] {logging_mixin.py:103} INFO - [2021-01-21 10:55:56,608] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:55:56,643] {logging_mixin.py:103} INFO - [2021-01-21 10:55:56,643] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-01-19 00:00:00+00:00
+[2021-01-21 10:55:56,655] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.059 seconds
+[2021-01-21 10:56:48,724] {scheduler_job.py:181} INFO - Started process (PID=8781) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:56:48,726] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-01-21 10:56:48,726] {logging_mixin.py:103} INFO - [2021-01-21 10:56:48,726] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:56:48,737] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:56:48,737] {logging_mixin.py:103} INFO - [2021-01-21 10:56:48,737] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:56:48,773] {logging_mixin.py:103} INFO - [2021-01-21 10:56:48,773] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-01-19 00:00:00+00:00
+[2021-01-21 10:56:48,783] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.059 seconds
+[2021-01-21 10:57:42,396] {scheduler_job.py:181} INFO - Started process (PID=8877) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:57:42,397] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-01-21 10:57:42,398] {logging_mixin.py:103} INFO - [2021-01-21 10:57:42,398] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:57:42,410] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:57:42,411] {logging_mixin.py:103} INFO - [2021-01-21 10:57:42,411] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:57:42,480] {logging_mixin.py:103} INFO - [2021-01-21 10:57:42,480] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-01-19 00:00:00+00:00
+[2021-01-21 10:57:42,499] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2021-01-21 10:58:39,279] {scheduler_job.py:181} INFO - Started process (PID=8939) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:58:39,281] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-01-21 10:58:39,282] {logging_mixin.py:103} INFO - [2021-01-21 10:58:39,282] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:58:39,296] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:58:39,297] {logging_mixin.py:103} INFO - [2021-01-21 10:58:39,296] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:58:39,407] {logging_mixin.py:103} INFO - [2021-01-21 10:58:39,407] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-01-19 00:00:00+00:00
+[2021-01-21 10:58:39,434] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.156 seconds
+[2021-01-21 10:59:33,871] {scheduler_job.py:181} INFO - Started process (PID=8996) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:59:33,872] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-01-21 10:59:33,872] {logging_mixin.py:103} INFO - [2021-01-21 10:59:33,872] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:59:33,882] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 10:59:33,882] {logging_mixin.py:103} INFO - [2021-01-21 10:59:33,882] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:59:33,922] {logging_mixin.py:103} INFO - [2021-01-21 10:59:33,922] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-01-19 00:00:00+00:00
+[2021-01-21 10:59:33,935] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2021-01-21 11:00:27,541] {scheduler_job.py:181} INFO - Started process (PID=9055) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:00:27,543] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-01-21 11:00:27,543] {logging_mixin.py:103} INFO - [2021-01-21 11:00:27,543] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:00:27,558] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:00:27,558] {logging_mixin.py:103} INFO - [2021-01-21 11:00:27,558] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:00:27,591] {logging_mixin.py:103} INFO - [2021-01-21 11:00:27,591] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-01-19 00:00:00+00:00
+[2021-01-21 11:00:27,601] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.061 seconds
+[2021-01-21 11:01:24,348] {scheduler_job.py:181} INFO - Started process (PID=9122) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:01:24,349] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-01-21 11:01:24,350] {logging_mixin.py:103} INFO - [2021-01-21 11:01:24,350] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:01:24,361] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:01:24,361] {logging_mixin.py:103} INFO - [2021-01-21 11:01:24,361] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:01:24,394] {logging_mixin.py:103} INFO - [2021-01-21 11:01:24,394] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-01-19 00:00:00+00:00
+[2021-01-21 11:01:24,404] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.057 seconds
+[2021-01-21 11:02:21,435] {scheduler_job.py:181} INFO - Started process (PID=9195) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:02:21,437] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-01-21 11:02:21,437] {logging_mixin.py:103} INFO - [2021-01-21 11:02:21,437] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:02:21,445] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:02:21,445] {logging_mixin.py:103} INFO - [2021-01-21 11:02:21,445] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:02:21,475] {logging_mixin.py:103} INFO - [2021-01-21 11:02:21,475] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-01-19 00:00:00+00:00
+[2021-01-21 11:02:21,484] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2021-01-21 11:03:52,470] {scheduler_job.py:181} INFO - Started process (PID=9259) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:03:52,471] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-01-21 11:03:52,472] {logging_mixin.py:103} INFO - [2021-01-21 11:03:52,472] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:03:52,482] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2021-01-21 11:03:52,483] {logging_mixin.py:103} INFO - [2021-01-21 11:03:52,483] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:03:52,518] {logging_mixin.py:103} INFO - [2021-01-21 11:03:52,518] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2021-01-19 00:00:00+00:00
+[2021-01-21 11:03:52,532] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.063 seconds

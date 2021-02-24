@@ -1,0 +1,957 @@
+[2021-01-28 13:38:19,962] {scheduler_job.py:181} INFO - Started process (PID=3140) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:38:19,963] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:38:19,963] {logging_mixin.py:103} INFO - [2021-01-28 13:38:19,963] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:38:22,581] {logging_mixin.py:103} INFO - [2021-01-28 13:38:22,581] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:38:24,350] {logging_mixin.py:103} INFO - [2021-01-28 13:38:24,350] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-28 13:38:24,351] {logging_mixin.py:103} INFO - [2021-01-28 13:38:24,351] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-28 13:38:24,351] {logging_mixin.py:103} INFO - [2021-01-28 13:38:24,351] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-28 13:38:25,619] {logging_mixin.py:103} INFO - [2021-01-28 13:38:25,619] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:38:25,730] {logging_mixin.py:103} INFO - [2021-01-28 13:38:25,730] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:38:25,731] {logging_mixin.py:103} INFO - [2021-01-28 13:38:25,731] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:38:25,860] {logging_mixin.py:103} INFO - [2021-01-28 13:38:25,860] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:38:25,861] {logging_mixin.py:103} INFO - [2021-01-28 13:38:25,861] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:38:26,013] {logging_mixin.py:103} INFO - [2021-01-28 13:38:26,013] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:38:26,014] {logging_mixin.py:103} INFO - [2021-01-28 13:38:26,014] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:38:26,146] {logging_mixin.py:103} INFO - [2021-01-28 13:38:26,146] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:38:26,221] {logging_mixin.py:103} INFO - [2021-01-28 13:38:26,221] {cursor.py:537} INFO - query: [SHOW /* sqlalchemy:_get_schema_primary_keys */PRIMARY KEYS IN SCHEMA airflow_dem...]
+[2021-01-28 13:38:26,379] {logging_mixin.py:103} INFO - [2021-01-28 13:38:26,379] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:38:26,445] {logging_mixin.py:103} INFO - [2021-01-28 13:38:26,445] {json_result.py:116} INFO - fetching data done
+[2021-01-28 13:38:26,446] {logging_mixin.py:103} INFO - [2021-01-28 13:38:26,446] {cursor.py:537} INFO - query: [SELECT /* sqlalchemy:_get_schema_columns */ ic.table_name, ic.column_name, ic.da...]
+[2021-01-28 13:38:27,248] {logging_mixin.py:103} INFO - [2021-01-28 13:38:27,248] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:38:27,249] {logging_mixin.py:103} INFO - [2021-01-28 13:38:27,249] {arrow_result.pyx:0} INFO - fetching data done
+[2021-01-28 13:38:27,250] {logging_mixin.py:103} INFO - [2021-01-28 13:38:27,250] {cursor.py:537} INFO - query: [SELECT * FROM "PUBLIC".nyc_taxi_01 LIMIT 1]
+[2021-01-28 13:38:27,400] {logging_mixin.py:103} INFO - [2021-01-28 13:38:27,400] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:38:27,438] {logging_mixin.py:103} INFO - [2021-01-28 13:38:27,438] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:38:27,611] {logging_mixin.py:103} INFO - [2021-01-28 13:38:27,611] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:38:27,617] {logging_mixin.py:103} INFO - [2021-01-28 13:38:27,611] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 586, in __init__
+    self.columns = insp.get_columns(table_name, schema=query_schema)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/reflection.py", line 390, in get_columns
+    col_defs = self.dialect.get_columns(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/sqlalchemy/snowdialect.py", line 482, in get_columns
+    return schema_columns[self.normalize_name(table_name)]
+KeyError: 'nyc_taxi_01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (42S02): 0199e956-0078-d1d0-0000-a0110003e09a: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 40, in <module>
+    batch = context.get_batch(batch_kwargs, suite)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1350, in get_batch
+    return self._get_batch_v2(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1081, in _get_batch_v2
+    return validator.get_dataset()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1385, in get_dataset
+    return self.expectation_engine(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 590, in __init__
+    self.columns = self.column_reflection_fallback()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 1312, in column_reflection_fallback
+    col_names: list = self.engine.execute(query).keys()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 002003 (42S02): 0199e956-0078-d1d0-0000-a0110003e09a: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+[SQL: SELECT * 
+FROM "PUBLIC".nyc_taxi_01
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2021-01-28 13:38:27,618] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:38:27,670] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 7.709 seconds
+[2021-01-28 13:39:12,720] {scheduler_job.py:181} INFO - Started process (PID=3185) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:39:12,721] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:39:12,722] {logging_mixin.py:103} INFO - [2021-01-28 13:39:12,722] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:39:14,757] {logging_mixin.py:103} INFO - [2021-01-28 13:39:14,757] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:39:15,908] {logging_mixin.py:103} INFO - [2021-01-28 13:39:15,908] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-28 13:39:15,908] {logging_mixin.py:103} INFO - [2021-01-28 13:39:15,908] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-28 13:39:15,908] {logging_mixin.py:103} INFO - [2021-01-28 13:39:15,908] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-28 13:39:17,144] {logging_mixin.py:103} INFO - [2021-01-28 13:39:17,144] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:39:17,288] {logging_mixin.py:103} INFO - [2021-01-28 13:39:17,287] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:17,289] {logging_mixin.py:103} INFO - [2021-01-28 13:39:17,289] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:39:17,423] {logging_mixin.py:103} INFO - [2021-01-28 13:39:17,422] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:17,424] {logging_mixin.py:103} INFO - [2021-01-28 13:39:17,424] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:39:17,567] {logging_mixin.py:103} INFO - [2021-01-28 13:39:17,566] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:17,567] {logging_mixin.py:103} INFO - [2021-01-28 13:39:17,567] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:39:17,716] {logging_mixin.py:103} INFO - [2021-01-28 13:39:17,716] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:17,812] {logging_mixin.py:103} INFO - [2021-01-28 13:39:17,811] {cursor.py:537} INFO - query: [SHOW /* sqlalchemy:_get_schema_primary_keys */PRIMARY KEYS IN SCHEMA airflow_dem...]
+[2021-01-28 13:39:18,005] {logging_mixin.py:103} INFO - [2021-01-28 13:39:18,005] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:18,051] {logging_mixin.py:103} INFO - [2021-01-28 13:39:18,051] {json_result.py:116} INFO - fetching data done
+[2021-01-28 13:39:18,051] {logging_mixin.py:103} INFO - [2021-01-28 13:39:18,051] {cursor.py:537} INFO - query: [SELECT /* sqlalchemy:_get_schema_columns */ ic.table_name, ic.column_name, ic.da...]
+[2021-01-28 13:39:19,276] {logging_mixin.py:103} INFO - [2021-01-28 13:39:19,276] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:19,279] {logging_mixin.py:103} INFO - [2021-01-28 13:39:19,279] {arrow_result.pyx:0} INFO - fetching data done
+[2021-01-28 13:39:19,281] {logging_mixin.py:103} INFO - [2021-01-28 13:39:19,281] {cursor.py:537} INFO - query: [SELECT * FROM "PUBLIC".nyc_taxi_01 LIMIT 1]
+[2021-01-28 13:39:19,449] {logging_mixin.py:103} INFO - [2021-01-28 13:39:19,449] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:19,493] {logging_mixin.py:103} INFO - [2021-01-28 13:39:19,493] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:39:19,643] {logging_mixin.py:103} INFO - [2021-01-28 13:39:19,643] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:19,653] {logging_mixin.py:103} INFO - [2021-01-28 13:39:19,643] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 586, in __init__
+    self.columns = insp.get_columns(table_name, schema=query_schema)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/reflection.py", line 390, in get_columns
+    col_defs = self.dialect.get_columns(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/sqlalchemy/snowdialect.py", line 482, in get_columns
+    return schema_columns[self.normalize_name(table_name)]
+KeyError: 'nyc_taxi_01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (42S02): 0199e957-0042-ac43-0000-a0110003b122: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 40, in <module>
+    batch = context.get_batch(batch_kwargs, suite)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1350, in get_batch
+    return self._get_batch_v2(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1081, in _get_batch_v2
+    return validator.get_dataset()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1385, in get_dataset
+    return self.expectation_engine(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 590, in __init__
+    self.columns = self.column_reflection_fallback()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 1312, in column_reflection_fallback
+    col_names: list = self.engine.execute(query).keys()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 002003 (42S02): 0199e957-0042-ac43-0000-a0110003b122: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+[SQL: SELECT * 
+FROM "PUBLIC".nyc_taxi_01
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2021-01-28 13:39:19,654] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:39:19,696] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 6.977 seconds
+[2021-01-28 13:39:38,682] {scheduler_job.py:181} INFO - Started process (PID=3204) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:39:38,682] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:39:38,682] {logging_mixin.py:103} INFO - [2021-01-28 13:39:38,682] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:39:40,068] {logging_mixin.py:103} INFO - [2021-01-28 13:39:40,068] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:39:40,984] {logging_mixin.py:103} INFO - [2021-01-28 13:39:40,984] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-28 13:39:40,984] {logging_mixin.py:103} INFO - [2021-01-28 13:39:40,984] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-28 13:39:40,984] {logging_mixin.py:103} INFO - [2021-01-28 13:39:40,984] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-28 13:39:42,104] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,103] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:39:42,249] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,248] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:42,250] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,250] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:39:42,376] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,375] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:42,376] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,376] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:39:42,513] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,513] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:42,514] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,514] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:39:42,659] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,659] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:42,706] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,705] {cursor.py:537} INFO - query: [SHOW /* sqlalchemy:_get_schema_primary_keys */PRIMARY KEYS IN SCHEMA airflow_dem...]
+[2021-01-28 13:39:42,870] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,869] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:42,914] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,914] {json_result.py:116} INFO - fetching data done
+[2021-01-28 13:39:42,914] {logging_mixin.py:103} INFO - [2021-01-28 13:39:42,914] {cursor.py:537} INFO - query: [SELECT /* sqlalchemy:_get_schema_columns */ ic.table_name, ic.column_name, ic.da...]
+[2021-01-28 13:39:43,938] {logging_mixin.py:103} INFO - [2021-01-28 13:39:43,938] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:43,941] {logging_mixin.py:103} INFO - [2021-01-28 13:39:43,941] {arrow_result.pyx:0} INFO - fetching data done
+[2021-01-28 13:39:43,942] {logging_mixin.py:103} INFO - [2021-01-28 13:39:43,941] {cursor.py:537} INFO - query: [SELECT * FROM "PUBLIC".nyc_taxi_01 LIMIT 1]
+[2021-01-28 13:39:44,085] {logging_mixin.py:103} INFO - [2021-01-28 13:39:44,085] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:44,128] {logging_mixin.py:103} INFO - [2021-01-28 13:39:44,128] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:39:44,297] {logging_mixin.py:103} INFO - [2021-01-28 13:39:44,297] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:39:44,307] {logging_mixin.py:103} INFO - [2021-01-28 13:39:44,297] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 586, in __init__
+    self.columns = insp.get_columns(table_name, schema=query_schema)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/reflection.py", line 390, in get_columns
+    col_defs = self.dialect.get_columns(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/sqlalchemy/snowdialect.py", line 482, in get_columns
+    return schema_columns[self.normalize_name(table_name)]
+KeyError: 'nyc_taxi_01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (42S02): 0199e957-001e-e75b-0000-a0110003b136: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 40, in <module>
+    batch = context.get_batch(batch_kwargs, suite)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1350, in get_batch
+    return self._get_batch_v2(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1081, in _get_batch_v2
+    return validator.get_dataset()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1385, in get_dataset
+    return self.expectation_engine(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 590, in __init__
+    self.columns = self.column_reflection_fallback()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 1312, in column_reflection_fallback
+    col_names: list = self.engine.execute(query).keys()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 002003 (42S02): 0199e957-001e-e75b-0000-a0110003b136: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+[SQL: SELECT * 
+FROM "PUBLIC".nyc_taxi_01
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2021-01-28 13:39:44,308] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:39:44,345] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 5.664 seconds
+[2021-01-28 13:40:07,798] {scheduler_job.py:181} INFO - Started process (PID=3224) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:40:07,800] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:40:07,800] {logging_mixin.py:103} INFO - [2021-01-28 13:40:07,800] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:40:10,002] {logging_mixin.py:103} INFO - [2021-01-28 13:40:10,001] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:40:11,120] {logging_mixin.py:103} INFO - [2021-01-28 13:40:11,120] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-28 13:40:11,121] {logging_mixin.py:103} INFO - [2021-01-28 13:40:11,121] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-28 13:40:11,121] {logging_mixin.py:103} INFO - [2021-01-28 13:40:11,121] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-28 13:40:12,311] {logging_mixin.py:103} INFO - [2021-01-28 13:40:12,310] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:40:12,460] {logging_mixin.py:103} INFO - [2021-01-28 13:40:12,460] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:12,462] {logging_mixin.py:103} INFO - [2021-01-28 13:40:12,462] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:40:12,584] {logging_mixin.py:103} INFO - [2021-01-28 13:40:12,584] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:12,585] {logging_mixin.py:103} INFO - [2021-01-28 13:40:12,585] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:40:12,712] {logging_mixin.py:103} INFO - [2021-01-28 13:40:12,712] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:12,713] {logging_mixin.py:103} INFO - [2021-01-28 13:40:12,713] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:40:12,829] {logging_mixin.py:103} INFO - [2021-01-28 13:40:12,828] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:12,882] {logging_mixin.py:103} INFO - [2021-01-28 13:40:12,882] {cursor.py:537} INFO - query: [SHOW /* sqlalchemy:_get_schema_primary_keys */PRIMARY KEYS IN SCHEMA airflow_dem...]
+[2021-01-28 13:40:13,047] {logging_mixin.py:103} INFO - [2021-01-28 13:40:13,047] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:13,097] {logging_mixin.py:103} INFO - [2021-01-28 13:40:13,097] {json_result.py:116} INFO - fetching data done
+[2021-01-28 13:40:13,098] {logging_mixin.py:103} INFO - [2021-01-28 13:40:13,098] {cursor.py:537} INFO - query: [SELECT /* sqlalchemy:_get_schema_columns */ ic.table_name, ic.column_name, ic.da...]
+[2021-01-28 13:40:14,262] {logging_mixin.py:103} INFO - [2021-01-28 13:40:14,262] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:14,266] {logging_mixin.py:103} INFO - [2021-01-28 13:40:14,266] {arrow_result.pyx:0} INFO - fetching data done
+[2021-01-28 13:40:14,267] {logging_mixin.py:103} INFO - [2021-01-28 13:40:14,267] {cursor.py:537} INFO - query: [SELECT * FROM "PUBLIC".nyc_taxi_01 LIMIT 1]
+[2021-01-28 13:40:14,443] {logging_mixin.py:103} INFO - [2021-01-28 13:40:14,443] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:14,477] {logging_mixin.py:103} INFO - [2021-01-28 13:40:14,477] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:40:14,609] {logging_mixin.py:103} INFO - [2021-01-28 13:40:14,609] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:14,620] {logging_mixin.py:103} INFO - [2021-01-28 13:40:14,609] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 586, in __init__
+    self.columns = insp.get_columns(table_name, schema=query_schema)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/reflection.py", line 390, in get_columns
+    col_defs = self.dialect.get_columns(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/sqlalchemy/snowdialect.py", line 482, in get_columns
+    return schema_columns[self.normalize_name(table_name)]
+KeyError: 'nyc_taxi_01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (42S02): 0199e958-00ae-0f2f-0000-a0110003d192: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 40, in <module>
+    batch = context.get_batch(batch_kwargs, suite)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1350, in get_batch
+    return self._get_batch_v2(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1081, in _get_batch_v2
+    return validator.get_dataset()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1385, in get_dataset
+    return self.expectation_engine(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 590, in __init__
+    self.columns = self.column_reflection_fallback()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 1312, in column_reflection_fallback
+    col_names: list = self.engine.execute(query).keys()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 002003 (42S02): 0199e958-00ae-0f2f-0000-a0110003d192: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+[SQL: SELECT * 
+FROM "PUBLIC".nyc_taxi_01
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2021-01-28 13:40:14,621] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:40:14,659] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 6.861 seconds
+[2021-01-28 13:40:34,164] {scheduler_job.py:181} INFO - Started process (PID=3243) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:40:34,169] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:40:34,170] {logging_mixin.py:103} INFO - [2021-01-28 13:40:34,170] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:40:36,823] {logging_mixin.py:103} INFO - [2021-01-28 13:40:36,823] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:40:38,015] {logging_mixin.py:103} INFO - [2021-01-28 13:40:38,015] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-28 13:40:38,015] {logging_mixin.py:103} INFO - [2021-01-28 13:40:38,015] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-28 13:40:38,016] {logging_mixin.py:103} INFO - [2021-01-28 13:40:38,015] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-28 13:40:39,048] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,048] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:40:39,173] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,173] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:39,188] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,187] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:40:39,311] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,311] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:39,312] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,312] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:40:39,493] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,493] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:39,494] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,494] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:40:39,656] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,656] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:39,709] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,709] {cursor.py:537} INFO - query: [SHOW /* sqlalchemy:_get_schema_primary_keys */PRIMARY KEYS IN SCHEMA airflow_dem...]
+[2021-01-28 13:40:39,843] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,843] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:39,892] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,892] {json_result.py:116} INFO - fetching data done
+[2021-01-28 13:40:39,892] {logging_mixin.py:103} INFO - [2021-01-28 13:40:39,892] {cursor.py:537} INFO - query: [SELECT /* sqlalchemy:_get_schema_columns */ ic.table_name, ic.column_name, ic.da...]
+[2021-01-28 13:40:40,982] {logging_mixin.py:103} INFO - [2021-01-28 13:40:40,982] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:40,984] {logging_mixin.py:103} INFO - [2021-01-28 13:40:40,984] {arrow_result.pyx:0} INFO - fetching data done
+[2021-01-28 13:40:40,986] {logging_mixin.py:103} INFO - [2021-01-28 13:40:40,986] {cursor.py:537} INFO - query: [SELECT * FROM "PUBLIC".nyc_taxi_01 LIMIT 1]
+[2021-01-28 13:40:41,208] {logging_mixin.py:103} INFO - [2021-01-28 13:40:41,207] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:41,241] {logging_mixin.py:103} INFO - [2021-01-28 13:40:41,241] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:40:41,380] {logging_mixin.py:103} INFO - [2021-01-28 13:40:41,380] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:40:41,389] {logging_mixin.py:103} INFO - [2021-01-28 13:40:41,380] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 586, in __init__
+    self.columns = insp.get_columns(table_name, schema=query_schema)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/reflection.py", line 390, in get_columns
+    col_defs = self.dialect.get_columns(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/sqlalchemy/snowdialect.py", line 482, in get_columns
+    return schema_columns[self.normalize_name(table_name)]
+KeyError: 'nyc_taxi_01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (42S02): 0199e958-005f-cc69-0000-a0110003a146: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 40, in <module>
+    batch = context.get_batch(batch_kwargs, suite)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1350, in get_batch
+    return self._get_batch_v2(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1081, in _get_batch_v2
+    return validator.get_dataset()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1385, in get_dataset
+    return self.expectation_engine(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 590, in __init__
+    self.columns = self.column_reflection_fallback()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 1312, in column_reflection_fallback
+    col_names: list = self.engine.execute(query).keys()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 002003 (42S02): 0199e958-005f-cc69-0000-a0110003a146: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+[SQL: SELECT * 
+FROM "PUBLIC".nyc_taxi_01
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2021-01-28 13:40:41,390] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:40:41,430] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 7.272 seconds
+[2021-01-28 13:41:00,510] {scheduler_job.py:181} INFO - Started process (PID=3263) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:41:00,511] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:41:00,512] {logging_mixin.py:103} INFO - [2021-01-28 13:41:00,512] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:41:02,478] {logging_mixin.py:103} INFO - [2021-01-28 13:41:02,478] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:41:03,591] {logging_mixin.py:103} INFO - [2021-01-28 13:41:03,591] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-28 13:41:03,591] {logging_mixin.py:103} INFO - [2021-01-28 13:41:03,591] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-28 13:41:03,591] {logging_mixin.py:103} INFO - [2021-01-28 13:41:03,591] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-28 13:41:04,755] {logging_mixin.py:103} INFO - [2021-01-28 13:41:04,754] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:41:04,951] {logging_mixin.py:103} INFO - [2021-01-28 13:41:04,951] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:04,953] {logging_mixin.py:103} INFO - [2021-01-28 13:41:04,953] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:41:05,124] {logging_mixin.py:103} INFO - [2021-01-28 13:41:05,124] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:05,125] {logging_mixin.py:103} INFO - [2021-01-28 13:41:05,124] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:41:05,260] {logging_mixin.py:103} INFO - [2021-01-28 13:41:05,260] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:05,261] {logging_mixin.py:103} INFO - [2021-01-28 13:41:05,261] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:41:05,425] {logging_mixin.py:103} INFO - [2021-01-28 13:41:05,424] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:05,473] {logging_mixin.py:103} INFO - [2021-01-28 13:41:05,472] {cursor.py:537} INFO - query: [SHOW /* sqlalchemy:_get_schema_primary_keys */PRIMARY KEYS IN SCHEMA airflow_dem...]
+[2021-01-28 13:41:05,649] {logging_mixin.py:103} INFO - [2021-01-28 13:41:05,649] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:05,710] {logging_mixin.py:103} INFO - [2021-01-28 13:41:05,710] {json_result.py:116} INFO - fetching data done
+[2021-01-28 13:41:05,710] {logging_mixin.py:103} INFO - [2021-01-28 13:41:05,710] {cursor.py:537} INFO - query: [SELECT /* sqlalchemy:_get_schema_columns */ ic.table_name, ic.column_name, ic.da...]
+[2021-01-28 13:41:06,914] {logging_mixin.py:103} INFO - [2021-01-28 13:41:06,914] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:06,917] {logging_mixin.py:103} INFO - [2021-01-28 13:41:06,917] {arrow_result.pyx:0} INFO - fetching data done
+[2021-01-28 13:41:06,925] {logging_mixin.py:103} INFO - [2021-01-28 13:41:06,925] {cursor.py:537} INFO - query: [SELECT * FROM "PUBLIC".nyc_taxi_01 LIMIT 1]
+[2021-01-28 13:41:07,111] {logging_mixin.py:103} INFO - [2021-01-28 13:41:07,111] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:07,151] {logging_mixin.py:103} INFO - [2021-01-28 13:41:07,151] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:41:07,329] {logging_mixin.py:103} INFO - [2021-01-28 13:41:07,329] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:07,339] {logging_mixin.py:103} INFO - [2021-01-28 13:41:07,329] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 586, in __init__
+    self.columns = insp.get_columns(table_name, schema=query_schema)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/reflection.py", line 390, in get_columns
+    col_defs = self.dialect.get_columns(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/sqlalchemy/snowdialect.py", line 482, in get_columns
+    return schema_columns[self.normalize_name(table_name)]
+KeyError: 'nyc_taxi_01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (42S02): 0199e959-00b9-c429-0000-a0110003b156: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 40, in <module>
+    batch = context.get_batch(batch_kwargs, suite)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1350, in get_batch
+    return self._get_batch_v2(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1081, in _get_batch_v2
+    return validator.get_dataset()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1385, in get_dataset
+    return self.expectation_engine(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 590, in __init__
+    self.columns = self.column_reflection_fallback()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 1312, in column_reflection_fallback
+    col_names: list = self.engine.execute(query).keys()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 002003 (42S02): 0199e959-00b9-c429-0000-a0110003b156: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+[SQL: SELECT * 
+FROM "PUBLIC".nyc_taxi_01
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2021-01-28 13:41:07,340] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:41:07,378] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 6.869 seconds
+[2021-01-28 13:41:28,595] {scheduler_job.py:181} INFO - Started process (PID=3284) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:41:28,596] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:41:28,597] {logging_mixin.py:103} INFO - [2021-01-28 13:41:28,596] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:41:31,030] {logging_mixin.py:103} INFO - [2021-01-28 13:41:31,029] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:41:32,546] {logging_mixin.py:103} INFO - [2021-01-28 13:41:32,546] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-28 13:41:32,546] {logging_mixin.py:103} INFO - [2021-01-28 13:41:32,546] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-28 13:41:32,546] {logging_mixin.py:103} INFO - [2021-01-28 13:41:32,546] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-28 13:41:33,818] {logging_mixin.py:103} INFO - [2021-01-28 13:41:33,818] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:41:33,956] {logging_mixin.py:103} INFO - [2021-01-28 13:41:33,956] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:33,957] {logging_mixin.py:103} INFO - [2021-01-28 13:41:33,957] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:41:34,094] {logging_mixin.py:103} INFO - [2021-01-28 13:41:34,094] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:34,094] {logging_mixin.py:103} INFO - [2021-01-28 13:41:34,094] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:41:34,243] {logging_mixin.py:103} INFO - [2021-01-28 13:41:34,243] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:34,244] {logging_mixin.py:103} INFO - [2021-01-28 13:41:34,244] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:41:34,379] {logging_mixin.py:103} INFO - [2021-01-28 13:41:34,379] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:34,424] {logging_mixin.py:103} INFO - [2021-01-28 13:41:34,424] {cursor.py:537} INFO - query: [SHOW /* sqlalchemy:_get_schema_primary_keys */PRIMARY KEYS IN SCHEMA airflow_dem...]
+[2021-01-28 13:41:34,569] {logging_mixin.py:103} INFO - [2021-01-28 13:41:34,569] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:34,607] {logging_mixin.py:103} INFO - [2021-01-28 13:41:34,607] {json_result.py:116} INFO - fetching data done
+[2021-01-28 13:41:34,608] {logging_mixin.py:103} INFO - [2021-01-28 13:41:34,608] {cursor.py:537} INFO - query: [SELECT /* sqlalchemy:_get_schema_columns */ ic.table_name, ic.column_name, ic.da...]
+[2021-01-28 13:41:35,871] {logging_mixin.py:103} INFO - [2021-01-28 13:41:35,870] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:35,873] {logging_mixin.py:103} INFO - [2021-01-28 13:41:35,873] {arrow_result.pyx:0} INFO - fetching data done
+[2021-01-28 13:41:35,874] {logging_mixin.py:103} INFO - [2021-01-28 13:41:35,874] {cursor.py:537} INFO - query: [SELECT * FROM "PUBLIC".nyc_taxi_01 LIMIT 1]
+[2021-01-28 13:41:36,059] {logging_mixin.py:103} INFO - [2021-01-28 13:41:36,059] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:36,089] {logging_mixin.py:103} INFO - [2021-01-28 13:41:36,089] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:41:36,218] {logging_mixin.py:103} INFO - [2021-01-28 13:41:36,218] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:41:36,225] {logging_mixin.py:103} INFO - [2021-01-28 13:41:36,219] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 586, in __init__
+    self.columns = insp.get_columns(table_name, schema=query_schema)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/reflection.py", line 390, in get_columns
+    col_defs = self.dialect.get_columns(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/sqlalchemy/snowdialect.py", line 482, in get_columns
+    return schema_columns[self.normalize_name(table_name)]
+KeyError: 'nyc_taxi_01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (42S02): 0199e959-0010-884d-0000-a0110003e116: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 40, in <module>
+    batch = context.get_batch(batch_kwargs, suite)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1350, in get_batch
+    return self._get_batch_v2(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1081, in _get_batch_v2
+    return validator.get_dataset()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1385, in get_dataset
+    return self.expectation_engine(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 590, in __init__
+    self.columns = self.column_reflection_fallback()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 1312, in column_reflection_fallback
+    col_names: list = self.engine.execute(query).keys()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 002003 (42S02): 0199e959-0010-884d-0000-a0110003e116: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+[SQL: SELECT * 
+FROM "PUBLIC".nyc_taxi_01
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2021-01-28 13:41:36,226] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:41:36,283] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 7.688 seconds
+[2021-01-28 13:42:32,349] {scheduler_job.py:181} INFO - Started process (PID=3358) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:42:32,350] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:42:32,350] {logging_mixin.py:103} INFO - [2021-01-28 13:42:32,350] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:42:34,242] {logging_mixin.py:103} INFO - [2021-01-28 13:42:34,241] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:42:35,370] {logging_mixin.py:103} INFO - [2021-01-28 13:42:35,370] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.8, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-01-28 13:42:35,370] {logging_mixin.py:103} INFO - [2021-01-28 13:42:35,370] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-01-28 13:42:35,371] {logging_mixin.py:103} INFO - [2021-01-28 13:42:35,370] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-01-28 13:42:36,387] {logging_mixin.py:103} INFO - [2021-01-28 13:42:36,386] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:42:36,513] {logging_mixin.py:103} INFO - [2021-01-28 13:42:36,513] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:42:36,515] {logging_mixin.py:103} INFO - [2021-01-28 13:42:36,515] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-01-28 13:42:36,658] {logging_mixin.py:103} INFO - [2021-01-28 13:42:36,658] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:42:36,659] {logging_mixin.py:103} INFO - [2021-01-28 13:42:36,658] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:42:36,793] {logging_mixin.py:103} INFO - [2021-01-28 13:42:36,793] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:42:36,794] {logging_mixin.py:103} INFO - [2021-01-28 13:42:36,794] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:42:36,945] {logging_mixin.py:103} INFO - [2021-01-28 13:42:36,945] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:42:37,013] {logging_mixin.py:103} INFO - [2021-01-28 13:42:37,013] {cursor.py:537} INFO - query: [SHOW /* sqlalchemy:_get_schema_primary_keys */PRIMARY KEYS IN SCHEMA airflow_dem...]
+[2021-01-28 13:42:37,180] {logging_mixin.py:103} INFO - [2021-01-28 13:42:37,180] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:42:37,249] {logging_mixin.py:103} INFO - [2021-01-28 13:42:37,249] {json_result.py:116} INFO - fetching data done
+[2021-01-28 13:42:37,250] {logging_mixin.py:103} INFO - [2021-01-28 13:42:37,249] {cursor.py:537} INFO - query: [SELECT /* sqlalchemy:_get_schema_columns */ ic.table_name, ic.column_name, ic.da...]
+[2021-01-28 13:42:38,394] {logging_mixin.py:103} INFO - [2021-01-28 13:42:38,394] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:42:38,397] {logging_mixin.py:103} INFO - [2021-01-28 13:42:38,397] {arrow_result.pyx:0} INFO - fetching data done
+[2021-01-28 13:42:38,398] {logging_mixin.py:103} INFO - [2021-01-28 13:42:38,398] {cursor.py:537} INFO - query: [SELECT * FROM "PUBLIC".nyc_taxi_01 LIMIT 1]
+[2021-01-28 13:42:38,597] {logging_mixin.py:103} INFO - [2021-01-28 13:42:38,596] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:42:38,636] {logging_mixin.py:103} INFO - [2021-01-28 13:42:38,636] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-01-28 13:42:38,758] {logging_mixin.py:103} INFO - [2021-01-28 13:42:38,758] {cursor.py:560} INFO - query execution done
+[2021-01-28 13:42:38,769] {logging_mixin.py:103} INFO - [2021-01-28 13:42:38,759] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 586, in __init__
+    self.columns = insp.get_columns(table_name, schema=query_schema)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/reflection.py", line 390, in get_columns
+    col_defs = self.dialect.get_columns(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/sqlalchemy/snowdialect.py", line 482, in get_columns
+    return schema_columns[self.normalize_name(table_name)]
+KeyError: 'nyc_taxi_01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (42S02): 0199e95a-0097-7153-0000-a0110003e12a: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 40, in <module>
+    batch = context.get_batch(batch_kwargs, suite)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1350, in get_batch
+    return self._get_batch_v2(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 1081, in _get_batch_v2
+    return validator.get_dataset()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1385, in get_dataset
+    return self.expectation_engine(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 590, in __init__
+    self.columns = self.column_reflection_fallback()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/dataset/sqlalchemy_dataset.py", line 1312, in column_reflection_fallback
+    col_names: list = self.engine.execute(query).keys()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 612, in execute
+    Error.errorhandler_wrapper(self.connection, self,
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 224, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/snowflake/connector/errors.py", line 179, in default_errorhandler
+    raise error_class(
+sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 002003 (42S02): 0199e95a-0097-7153-0000-a0110003e12a: SQL compilation error:
+Object 'AIRFLOW_DEMO_DB.PUBLIC.NYC_TAXI_01' does not exist or not authorized.
+[SQL: SELECT * 
+FROM "PUBLIC".nyc_taxi_01
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2021-01-28 13:42:38,770] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:42:38,809] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 6.461 seconds
+[2021-01-28 13:42:56,998] {scheduler_job.py:181} INFO - Started process (PID=3381) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:42:56,999] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:42:56,999] {logging_mixin.py:103} INFO - [2021-01-28 13:42:56,999] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:42:58,570] {logging_mixin.py:103} INFO - [2021-01-28 13:42:58,570] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:42:59,397] {logging_mixin.py:103} INFO - [2021-01-28 13:42:59,393] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2760, in get_checkpoint
+    with open(checkpoint_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sara/airflow/dags/snowflake/great_expectations/checkpoints/januarychk.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 32, in <module>
+    checkpoint = context.get_checkpoint("januarychk")
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2764, in get_checkpoint
+    raise ge_exceptions.CheckpointNotFoundError(
+great_expectations.exceptions.exceptions.CheckpointNotFoundError: Could not find checkpoint `januarychk`.
+[2021-01-28 13:42:59,398] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:42:59,437] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 2.440 seconds
+[2021-01-28 13:43:17,684] {scheduler_job.py:181} INFO - Started process (PID=3402) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:43:17,684] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:43:17,685] {logging_mixin.py:103} INFO - [2021-01-28 13:43:17,685] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:43:19,224] {logging_mixin.py:103} INFO - [2021-01-28 13:43:19,224] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:43:20,041] {logging_mixin.py:103} INFO - [2021-01-28 13:43:20,037] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2760, in get_checkpoint
+    with open(checkpoint_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sara/airflow/dags/snowflake/great_expectations/checkpoints/januarychk.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 32, in <module>
+    checkpoint = context.get_checkpoint("januarychk")
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2764, in get_checkpoint
+    raise ge_exceptions.CheckpointNotFoundError(
+great_expectations.exceptions.exceptions.CheckpointNotFoundError: Could not find checkpoint `januarychk`.
+[2021-01-28 13:43:20,042] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:43:20,076] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 2.393 seconds
+[2021-01-28 13:43:44,655] {scheduler_job.py:181} INFO - Started process (PID=3422) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:43:44,656] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:43:44,656] {logging_mixin.py:103} INFO - [2021-01-28 13:43:44,656] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:43:46,683] {logging_mixin.py:103} INFO - [2021-01-28 13:43:46,682] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:43:47,974] {logging_mixin.py:103} INFO - [2021-01-28 13:43:47,957] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2760, in get_checkpoint
+    with open(checkpoint_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sara/airflow/dags/snowflake/great_expectations/checkpoints/januarychk.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 32, in <module>
+    checkpoint = context.get_checkpoint("januarychk")
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2764, in get_checkpoint
+    raise ge_exceptions.CheckpointNotFoundError(
+great_expectations.exceptions.exceptions.CheckpointNotFoundError: Could not find checkpoint `januarychk`.
+[2021-01-28 13:43:47,978] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:43:48,048] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 3.395 seconds
+[2021-01-28 13:44:06,705] {scheduler_job.py:181} INFO - Started process (PID=3441) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:44:06,705] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:44:06,706] {logging_mixin.py:103} INFO - [2021-01-28 13:44:06,706] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:44:08,522] {logging_mixin.py:103} INFO - [2021-01-28 13:44:08,522] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:44:09,340] {logging_mixin.py:103} INFO - [2021-01-28 13:44:09,336] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2760, in get_checkpoint
+    with open(checkpoint_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sara/airflow/dags/snowflake/great_expectations/checkpoints/januarychk.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 32, in <module>
+    checkpoint = context.get_checkpoint("januarychk")
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2764, in get_checkpoint
+    raise ge_exceptions.CheckpointNotFoundError(
+great_expectations.exceptions.exceptions.CheckpointNotFoundError: Could not find checkpoint `januarychk`.
+[2021-01-28 13:44:09,341] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:44:09,377] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 2.673 seconds
+[2021-01-28 13:44:26,620] {scheduler_job.py:181} INFO - Started process (PID=3459) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:44:26,621] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:44:26,621] {logging_mixin.py:103} INFO - [2021-01-28 13:44:26,621] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:44:28,166] {logging_mixin.py:103} INFO - [2021-01-28 13:44:28,166] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:44:29,074] {logging_mixin.py:103} INFO - [2021-01-28 13:44:29,071] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2760, in get_checkpoint
+    with open(checkpoint_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sara/airflow/dags/snowflake/great_expectations/checkpoints/januarychk.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 32, in <module>
+    checkpoint = context.get_checkpoint("januarychk")
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2764, in get_checkpoint
+    raise ge_exceptions.CheckpointNotFoundError(
+great_expectations.exceptions.exceptions.CheckpointNotFoundError: Could not find checkpoint `januarychk`.
+[2021-01-28 13:44:29,075] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:44:29,117] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 2.497 seconds
+[2021-01-28 13:44:50,011] {scheduler_job.py:181} INFO - Started process (PID=3479) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:44:50,012] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:44:50,012] {logging_mixin.py:103} INFO - [2021-01-28 13:44:50,012] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:44:51,872] {logging_mixin.py:103} INFO - [2021-01-28 13:44:51,872] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-01-28 13:44:52,719] {logging_mixin.py:103} INFO - [2021-01-28 13:44:52,717] {dagbag.py:297} ERROR - Failed to import: /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2760, in get_checkpoint
+    with open(checkpoint_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sara/airflow/dags/snowflake/great_expectations/checkpoints/januarychk.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py", line 32, in <module>
+    checkpoint = context.get_checkpoint("januarychk")
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/great_expectations/data_context/data_context.py", line 2764, in get_checkpoint
+    raise ge_exceptions.CheckpointNotFoundError(
+great_expectations.exceptions.exceptions.CheckpointNotFoundError: Could not find checkpoint `januarychk`.
+[2021-01-28 13:44:52,720] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:44:52,763] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 2.753 seconds
+[2021-01-28 13:45:19,458] {scheduler_job.py:181} INFO - Started process (PID=3499) to work on /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:45:19,459] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py for tasks to queue
+[2021-01-28 13:45:19,459] {logging_mixin.py:103} INFO - [2021-01-28 13:45:19,459] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:45:19,460] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py
+[2021-01-28 13:45:19,460] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/snowflake/great_expectations/uncommitted/run_januarychk.py took 0.002 seconds

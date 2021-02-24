@@ -1,0 +1,26 @@
+[2021-01-21 12:52:34,280] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_dag.ge_batch_kwargs_pass 2021-01-21T11:52:18.648702+00:00 [queued]>
+[2021-01-21 12:52:34,291] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_dag.ge_batch_kwargs_pass 2021-01-21T11:52:18.648702+00:00 [queued]>
+[2021-01-21 12:52:34,291] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-21 12:52:34,291] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-01-21 12:52:34,291] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-21 12:52:34,299] {taskinstance.py:1038} INFO - Executing <Task(GreatExpectationsOperator): ge_batch_kwargs_pass> on 2021-01-21T11:52:18.648702+00:00
+[2021-01-21 12:52:34,303] {standard_task_runner.py:51} INFO - Started process 15839 to run task
+[2021-01-21 12:52:34,313] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'ge_dag', 'ge_batch_kwargs_pass', '2021-01-21T11:52:18.648702+00:00', '--job-id', '21', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ge_dag.py', '--cfg-path', '/var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T/tmp155_tgbx']
+[2021-01-21 12:52:34,315] {standard_task_runner.py:76} INFO - Job 21: Subtask ge_batch_kwargs_pass
+[2021-01-21 12:52:34,358] {logging_mixin.py:103} INFO - Running <TaskInstance: ge_dag.ge_batch_kwargs_pass 2021-01-21T11:52:18.648702+00:00 [running]> on host admins-air.home
+[2021-01-21 12:52:34,389] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sara@acloudfrontier.com
+AIRFLOW_CTX_DAG_OWNER=sara
+AIRFLOW_CTX_DAG_ID=ge_dag
+AIRFLOW_CTX_TASK_ID=ge_batch_kwargs_pass
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-21T11:52:18.648702+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-01-21T11:52:18.648702+00:00
+[2021-01-21 12:52:34,390] {great_expectations.py:94} INFO - Running validation with Great Expectations...
+[2021-01-21 12:52:34,524] {data_context.py:1215} INFO - Setting run_name to: 20210121T115234.524358Z
+[2021-01-21 12:52:34,527] {data_asset.py:636} INFO - 	14 expectation(s) included in expectation_suite.
+[2021-01-21 12:52:35,789] {great_expectations.py:135} INFO - Validation with Great Expectations successful.
+[2021-01-21 12:52:35,794] {taskinstance.py:1135} INFO - Marking task as SUCCESS. dag_id=ge_dag, task_id=ge_batch_kwargs_pass, execution_date=20210121T115218, start_date=20210121T115234, end_date=20210121T115235
+[2021-01-21 12:52:35,808] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-01-21 12:52:35,847] {local_task_job.py:118} INFO - Task exited with return code 0

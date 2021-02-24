@@ -1,0 +1,59 @@
+[2021-02-01 10:08:14,597] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_quarantine_df_dag.split_data 2021-02-01T09:07:17.287844+00:00 [queued]>
+[2021-02-01 10:08:14,609] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: ge_quarantine_df_dag.split_data 2021-02-01T09:07:17.287844+00:00 [queued]>
+[2021-02-01 10:08:14,609] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-01 10:08:14,609] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-02-01 10:08:14,609] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-01 10:08:14,623] {taskinstance.py:1038} INFO - Executing <Task(SnowflakeOperator): split_data> on 2021-02-01T09:07:17.287844+00:00
+[2021-02-01 10:08:14,629] {standard_task_runner.py:51} INFO - Started process 11275 to run task
+[2021-02-01 10:08:14,648] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'ge_quarantine_df_dag', 'split_data', '2021-02-01T09:07:17.287844+00:00', '--job-id', '224', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ge_quarantine_df_dag.py', '--cfg-path', '/var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T/tmpor4uq3_a']
+[2021-02-01 10:08:14,651] {standard_task_runner.py:76} INFO - Job 224: Subtask split_data
+[2021-02-01 10:08:14,764] {logging_mixin.py:103} INFO - Running <TaskInstance: ge_quarantine_df_dag.split_data 2021-02-01T09:07:17.287844+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2021-02-01 10:08:14,832] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sara@acloudfrontier.com
+AIRFLOW_CTX_DAG_OWNER=sara
+AIRFLOW_CTX_DAG_ID=ge_quarantine_df_dag
+AIRFLOW_CTX_TASK_ID=split_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-01T09:07:17.287844+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-01T09:07:17.287844+00:00
+[2021-02-01 10:08:14,833] {snowflake.py:119} INFO - Executing: ['alter table QUARANTINE_DATA add column error integer;', 'insert into  QUARANTINE_DATA select * from MONTHLY_DATA where error=1;', 'alter table GENERIC_NYC_TAXI add column error integer', 'insert into  GENERIC_NYC_TAXI select * from MONTHLY_DATA where error<>1;', 'alter table QUARANTINE_DATA drop column error;', 'alter table GENERIC_NYC_TAXI drop column error;', 'alter table MONTHLY_DATA drop column error;']
+[2021-02-01 10:08:14,845] {base.py:65} INFO - Using connection to: id: SNOWFLAKE_QUARANTINE_DEMO. Host: dp13486.eu-west-1.snowflakecomputing.com, Port: None, Schema: PUBLIC, Login: SARA, Password: XXXXXXXX, extra: XXXXXXXX
+[2021-02-01 10:08:14,848] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.9, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-02-01 10:08:14,849] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-02-01 10:08:14,850] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-02-01 10:08:16,563] {cursor.py:537} INFO - query: [ALTER SESSION SET autocommit=True]
+[2021-02-01 10:08:16,744] {cursor.py:560} INFO - query execution done
+[2021-02-01 10:08:16,746] {dbapi.py:180} INFO - Running statement: alter table QUARANTINE_DATA add column error integer;, parameters: None
+[2021-02-01 10:08:16,747] {cursor.py:537} INFO - query: [alter table QUARANTINE_DATA add column error integer;]
+[2021-02-01 10:08:16,943] {cursor.py:560} INFO - query execution done
+[2021-02-01 10:08:16,944] {dbapi.py:186} INFO - Rows affected: 1
+[2021-02-01 10:08:16,945] {dbapi.py:180} INFO - Running statement: insert into  QUARANTINE_DATA select * from MONTHLY_DATA where error=1;, parameters: None
+[2021-02-01 10:08:16,945] {cursor.py:537} INFO - query: [insert into  QUARANTINE_DATA select * from MONTHLY_DATA where error=1;]
+[2021-02-01 10:08:18,218] {cursor.py:560} INFO - query execution done
+[2021-02-01 10:08:18,219] {dbapi.py:186} INFO - Rows affected: 1579
+[2021-02-01 10:08:18,220] {dbapi.py:180} INFO - Running statement: alter table GENERIC_NYC_TAXI add column error integer, parameters: None
+[2021-02-01 10:08:18,221] {cursor.py:537} INFO - query: [alter table GENERIC_NYC_TAXI add column error integer]
+[2021-02-01 10:08:18,435] {cursor.py:560} INFO - query execution done
+[2021-02-01 10:08:18,437] {dbapi.py:186} INFO - Rows affected: 1
+[2021-02-01 10:08:18,439] {dbapi.py:180} INFO - Running statement: insert into  GENERIC_NYC_TAXI select * from MONTHLY_DATA where error<>1;, parameters: None
+[2021-02-01 10:08:18,440] {cursor.py:537} INFO - query: [insert into  GENERIC_NYC_TAXI select * from MONTHLY_DATA where error<>1;]
+[2021-02-01 10:08:19,069] {cursor.py:560} INFO - query execution done
+[2021-02-01 10:08:19,070] {dbapi.py:186} INFO - Rows affected: 0
+[2021-02-01 10:08:19,070] {dbapi.py:180} INFO - Running statement: alter table QUARANTINE_DATA drop column error;, parameters: None
+[2021-02-01 10:08:19,071] {cursor.py:537} INFO - query: [alter table QUARANTINE_DATA drop column error;]
+[2021-02-01 10:08:19,267] {cursor.py:560} INFO - query execution done
+[2021-02-01 10:08:19,268] {dbapi.py:186} INFO - Rows affected: 1
+[2021-02-01 10:08:19,269] {dbapi.py:180} INFO - Running statement: alter table GENERIC_NYC_TAXI drop column error;, parameters: None
+[2021-02-01 10:08:19,270] {cursor.py:537} INFO - query: [alter table GENERIC_NYC_TAXI drop column error;]
+[2021-02-01 10:08:19,457] {cursor.py:560} INFO - query execution done
+[2021-02-01 10:08:19,458] {dbapi.py:186} INFO - Rows affected: 1
+[2021-02-01 10:08:19,458] {dbapi.py:180} INFO - Running statement: alter table MONTHLY_DATA drop column error;, parameters: None
+[2021-02-01 10:08:19,459] {cursor.py:537} INFO - query: [alter table MONTHLY_DATA drop column error;]
+[2021-02-01 10:08:19,656] {cursor.py:560} INFO - query execution done
+[2021-02-01 10:08:19,657] {dbapi.py:186} INFO - Rows affected: 1
+[2021-02-01 10:08:19,657] {connection.py:438} INFO - closed
+[2021-02-01 10:08:19,765] {connection.py:441} INFO - No async queries seem to be running, deleting session
+[2021-02-01 10:08:19,963] {taskinstance.py:1135} INFO - Marking task as SUCCESS. dag_id=ge_quarantine_df_dag, task_id=split_data, execution_date=20210201T090717, start_date=20210201T090814, end_date=20210201T090819
+[2021-02-01 10:08:20,000] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-02-01 10:08:20,028] {local_task_job.py:118} INFO - Task exited with return code 0

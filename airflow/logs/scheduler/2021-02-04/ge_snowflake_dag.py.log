@@ -1,0 +1,50 @@
+[2021-02-04 14:46:57,810] {scheduler_job.py:181} INFO - Started process (PID=3443) to work on /Users/sara/airflow/dags/ge_snowflake_dag.py
+[2021-02-04 14:46:57,811] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/ge_snowflake_dag.py for tasks to queue
+[2021-02-04 14:46:57,812] {logging_mixin.py:103} INFO - [2021-02-04 14:46:57,812] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/ge_snowflake_dag.py
+[2021-02-04 14:47:02,381] {logging_mixin.py:103} INFO - [2021-02-04 14:47:02,380] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-04 14:47:03,246] {logging_mixin.py:103} INFO - [2021-02-04 14:47:03,246] {data_context.py:755} WARNING - Detected legacy config version (2.0) so will try to use default checkpoint store name.
+  Please update your configuration to the new version number 3.0 in order to use the new "Checkpoint Store" feature.  Visit https://docs.greatexpectations.io/en/latest/how_to_guides/migrating_versions.html to learn more about the upgrade process.
+[2021-02-04 14:47:03,382] {logging_mixin.py:103} INFO - [2021-02-04 14:47:03,382] {data_context.py:755} WARNING - Detected legacy config version (2.0) so will try to use default checkpoint store name.
+  Please update your configuration to the new version number 3.0 in order to use the new "Checkpoint Store" feature.  Visit https://docs.greatexpectations.io/en/latest/how_to_guides/migrating_versions.html to learn more about the upgrade process.
+[2021-02-04 14:47:03,501] {logging_mixin.py:103} INFO - [2021-02-04 14:47:03,501] {data_context.py:755} WARNING - Detected legacy config version (2.0) so will try to use default checkpoint store name.
+  Please update your configuration to the new version number 3.0 in order to use the new "Checkpoint Store" feature.  Visit https://docs.greatexpectations.io/en/latest/how_to_guides/migrating_versions.html to learn more about the upgrade process.
+[2021-02-04 14:47:03,642] {logging_mixin.py:103} INFO - [2021-02-04 14:47:03,641] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.9, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-02-04 14:47:03,643] {logging_mixin.py:103} INFO - [2021-02-04 14:47:03,643] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-02-04 14:47:03,644] {logging_mixin.py:103} INFO - [2021-02-04 14:47:03,643] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-02-04 14:47:05,736] {logging_mixin.py:103} INFO - [2021-02-04 14:47:05,736] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-02-04 14:47:05,890] {logging_mixin.py:103} INFO - [2021-02-04 14:47:05,890] {cursor.py:560} INFO - query execution done
+[2021-02-04 14:47:05,893] {logging_mixin.py:103} INFO - [2021-02-04 14:47:05,892] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-02-04 14:47:08,329] {logging_mixin.py:103} INFO - [2021-02-04 14:47:08,329] {cursor.py:560} INFO - query execution done
+[2021-02-04 14:47:08,329] {logging_mixin.py:103} INFO - [2021-02-04 14:47:08,329] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-02-04 14:47:08,468] {logging_mixin.py:103} INFO - [2021-02-04 14:47:08,468] {cursor.py:560} INFO - query execution done
+[2021-02-04 14:47:08,469] {logging_mixin.py:103} INFO - [2021-02-04 14:47:08,469] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-02-04 14:47:08,604] {logging_mixin.py:103} INFO - [2021-02-04 14:47:08,604] {cursor.py:560} INFO - query execution done
+[2021-02-04 14:47:08,925] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ge_snowflake_dag']) retrieved from /Users/sara/airflow/dags/ge_snowflake_dag.py
+[2021-02-04 14:47:08,926] {logging_mixin.py:103} INFO - [2021-02-04 14:47:08,926] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-04 14:47:09,030] {logging_mixin.py:103} INFO - [2021-02-04 14:47:09,030] {dag.py:2266} INFO - Setting next_dagrun for ge_snowflake_dag to 2021-02-02 07:35:16.530226+00:00
+[2021-02-04 14:47:09,061] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/ge_snowflake_dag.py took 11.253 seconds
+[2021-02-04 14:47:56,719] {scheduler_job.py:181} INFO - Started process (PID=3484) to work on /Users/sara/airflow/dags/ge_snowflake_dag.py
+[2021-02-04 14:47:56,721] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/ge_snowflake_dag.py for tasks to queue
+[2021-02-04 14:47:56,722] {logging_mixin.py:103} INFO - [2021-02-04 14:47:56,722] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/ge_snowflake_dag.py
+[2021-02-04 14:48:05,238] {logging_mixin.py:103} INFO - [2021-02-04 14:48:05,238] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-04 14:48:06,263] {logging_mixin.py:103} INFO - [2021-02-04 14:48:06,262] {data_context.py:755} WARNING - Detected legacy config version (2.0) so will try to use default checkpoint store name.
+  Please update your configuration to the new version number 3.0 in order to use the new "Checkpoint Store" feature.  Visit https://docs.greatexpectations.io/en/latest/how_to_guides/migrating_versions.html to learn more about the upgrade process.
+[2021-02-04 14:48:06,415] {logging_mixin.py:103} INFO - [2021-02-04 14:48:06,415] {data_context.py:755} WARNING - Detected legacy config version (2.0) so will try to use default checkpoint store name.
+  Please update your configuration to the new version number 3.0 in order to use the new "Checkpoint Store" feature.  Visit https://docs.greatexpectations.io/en/latest/how_to_guides/migrating_versions.html to learn more about the upgrade process.
+[2021-02-04 14:48:06,556] {logging_mixin.py:103} INFO - [2021-02-04 14:48:06,556] {data_context.py:755} WARNING - Detected legacy config version (2.0) so will try to use default checkpoint store name.
+  Please update your configuration to the new version number 3.0 in order to use the new "Checkpoint Store" feature.  Visit https://docs.greatexpectations.io/en/latest/how_to_guides/migrating_versions.html to learn more about the upgrade process.
+[2021-02-04 14:48:06,761] {logging_mixin.py:103} INFO - [2021-02-04 14:48:06,761] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.9, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-02-04 14:48:06,762] {logging_mixin.py:103} INFO - [2021-02-04 14:48:06,762] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-02-04 14:48:06,762] {logging_mixin.py:103} INFO - [2021-02-04 14:48:06,762] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-02-04 14:48:08,215] {logging_mixin.py:103} INFO - [2021-02-04 14:48:08,215] {cursor.py:537} INFO - query: [SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1]
+[2021-02-04 14:48:08,379] {logging_mixin.py:103} INFO - [2021-02-04 14:48:08,379] {cursor.py:560} INFO - query execution done
+[2021-02-04 14:48:08,380] {logging_mixin.py:103} INFO - [2021-02-04 14:48:08,380] {cursor.py:537} INFO - query: [SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1]
+[2021-02-04 14:48:08,500] {logging_mixin.py:103} INFO - [2021-02-04 14:48:08,500] {cursor.py:560} INFO - query execution done
+[2021-02-04 14:48:08,500] {logging_mixin.py:103} INFO - [2021-02-04 14:48:08,500] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-02-04 14:48:08,768] {logging_mixin.py:103} INFO - [2021-02-04 14:48:08,768] {cursor.py:560} INFO - query execution done
+[2021-02-04 14:48:08,770] {logging_mixin.py:103} INFO - [2021-02-04 14:48:08,769] {cursor.py:537} INFO - query: [ROLLBACK]
+[2021-02-04 14:48:08,897] {logging_mixin.py:103} INFO - [2021-02-04 14:48:08,897] {cursor.py:560} INFO - query execution done
+[2021-02-04 14:48:09,112] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ge_snowflake_dag']) retrieved from /Users/sara/airflow/dags/ge_snowflake_dag.py
+[2021-02-04 14:48:09,114] {logging_mixin.py:103} INFO - [2021-02-04 14:48:09,113] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-04 14:48:09,201] {logging_mixin.py:103} INFO - [2021-02-04 14:48:09,201] {dag.py:2266} INFO - Setting next_dagrun for ge_snowflake_dag to 2021-02-02 07:35:16.530226+00:00
+[2021-02-04 14:48:09,227] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/ge_snowflake_dag.py took 12.509 seconds

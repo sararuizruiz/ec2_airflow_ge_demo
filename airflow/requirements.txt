@@ -1,0 +1,2 @@
+snowflake-connector-python==2.3.9
+docker==3.7.3

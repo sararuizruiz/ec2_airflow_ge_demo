@@ -1,0 +1,128 @@
+[2021-01-21 10:56:18,611] {scheduler_job.py:181} INFO - Started process (PID=8690) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:56:18,612] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-01-21 10:56:18,612] {logging_mixin.py:103} INFO - [2021-01-21 10:56:18,612] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:56:18,627] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:56:18,628] {logging_mixin.py:103} INFO - [2021-01-21 10:56:18,627] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:56:18,663] {logging_mixin.py:103} INFO - [2021-01-21 10:56:18,663] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-01-21 10:56:18,679] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.069 seconds
+[2021-01-21 10:57:13,219] {scheduler_job.py:181} INFO - Started process (PID=8837) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:57:13,220] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-01-21 10:57:13,220] {logging_mixin.py:103} INFO - [2021-01-21 10:57:13,220] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:57:13,230] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:57:13,231] {logging_mixin.py:103} INFO - [2021-01-21 10:57:13,231] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:57:13,261] {logging_mixin.py:103} INFO - [2021-01-21 10:57:13,261] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-01-21 10:57:13,276] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.058 seconds
+[2021-01-21 10:58:04,793] {scheduler_job.py:181} INFO - Started process (PID=8899) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:58:04,793] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-01-21 10:58:04,793] {logging_mixin.py:103} INFO - [2021-01-21 10:58:04,793] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:58:04,801] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:58:04,802] {logging_mixin.py:103} INFO - [2021-01-21 10:58:04,802] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:58:04,834] {logging_mixin.py:103} INFO - [2021-01-21 10:58:04,834] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-01-21 10:58:04,849] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.057 seconds
+[2021-01-21 10:59:02,700] {scheduler_job.py:181} INFO - Started process (PID=8962) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:59:02,702] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-01-21 10:59:02,703] {logging_mixin.py:103} INFO - [2021-01-21 10:59:02,703] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:59:02,717] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:59:02,718] {logging_mixin.py:103} INFO - [2021-01-21 10:59:02,717] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:59:02,806] {logging_mixin.py:103} INFO - [2021-01-21 10:59:02,806] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-01-21 10:59:02,836] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.137 seconds
+[2021-01-21 10:59:57,181] {scheduler_job.py:181} INFO - Started process (PID=9019) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:59:57,183] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-01-21 10:59:57,184] {logging_mixin.py:103} INFO - [2021-01-21 10:59:57,184] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:59:57,203] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 10:59:57,204] {logging_mixin.py:103} INFO - [2021-01-21 10:59:57,203] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 10:59:57,263] {logging_mixin.py:103} INFO - [2021-01-21 10:59:57,263] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-01-21 10:59:57,292] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.112 seconds
+[2021-01-21 11:00:49,672] {scheduler_job.py:181} INFO - Started process (PID=9081) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:00:49,674] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-01-21 11:00:49,674] {logging_mixin.py:103} INFO - [2021-01-21 11:00:49,674] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:00:49,684] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:00:49,685] {logging_mixin.py:103} INFO - [2021-01-21 11:00:49,685] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:00:49,759] {logging_mixin.py:103} INFO - [2021-01-21 11:00:49,759] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-01-21 11:00:49,878] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.207 seconds
+[2021-01-21 11:01:49,555] {scheduler_job.py:181} INFO - Started process (PID=9147) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:01:49,557] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-01-21 11:01:49,557] {logging_mixin.py:103} INFO - [2021-01-21 11:01:49,557] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:01:49,569] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:01:49,570] {logging_mixin.py:103} INFO - [2021-01-21 11:01:49,570] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:01:49,602] {logging_mixin.py:103} INFO - [2021-01-21 11:01:49,602] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-01-21 11:01:49,622] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.068 seconds
+[2021-01-21 11:02:45,228] {scheduler_job.py:181} INFO - Started process (PID=9220) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:02:45,229] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-01-21 11:02:45,229] {logging_mixin.py:103} INFO - [2021-01-21 11:02:45,229] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:02:45,236] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:02:45,237] {logging_mixin.py:103} INFO - [2021-01-21 11:02:45,236] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:02:45,265] {logging_mixin.py:103} INFO - [2021-01-21 11:02:45,265] {dag.py:2266} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2021-01-21 11:02:45,280] {scheduler_job.py:189} INFO - Processing /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.053 seconds
+[2021-01-21 11:04:18,687] {scheduler_job.py:181} INFO - Started process (PID=9286) to work on /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:04:18,688] {scheduler_job.py:629} INFO - Processing file /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2021-01-21 11:04:18,689] {logging_mixin.py:103} INFO - [2021-01-21 11:04:18,689] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:04:18,699] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-01-21 11:04:18,699] {logging_mixin.py:103} INFO - [2021-01-21 11:04:18,699] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:04:18,918] {logging_mixin.py:103} INFO - [2021-01-21 11:04:18,918] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:04:19,142] {logging_mixin.py:103} INFO - [2021-01-21 11:04:19,142] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 11:04:19,146] {scheduler_job.py:192} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: dag
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/jobs/scheduler_job.py", line 183, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/jobs/scheduler_job.py", line 648, in process_file
+    dagbag.sync_to_db()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 544, in sync_to_db
+    for attempt in tenacity.Retrying(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/tenacity/__init__.py", line 390, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/tenacity/__init__.py", line 368, in iter
+    raise retry_exc.reraise()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/tenacity/__init__.py", line 186, in reraise
+    raise self.last_attempt.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dagbag.py", line 560, in sync_to_db
+    DAG.bulk_write_to_db(self.dags.values(), session=session)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/utils/session.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/airflow/models/dag.py", line 1821, in bulk_write_to_db
+    orm_dags = with_row_locks(query, of=DagModel).all()
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/sara/p38env_airflow/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: dag
+[SQL: SELECT dag.dag_id AS dag_dag_id, dag.root_dag_id AS dag_root_dag_id, dag.is_paused AS dag_is_paused, dag.is_subdag AS dag_is_subdag, dag.is_active AS dag_is_active, dag.last_scheduler_run AS dag_last_scheduler_run, dag.last_pickled AS dag_last_pickled, dag.last_expired AS dag_last_expired, dag.scheduler_lock AS dag_scheduler_lock, dag.pickle_id AS dag_pickle_id, dag.fileloc AS dag_fileloc, dag.owners AS dag_owners, dag.description AS dag_description, dag.default_view AS dag_default_view, dag.schedule_interval AS dag_schedule_interval, dag.concurrency AS dag_concurrency, dag.has_task_concurrency_limits AS dag_has_task_concurrency_limits, dag.next_dagrun AS dag_next_dagrun, dag.next_dagrun_create_after AS dag_next_dagrun_create_after, dag_tag_1.name AS dag_tag_1_name, dag_tag_1.dag_id AS dag_tag_1_dag_id 
+FROM dag LEFT OUTER JOIN dag_tag AS dag_tag_1 ON dag.dag_id = dag_tag_1.dag_id 
+WHERE dag.dag_id IN (?)]
+[parameters: ('example_kubernetes_executor',)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)

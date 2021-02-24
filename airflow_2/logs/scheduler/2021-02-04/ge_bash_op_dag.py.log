@@ -1,0 +1,16 @@
+[2021-02-04 14:46:34,764] {scheduler_job.py:181} INFO - Started process (PID=3427) to work on /Users/sara/airflow/dags/ge_bash_op_dag.py
+[2021-02-04 14:46:34,765] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/ge_bash_op_dag.py for tasks to queue
+[2021-02-04 14:46:34,766] {logging_mixin.py:103} INFO - [2021-02-04 14:46:34,765] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/ge_bash_op_dag.py
+[2021-02-04 14:46:43,082] {logging_mixin.py:103} INFO - [2021-02-04 14:46:43,082] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-04 14:46:43,810] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ge_bash_op_dag']) retrieved from /Users/sara/airflow/dags/ge_bash_op_dag.py
+[2021-02-04 14:46:43,811] {logging_mixin.py:103} INFO - [2021-02-04 14:46:43,811] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-04 14:46:43,910] {logging_mixin.py:103} INFO - [2021-02-04 14:46:43,909] {dag.py:2266} INFO - Setting next_dagrun for ge_bash_op_dag to 2021-02-01 12:46:26.336092+00:00
+[2021-02-04 14:46:43,956] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/ge_bash_op_dag.py took 9.197 seconds
+[2021-02-04 14:47:35,247] {scheduler_job.py:181} INFO - Started process (PID=3469) to work on /Users/sara/airflow/dags/ge_bash_op_dag.py
+[2021-02-04 14:47:35,250] {scheduler_job.py:629} INFO - Processing file /Users/sara/airflow/dags/ge_bash_op_dag.py for tasks to queue
+[2021-02-04 14:47:35,251] {logging_mixin.py:103} INFO - [2021-02-04 14:47:35,251] {dagbag.py:440} INFO - Filling up the DagBag from /Users/sara/airflow/dags/ge_bash_op_dag.py
+[2021-02-04 14:47:39,077] {logging_mixin.py:103} INFO - [2021-02-04 14:47:39,076] {arrow_result.pyx:0} INFO - Failed to import optional packages, pyarrow
+[2021-02-04 14:47:39,669] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ge_bash_op_dag']) retrieved from /Users/sara/airflow/dags/ge_bash_op_dag.py
+[2021-02-04 14:47:39,670] {logging_mixin.py:103} INFO - [2021-02-04 14:47:39,670] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-04 14:47:39,730] {logging_mixin.py:103} INFO - [2021-02-04 14:47:39,730] {dag.py:2266} INFO - Setting next_dagrun for ge_bash_op_dag to 2021-02-01 12:46:26.336092+00:00
+[2021-02-04 14:47:39,757] {scheduler_job.py:189} INFO - Processing /Users/sara/airflow/dags/ge_bash_op_dag.py took 4.510 seconds

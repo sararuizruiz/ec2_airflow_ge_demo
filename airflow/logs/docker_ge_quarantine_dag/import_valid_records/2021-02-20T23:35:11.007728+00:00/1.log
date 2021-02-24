@@ -1,0 +1,35 @@
+[2021-02-21 00:35:45,594] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: docker_ge_quarantine_dag.import_valid_records 2021-02-20T23:35:11.007728+00:00 [queued]>
+[2021-02-21 00:35:45,605] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: docker_ge_quarantine_dag.import_valid_records 2021-02-20T23:35:11.007728+00:00 [queued]>
+[2021-02-21 00:35:45,605] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-21 00:35:45,605] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-02-21 00:35:45,605] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-21 00:35:45,613] {taskinstance.py:1038} INFO - Executing <Task(SnowflakeOperator): import_valid_records> on 2021-02-20T23:35:11.007728+00:00
+[2021-02-21 00:35:45,616] {standard_task_runner.py:51} INFO - Started process 17390 to run task
+[2021-02-21 00:35:45,627] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'docker_ge_quarantine_dag', 'import_valid_records', '2021-02-20T23:35:11.007728+00:00', '--job-id', '562', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/docker_ge_quarantine_dag.py', '--cfg-path', '/var/folders/s2/xy3ssc8j3ks3whp2f_b8708c0000gp/T/tmpy41kc_5e']
+[2021-02-21 00:35:45,629] {standard_task_runner.py:76} INFO - Job 562: Subtask import_valid_records
+[2021-02-21 00:35:45,705] {logging_mixin.py:103} INFO - Running <TaskInstance: docker_ge_quarantine_dag.import_valid_records 2021-02-20T23:35:11.007728+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2021-02-21 00:35:45,771] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=sara@acloudfrontier.com
+AIRFLOW_CTX_DAG_OWNER=sara
+AIRFLOW_CTX_DAG_ID=docker_ge_quarantine_dag
+AIRFLOW_CTX_TASK_ID=import_valid_records
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-20T23:35:11.007728+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-20T23:35:11.007728+00:00
+[2021-02-21 00:35:45,772] {snowflake.py:119} INFO - Executing: ['insert into  ABT_NYC_TAXI select * from RAW_MONTHLY_TAXI where GE_validation_result is NULL;']
+[2021-02-21 00:35:45,783] {base.py:65} INFO - Using connection to: id: SNOWFLAKE_QUARANTINE_DEMO. Host: dp13486.eu-west-1.snowflakecomputing.com, Port: None, Schema: PUBLIC, Login: SARA, Password: XXXXXXXX, extra: XXXXXXXX
+[2021-02-21 00:35:45,788] {connection.py:215} INFO - Snowflake Connector for Python Version: 2.3.9, Python Version: 3.8.6, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-02-21 00:35:45,789] {connection.py:768} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-02-21 00:35:45,790] {connection.py:784} INFO - Setting use_openssl_only mode to False
+[2021-02-21 00:35:46,848] {cursor.py:537} INFO - query: [ALTER SESSION SET autocommit=True]
+[2021-02-21 00:35:46,950] {cursor.py:560} INFO - query execution done
+[2021-02-21 00:35:46,951] {dbapi.py:180} INFO - Running statement: insert into  ABT_NYC_TAXI select * from RAW_MONTHLY_TAXI where GE_validation_result is NULL;, parameters: None
+[2021-02-21 00:35:46,951] {cursor.py:537} INFO - query: [insert into  ABT_NYC_TAXI select * from RAW_MONTHLY_TAXI where GE_validation_res...]
+[2021-02-21 00:35:48,070] {cursor.py:560} INFO - query execution done
+[2021-02-21 00:35:48,071] {dbapi.py:186} INFO - Rows affected: 10000
+[2021-02-21 00:35:48,072] {connection.py:438} INFO - closed
+[2021-02-21 00:35:48,124] {connection.py:441} INFO - No async queries seem to be running, deleting session
+[2021-02-21 00:35:48,217] {taskinstance.py:1135} INFO - Marking task as SUCCESS. dag_id=docker_ge_quarantine_dag, task_id=import_valid_records, execution_date=20210220T233511, start_date=20210220T233545, end_date=20210220T233548
+[2021-02-21 00:35:48,258] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-02-21 00:35:48,302] {local_task_job.py:118} INFO - Task exited with return code 0

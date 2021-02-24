@@ -1,0 +1,19 @@
+FROM python:3.7-slim-buster
+
+RUN pip install apache-airflow[docker,snowflake]==2.0.1 \
+ --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.0.1/constraints-3.7.txt"
+
+ RUN airflow db init
+
+ RUN airflow users create \
+    --username admin \
+    --firstname Peter \
+    --lastname Parker \
+    --role Admin \
+    -p admin \
+    --email spiderman@superhero.org
+
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+# start the web server, default port is 8080
+ENTRYPOINT ["/entrypoint.sh"]

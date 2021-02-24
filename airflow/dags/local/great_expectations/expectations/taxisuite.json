@@ -1,0 +1,135 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "taxisuite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_column_count_to_equal",
+      "kwargs": {
+        "value": 18
+      },
+      "meta": {}
+    },
+    
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pickup_datetime"
+      },
+      "meta": {}
+    },
+  
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "passenger_count"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "passenger_count",
+        "value_set": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "meta": {
+    "BasicSuiteBuilderProfiler": {
+      "batch_kwargs": {
+        "data_asset_name": "nyc_taxi_01",
+        "datasource": "my_snowflake_db",
+        "schema": "public",
+        "table": "nyc_taxi_01"
+      },
+      "created_at": 1610457993.9452102,
+      "created_by": "BasicSuiteBuilderProfiler"
+    },
+    "citations": [
+      {
+        "batch_kwargs": {
+          "data_asset_name": "nyc_taxi_01",
+          "datasource": "my_snowflake_db",
+          "schema": "public",
+          "table": "nyc_taxi_01"
+        },
+        "batch_markers": {
+          "ge_load_time": "20210112T132629.141127Z"
+        },
+        "batch_parameters": null,
+        "citation_date": "20210112T132634.670083Z",
+        "comment": "BasicSuiteBuilderProfiler added a citation based on the current batch."
+      }
+    ],
+    "columns": {
+      "congestion_surcharge": {
+        "description": ""
+      },
+      "dropff_loc": {
+        "description": ""
+      },
+      "dropoff_datetime": {
+        "description": ""
+      },
+      "extra": {
+        "description": ""
+      },
+      "fare_amount": {
+        "description": ""
+      },
+      "flag": {
+        "description": ""
+      },
+      "improvement_surcharge": {
+        "description": ""
+      },
+      "mta_tax": {
+        "description": ""
+      },
+      "passenger_count": {
+        "description": ""
+      },
+      "payment_type": {
+        "description": ""
+      },
+      "pickup_datetime": {
+        "description": ""
+      },
+      "pickup_loc": {
+        "description": ""
+      },
+      "rate_code_id": {
+        "description": ""
+      },
+      "tip": {
+        "description": ""
+      },
+      "tolls": {
+        "description": ""
+      },
+      "total_amount": {
+        "description": ""
+      },
+      "trip_distance": {
+        "description": ""
+      },
+      "vendor_id": {
+        "description": ""
+      }
+    },
+    "great_expectations_version": "0.13.3",
+    "notes": {
+      "content": [
+        "_To add additional notes, edit the <code>meta.notes.content</code> field in the appropriate Expectation json file._"
+      ],
+      "format": "markdown"
+    }
+  }
+}
